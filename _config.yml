@@ -1,0 +1,70 @@
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+title: Chanyoung Park
+description: >- # this means to ignore newlines until "baseurl:"
+  Chanyoung Park
+url: "https://cosdeneb.github.io" # the base hostname & protocol for the site
+og_image: /assets/img/profile-pic.jpg
+google_analytics: "UA-121636368-3"
+
+header:
+  pages:
+    - name: Home
+      slug: /
+    - name: Publication
+    - name: Teaching
+    - name: Blog
+
+footer:
+  show_powered_by: false
+  contact:
+    - name: Email
+      value: cosdeneb@gmail.com
+      link: mailto:cosdeneb@gmail.com
+    # - name: WeChat
+    #   value: YourWeChatUsername
+    #   link: "#"
+  follow:
+    - name: ORCID
+      link: https://orcid.org/0000-0002-7945-2362
+    - name: Google scholar
+      link: https://scholar.google.com/citations?hl=ko&user=fGD7V2IAAAAJ
+    # - name: Instagram
+    #   link: https://www.instagram.com/ch.anyoung/
+    # - name: GitHub
+    #   link: http://github.com/cosdeneb
+    # - name: Twitter
+    #   link: http://twitter.com/YourTwitterUsername
+    #   username: "@YourTwitterUsername"
+    # - name: Facebook
+    #   link: https://www.instagram.com/rubuitton/
+    # - name: LinkedIn
+    #   link: https://www.linkedin.com/in/%EC%B0%AC%EC%98%81-%EB%B0%95-799b672ab/
+    # - name: Dribbble
+    #   link: https://dribbble.com/YourDribbbleUsername
+    # - name: RSS
+    #   link: /feed.xml
+
+# Build settings
+markdown: kramdown
+sass:
+    style: :compressed
+plugins:
+  - jekyll-feed
+
+# Excluded items
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - feed.xml
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Used for defeating caching
+version: 1
