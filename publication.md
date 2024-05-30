@@ -9,6 +9,10 @@ This page contains a selected list of <b>journal articles</b> and <b>internation
 
 <p>
   <b>• SCI Journal</b> <br/>
+  1. Joint Quantum Reinforcement Learning and Stabilized Control fro Spatio-Temporal Coordination in Metaverse <br/>
+  S. Park, J. Chung, C. Park, S. Jung, M. Choi, S. Cho, J. Kim <br/>
+  <font color='#da70d6'>IEEE Transactions on Mobile Computing</font> <font color='#dc143c'>(<b>Top</b>, IF:7.9)</font>, in Press. <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7755">[Link]</a><br/>
+  
   1. Age-of-Information Aware Caching and Delivery for Infrastructure-Assisted Connected Vehicles <br/>
   S. Park, ²<b>C. Park</b>, S. Jung, M. Choi, J. Kim <br/> 
   <font color='#da70d6'>IEEE Transactions on Vehicular Technology</font> <font color='#dc143c'>(IF:6.8)</font>, 73(7), Jul. 2024. <a href="https://ieeexplore.ieee.org/abstract/document/10491361">[Link]</a><br/>
