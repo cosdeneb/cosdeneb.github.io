@@ -14,7 +14,7 @@ Below is a summary of the papers I have published: <br/>
 
 <p>
   <b>• Book Chapter</b> <br/>
-  ▶ Fundamentals of 6G Communications and Networking, Springer (2023) <br/>
+  1. Fundamentals of 6G Communications and Networking, Springer (2023) <br/>
   – Chapter 28. Convergence of 6G and Wi-Fi Networks (H. Lee, S. Park, M. Yoo, <b>C. Park</b>, H. Baek, J. Kim) <br/>
   – Chapter 22. AI-Native Network Algorithms and Architectures (H. Lee, S. Park, H. Baek, <b>C. Park</b>, S. Son, J. Park, J. Kim) <br/>
   – Chapter 20. Network Disaggregation (S. Park, <b>C. Park</b>, J.P. Kim, M. Choi, J. Kim) <br/>
