@@ -7,17 +7,19 @@ slug: /publication
 This page contains a selected list of <b>journal articles</b> and <b>international conference papers</b> that I have authored or published. 😊
 <br/>
 
+<p>
 Below is a summary of the papers I have published: <br/>
 • <font color='#dc143c'>71</font> Citations (H-index: <font color='#dc143c'>4</font>, i10-index <font color='#dc143c'>4</font>) from Google Scholar Profile (as of June 6, 2024) <br/>
 • <font color='#dc143c'>11</font> SCI journals (<font color='#dc143c'>10</font> in IEEE Magazines and ComSoc/VTS Journals) and <font color='#dc143c'>2</font> top-tier conferences <br/>
-<br/>
+<br/><br/>
+</p>
 
 <p>
   <b>• Book Chapter</b> <br/>
   1. Fundamentals of 6G Communications and Networking, Springer (2023) <br/>
   – Ch. 28. Convergence of 6G and Wi-Fi Networks (H. Lee, S. Park, M. Yoo, <b>C. Park</b>, H. Baek, J. Kim) <br/>
   – Ch. 22. AI-Native Network Algorithms and Architectures (H. Lee, S. Park, H. Baek, <b>C. Park</b>, S. Son, J. Park, J. Kim) <br/>
-  – Ch. 20. Network Disaggregation (S. Park, <b>C. Park</b>, J.P. Kim, M. Choi, J. Kim) <br/>
+  – Ch. 20. Network Disaggregation (S. Park, <b>C. Park</b>, J.P. Kim, M. Choi, J. Kim) <br/><br/><br/>
 </p>
 
 <p>
