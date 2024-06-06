@@ -74,7 +74,7 @@ Below is a summary of the papers I have published: <br/>
   11. Workload-Aware Scheduling using Markov Decision Process for Infrastructure-Assisted Learning-Based Multi-UAV Surveillance Networks <br/>
   S. Park, ²<b>C. Park</b>, S. Jung, J.-H. Kim, J. Kim <br/>
   <font color='#da70d6'>IEEE Access (IEEE Vehicular Technology Society Section)</font> <font color='#dc143c'>(IF:3.9)</font>, 11:16533-16548, Feb. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10045685">[Link]</a><br/>
-<font color='#666666'>[TL; DR] A novel scheduling algorithm using Markov decision processes is introduced to optimize power transfer and data distribution between UAVs and towers, enhancing surveillance performance and efficiency.</font><br/>
+<font color='#666666'>[TL; DR] A novel scheduling algorithm using Markov decision processes is introduced to optimize power transfer and data distribution between UAVs and towers, enhancing surveillance performance and efficiency.</font><br/><br/>
 </p>
 
 <p>
