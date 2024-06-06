@@ -5,17 +5,22 @@ slug: /publication
 ---
 
 This page contains a selected list of <b>journal articles</b> and <b>international conference papers</b> that I have authored or published. 😊
+<br/>
+
+Below is a summary of the papers I have published: <br/>
+• 7953+ Citations (H-index: 43+, i10-index 182+), obtained from Google Scholar Profile (as of June 2, 2024) <br/>
+• 145 journals and 11 top-tier conferences, https://sites.google.com/view/aimlab-kuee/publications <br/>
++ – 110 IEEE journals/magazines, among them, 78 publications are in IEEE Magazines and ComSoc/VTS Journals <br/>
+
 <br/> <br/>
-
-
 
 <p>
   <b>• Book Chapter</b> <br/>
-  Fundamentals of 6G Communications and Networking, Springer (2023).
+  Fundamentals of 6G Communications and Networking, Springer (2023) <br/>
   – Chapter 28. Convergence of 6G and Wi-Fi Networks, (H. Lee, S. Park, M. Yoo, <b>C. Park</b>, H. Baek, J. Kim) <br/>
   – Chapter 22. AI-Native Network Algorithms and Architectures, (H. Lee, S. Park, H. Baek, <b>C. Park</b>, S. Son, J. Park, J. Kim) <br/>
   – Chapter 20. Network Disaggregation, (S. Park, <b>C. Park</b>, J.P. Kim, M. Choi, J. Kim) <br/>
-</p><br/><br/><br/>
+</p><br/><br/>
 
 <p>
   <b>• SCI Journal</b> <br/>
