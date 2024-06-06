@@ -8,6 +8,14 @@ This page contains a selected list of <b>journal articles</b> and <b>internation
 <br/> <br/>
 
 <p>
+  <b>• Book Chapter</b> <br/>
+  Fundamentals of 6G Communications and Networking, Springer (2023).
+  – Chapter 28. Convergence of 6G and Wi-Fi Networks, (H. Lee, S. Park, M. Yoo, <b>C. Park</b>, H. Baek, J. Kim)
+  – Chapter 22. AI-Native Network Algorithms and Architectures, (H. Lee, S. Park, H. Baek, <b>C. Park</b>, S. Son, J. Park, J. Kim)
+  – Chapter 20. Network Disaggregation, (S. Park, <b>C. Park</b>, J.P. Kim, M. Choi, J. Kim)
+</p>
+
+<p>
   <b>• SCI Journal</b> <br/>
   1. Joint Quantum Reinforcement Learning and Stabilized Control fro Spatio-Temporal Coordination in Metaverse <br/>
   S. Park, J. Chung, ³<b>C. Park</b>, S. Jung, M. Choi, S. Cho, J. Kim <br/>
