@@ -8,9 +8,8 @@ This page contains a selected list of <b>journal articles</b> and <b>internation
 <br/>
 
 Below is a summary of the papers I have published: <br/>
-• 71+ Citations (H-index: 4, i10-index 4+), obtained from Google Scholar Profile (as of June 6, 2024) <br/>
-• 145 journals and 11 top-tier conferences <br/>
-– 110 IEEE journals/magazines, among them, 78 publications are in IEEE Magazines and ComSoc/VTS Journals
+• 71 Citations (H-index: 4, i10-index 4) from Google Scholar Profile (as of June 6, 2024) <br/>
+• 11 SCI journals (w/ 10 publications in IEEE Magazines and ComSoc/VTS Journals) and 3 top-tier conferences <br/>
 <br/> <br/>
 
 <p>
@@ -22,7 +21,7 @@ Below is a summary of the papers I have published: <br/>
     H. Lee, S. Park, H. Baek, <b>C. Park</b>, S. Son, J. Park, J. Kim <br/>
   – Chapter 20. Network Disaggregation <br/> 
     S. Park, <b>C. Park</b>, J.P. Kim, M. Choi, J. Kim
-</p><br/><br/>
+</p>
 
 <p>
   <b>• SCI Journal</b> <br/>
