@@ -9,7 +9,7 @@ This page contains a selected list of <b>journal articles</b> and <b>internation
 
 Below is a summary of the papers I have published: <br/>
 • 71+ Citations (H-index: 4, i10-index 4+), obtained from Google Scholar Profile (as of June 6, 2024) <br/>
-• 145 journals and 11 top-tier conferences, https://sites.google.com/view/aimlab-kuee/publications <br/>
+• 145 journals and 11 top-tier conferences <br/>
 – 110 IEEE journals/magazines, among them, 78 publications are in IEEE Magazines and ComSoc/VTS Journals
 <br/> <br/>
 
