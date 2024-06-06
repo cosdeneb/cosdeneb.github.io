@@ -9,7 +9,7 @@ This page contains a selected list of <b>journal articles</b> and <b>internation
 
 Below is a summary of the papers I have published: <br/>
 • 71 Citations (H-index: 4, i10-index 4) from Google Scholar Profile (as of June 6, 2024) <br/>
-• 11 SCI journals (w/ 10 publications in IEEE Magazines and ComSoc/VTS Journals) and 3 top-tier conferences <br/>
+• 11 SCI journals (10 publications in IEEE Magazines and ComSoc/VTS Journals) and 3 top-tier conferences <br/>
 <br/> <br/>
 
 <p>
