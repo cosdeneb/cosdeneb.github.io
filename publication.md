@@ -12,15 +12,13 @@ Below is a summary of the papers I have published: <br/>
 • <font color='#dc143c'>11</font> SCI journals (<font color='#dc143c'>10</font> in IEEE Magazines and ComSoc/VTS Journals) and <font color='#dc143c'>2</font> top-tier conferences <br/>
 <br/>
 
-<p>
   <b>• Book Chapter</b> <br/>
   1. Fundamentals of 6G Communications and Networking, Springer (2023) <br/>
   – Ch. 28. Convergence of 6G and Wi-Fi Networks (H. Lee, S. Park, M. Yoo, <b>C. Park</b>, H. Baek, J. Kim) <br/>
   – Ch. 22. AI-Native Network Algorithms and Architectures (H. Lee, S. Park, H. Baek, <b>C. Park</b>, S. Son, J. Park, J. Kim) <br/>
-  – Ch. 20. Network Disaggregation (S. Park, <b>C. Park</b>, J.P. Kim, M. Choi, J. Kim) <br/><br/><br/>
-</p>
+  – Ch. 20. Network Disaggregation (S. Park, <b>C. Park</b>, J.P. Kim, M. Choi, J. Kim) <br/><br/>
 
-<p>
+
   <b>• SCI Journal</b> <br/>
   1. Joint Quantum Reinforcement Learning and Stabilized Control fro Spatio-Temporal Coordination in Metaverse <br/>
   S. Park, J. Chung, ³<b>C. Park</b>, S. Jung, M. Choi, S. Cho, J. Kim <br/>
@@ -74,8 +72,7 @@ Below is a summary of the papers I have published: <br/>
   11. Workload-Aware Scheduling using Markov Decision Process for Infrastructure-Assisted Learning-Based Multi-UAV Surveillance Networks <br/>
   S. Park, ²<b>C. Park</b>, S. Jung, J.-H. Kim, J. Kim <br/>
   <font color='#da70d6'>IEEE Access (IEEE Vehicular Technology Society Section)</font> <font color='#dc143c'>(IF:3.9)</font>, 11:16533-16548, Feb. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10045685">[Link]</a><br/>
-<font color='#666666'>[TL; DR] A novel scheduling algorithm using Markov decision processes is introduced to optimize power transfer and data distribution between UAVs and towers, enhancing surveillance performance and efficiency.</font><br/><br/>
-<br/>
+<font color='#666666'>[TL; DR] A novel scheduling algorithm using Markov decision processes is introduced to optimize power transfer and data distribution between UAVs and towers, enhancing surveillance performance and efficiency.</font><br/>
   
   <b>• Conference</b><br/>
 
@@ -99,10 +96,7 @@ Below is a summary of the papers I have published: <br/>
   <font color='#32cd32'>IEEE International Conference on Information Networking (ICOIN)</font>, Jan. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10048910">[Link]</a>
   <br/>
   <font color='#666666'>[TL; DR] A Hybrid MAC model for military UAV networks, using CSMA and TDMA based on UAV mobility, is suggested to enhance communication performance by 40%.</font><br/><br/>
-  <br/>
-</p>
 
-<p>
   <b>• Preprints</b><br/>
   1. Software Simulation and Visualization of Quantum Multi-Drone Reinforcement Learning <br/>
   ¹<b>C. Park</b>, J. P. Kim, W. J. Yun, S. Park, S. Jung, and J. Kim <br/>
@@ -113,4 +107,3 @@ Below is a summary of the papers I have published: <br/>
   ¹<b>C. Park</b>, S. Park, S. Jung, C. Cordeiro, and J. Kim <br/>
   <font color='#ffa500'>arXiv:2210.00945</font> <a href="https://arxiv.org/abs/2210.00945">[Link]</a><br/>
   <font color='#666666'>[TL; DR] A multi-agent deep reinforcement learning algorithm is devised to optimize UAV positioning as mobile base stations, improving energy efficiency and reliability in mobile access networks for intelligent transportation systems.</font><br/><br/>
-</p>
