@@ -12,7 +12,7 @@ profile_picture:
 
 <p>
   <br/>
-  <b>Research Interest</b> - Multi-Agent Reinforcement Learning, Autonomous Systems, AI-assisted Optimization, Quantum Computing and Quantum Machine Learning.
+  <b>Research Interest</b> - Multi-Agent Reinforcement Learning, Autonomous Systems, Mobility, AI-assisted Optimization, Quantum Computing and Quantum Machine Learning.
 </p>
 
 <p>
