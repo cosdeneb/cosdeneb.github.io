@@ -32,8 +32,8 @@ profile_picture:
   ◼ <b>Multi-Agent Reinforcement Learning</b>
   <br/>
   <div style="text-align : center;">
-    <img src="{{ "/assets/img/paper/smac.jpg" | absolute_url }}" width=350 class="post-pic"/>
-    <img src="{{ "/assets/img/paper/smac_reward.jpg" | absolute_url }}" width=350 class="post-pic"/>
+    <img src="{{ "/assets/img/paper/smac.jpg" | absolute_url }}" width=350 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
+    <img src="{{ "/assets/img/paper/smac_reward.jpg" | absolute_url }}" width=350 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
   </div>
   <br/>
 </p>
@@ -42,11 +42,11 @@ profile_picture:
   ◼ <b>Trajectory Optimization</b>
   <br/>
   <div style="text-align : center;">
-    <img src="{{ "/assets/img/paper/tiv.jpg" | absolute_url }}" width=300 class="post-pic"/>
+    <img src="{{ "/assets/img/paper/tiv.jpg" | absolute_url }}" width=300 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
   </div>
   <br/>
   <div style="text-align : center;">
-    <img src="{{ "/assets/img/paper/traj.jpg" | absolute_url }}" width=700 class="post-pic"/>
+    <img src="{{ "/assets/img/paper/traj.jpg" | absolute_url }}" width=700 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
   </div>
   <br/>
 </p>
@@ -55,11 +55,11 @@ profile_picture:
   ◼ <b>Autonomous System</b>
   <br/>
   <div style="text-align : center;">
-    <img src="{{ "/assets/img/paper/tits.jpg" | absolute_url }}" width=700 class="post-pic"/>
+    <img src="{{ "/assets/img/paper/tits.jpg" | absolute_url }}" width=700 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
   </div>
   <br/>
   <div style="text-align : center;">
-    <img src="{{ "/assets/img/paper/pos.jpg" | absolute_url }}" width=650 class="post-pic"/>
+    <img src="{{ "/assets/img/paper/pos.jpg" | absolute_url }}" width=650 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
   </div>
   <br/>
 </p>
@@ -72,8 +72,8 @@ profile_picture:
   </div>
   <br/>
   <div style="text-align : center;" >
-    <img src="{{ "/assets/img/paper/Q2MIX.jpg" | absolute_url }}" width=250 class="post-pic"/>
-    <img src="{{ "/assets/img/paper/basis.jpg" | absolute_url }}" width=250 class="post-pic"/>
+    <img src="{{ "/assets/img/paper/Q2MIX.jpg" | absolute_url }}" width=250 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
+    <img src="{{ "/assets/img/paper/basis.jpg" | absolute_url }}" width=250 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
   </div>
   <br/>
 </p>
