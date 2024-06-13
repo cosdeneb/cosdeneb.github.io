@@ -12,15 +12,6 @@ profile_picture:
 
 <p>
   <br/>
-  <b>Research Interest</b> - Multi-Agent Reinforcement Learning, Autonomous Systems, Robotics, AI-assisted Optimization, Quantum Computing and Quantum Machine Learning.
-</p>
-
-<p>
-  For more information, please see my <a href="https://drive.google.com/file/d/1cDvkoG54rEfbhQQ5oOQe9zONiINBogdN/view?usp=sharing">Curriculum Vitae</a>.
-</p>
-
-<p>
-  <br/>
   <b>Position</b>
   <br/>
   • <b>Mar. 2019 - Aug. 2022</b> B.S.E in Department of Electrical and Computer Engineering,<br/>
@@ -28,6 +19,11 @@ profile_picture:
   <br/>
   • <b>Sep. 2022 - Oct. 2023</b> Research Assistant in Department of Electrical and Computer Engineering,   <font color='#b22222'>Korea University</font>, South Korea
 </p> 
+
+<p>
+  For more information, please see my <a href="https://drive.google.com/file/d/1cDvkoG54rEfbhQQ5oOQe9zONiINBogdN/view?usp=sharing">Curriculum Vitae</a>.
+</p>
+
 
 <br/>
 👨‍🔬 Here is a summary of the research areas I am interested in:
