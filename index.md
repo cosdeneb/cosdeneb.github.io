@@ -30,13 +30,12 @@ profile_picture:
 </p> 
 
 <br/>
-<br/>
 <p>
 ◼ Multi-Agent Reinforcement Learning
 <br/>
 <div style="text-align : center;">
-  <img src="{{ "/assets/img/paper/smac.jpg" | absolute_url }}" width=200 class="post-pic"/>
-  <img src="{{ "/assets/img/paper/smac_reward.jpg" | absolute_url }}" width=200 class="post-pic"/>
+  <img src="{{ "/assets/img/paper/smac.jpg" | absolute_url }}" width=230 class="post-pic"/>
+  <img src="{{ "/assets/img/paper/smac_reward.jpg" | absolute_url }}" width=230 class="post-pic"/>
 </div>
 <br/>
 </p>
