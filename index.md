@@ -25,7 +25,7 @@ profile_picture:
 
 
 <br/>
-👨‍🔬 My <b>research interests</b> include AI-based autonomous driving systems and intelligent robotic manipulation. Here is a summary of the research areas I am involved in:
+👨‍🔬 My <b>research interests</b> include AI-based autonomous driving systems and intelligent robotic manipulation. Here is a summary of the research areas I have been involved in:
 <br/>
 
 <p>
