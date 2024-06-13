@@ -29,10 +29,9 @@ profile_picture:
   • <b>Sep. 2022 - Oct. 2023</b> Research Assistant in Department of Electrical and Computer Engineering,   <font color='#b22222'>Korea University</font>, South Korea
 </p> 
 
-
+<br/>
 👨‍🔬 Here is a summary of the research areas I am interested in:
 <p>
-  <br/>
   ◼ <b>Multi-Agent Reinforcement Learning</b>
   <br/>
   <div style="text-align : center;">
