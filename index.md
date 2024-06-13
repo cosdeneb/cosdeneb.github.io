@@ -49,7 +49,7 @@ profile_picture:
   </div>
   <br/>
   <div style="text-align : center;">
-    <img src="{{ "/assets/img/paper/traj.jpg" | absolute_url }}" width=400 class="post-pic"/>
+    <img src="{{ "/assets/img/paper/traj.jpg" | absolute_url }}" width=500 class="post-pic"/>
   </div>
   <br/>
 </p>
