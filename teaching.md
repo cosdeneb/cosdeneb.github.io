@@ -21,3 +21,12 @@ This page provides a list of courses and topics I have taught as a teaching assi
   <font color='#00008b'><b>Ajou University</b></font> <br/>
   • <b>Spring 22</b> Teaching Assistant: ECE223 Electromagnetism
 </p>
+
+
+◼ Multi-Agent Reinforcement Learning
+<br/>
+<div style="text-align : center;">
+  <img src="{{ "/assets/img/content/a3/tokyo1.jpg" | absolute_url }}" width=200 class="post-pic"/>
+  <img src="{{ "/assets/img/content/a3/tokyo2.jpg" | absolute_url }}" width=200 class="post-pic"/>
+</div>
+<br/>
