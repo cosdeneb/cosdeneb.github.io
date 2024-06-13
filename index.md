@@ -45,7 +45,7 @@ profile_picture:
   <br/>
   <div style="text-align : center;">
     <img src="{{ "/assets/img/paper/tiv.jpg" | absolute_url }}" width=250 class="post-pic"/>
-    <img src="{{ "/assets/img/paper/smac_reward.jpg" | absolute_url }}" width=250 class="post-pic"/>
+    <img src="{{ "/assets/img/paper/traj.jpg" | absolute_url }}" width=400 class="post-pic"/>
   </div>
   <br/>
 </p>
