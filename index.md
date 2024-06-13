@@ -67,7 +67,7 @@ profile_picture:
 <p>
   ◼ <b>Quantum Machine Learning</b>
   <br/>
-  <div class="container">
+  <div style="text-align : center; border-radius : 10%; padding : 0 px;">
     <img src="{{ "/assets/img/paper/QNN.jpg" | absolute_url }}" width=300 class="post-pic"/>
   </div>
   <br/>
@@ -77,9 +77,3 @@ profile_picture:
   </div>
   <br/>
 </p>
-
-.container {
-  text-align: center;
-  border-radius : 10%;
-  padding : 0 px;
-}
