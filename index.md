@@ -28,3 +28,11 @@ profile_picture:
   <br/>
   • <b>Sep. 2022 - Oct. 2023</b> Research Assistant in Department of Electrical and Computer Engineering,   <font color='#b22222'>Korea University</font>, South Korea
 </p> 
+
+◼ Multi-Agent Reinforcement Learning
+<br/>
+<div style="text-align : center;">
+  <img src="{{ "/assets/img/content/a3/tokyo1.jpg" | absolute_url }}" width=200 class="post-pic"/>
+  <img src="{{ "/assets/img/content/a3/tokyo2.jpg" | absolute_url }}" width=200 class="post-pic"/>
+</div>
+<br/>
