@@ -5,6 +5,7 @@ profile_picture:
   alt: website picture
 ---
 <br/>
+<br/>
 
 <p>
   👨‍🎓 <b>Chanyoung Park</b> is an alumni of the School of Electrical and Computer Engineering at Ajou University, South Korea, where he he graduated with honors in 2022 (early graduation). From September 2022 to October 2023, he worked as a Research Assistant (RA) at Korea University, contributing to several papers and research projects. 
@@ -25,6 +26,8 @@ profile_picture:
 
 <br/>
 👨‍🔬 My <b>research interests</b> include AI-based autonomous driving systems and intelligent robotic manipulation. Here is a summary of the research areas I am involved in:
+<br/>
+
 <p>
   ◼ <b>Multi-Agent Reinforcement Learning</b>
   <br/>
