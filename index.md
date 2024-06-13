@@ -45,7 +45,7 @@ profile_picture:
   ◼ <b>Trajectory Optimization</b>
   <br/>
   <div style="text-align : center;">
-    <img src="{{ "/assets/img/paper/tiv.jpg" | absolute_url }}" width=250 class="post-pic"/>
+    <img src="{{ "/assets/img/paper/tiv.jpg" | absolute_url }}" width=300 class="post-pic"/>
   </div>
   <br/>
   <div style="text-align : center;">
@@ -58,7 +58,7 @@ profile_picture:
   ◼ <b>Autonomous System</b>
   <br/>
   <div style="text-align : center;">
-    <img src="{{ "/assets/img/paper/smac.jpg" | absolute_url }}" width=250 class="post-pic"/>
+    <img src="{{ "/assets/img/paper/tits.jpg" | absolute_url }}" width=500 class="post-pic"/>
     <img src="{{ "/assets/img/paper/smac_reward.jpg" | absolute_url }}" width=250 class="post-pic"/>
   </div>
   <br/>
