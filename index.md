@@ -24,9 +24,8 @@ profile_picture:
   For more information, please see my <a href="https://drive.google.com/file/d/1cDvkoG54rEfbhQQ5oOQe9zONiINBogdN/view?usp=sharing">Curriculum Vitae</a>.
 </p>
 
-
 <br/>
-👨‍🔬 Here is a summary of the research areas I am interested in:
+👨‍🔬 My <b>research interests<b/> include AI-based autonomous driving systems and intelligent robotic manipulation. Here is a summary of the research areas I am involved in:
 <p>
   ◼ <b>Multi-Agent Reinforcement Learning</b>
   <br/>
