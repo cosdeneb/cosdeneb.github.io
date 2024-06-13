@@ -59,7 +59,7 @@ profile_picture:
   </div>
   <br/>
   <div style="text-align : center;">
-    <img src="{{ "/assets/img/paper/smac_reward.jpg" | absolute_url }}" width=250 class="post-pic"/>
+    <img src="{{ "/assets/img/paper/pos.jpg" | absolute_url }}" width=300 class="post-pic"/>
   </div>
   <br/>
 </p>
