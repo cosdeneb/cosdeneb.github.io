@@ -7,8 +7,7 @@ profile_picture:
 <br/>
 
 <p>
-  <b>Chanyoung Park</b> is an alumni of the School of Electrical and Computer Engineering at Ajou University, South Korea. 👨‍🎓
-</p>
+  👨‍🎓 <b>Chanyoung Park</b> is an alumni of the School of Electrical and Computer Engineering at Ajou University, South Korea, where he he graduated with honors in 2022 (early graduation). From September 2022 to October 2023, he worked as a Research Assistant (RA) at Korea University, contributing to several papers and research projects. 
 
 <p>
   <br/>
