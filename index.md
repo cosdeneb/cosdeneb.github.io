@@ -29,7 +29,7 @@ profile_picture:
 <br/>
 
 <p>
-  ◼ <b>Multi-Agent Reinforcement Learning</b> 🤖
+  ◼ <b>Multi-Agent Reinforcement Learning</b>
   <br/>
   <div style="text-align : center;">
     <img src="{{ "/assets/img/paper/smac.jpg" | absolute_url }}" width=300 class="post-pic" style="border: none; outline: none;"/>
@@ -39,7 +39,7 @@ profile_picture:
 </p>
 
 <p>
-  ◼ <b>Trajectory Optimization</b> ✈️
+  ◼ <b>Trajectory Optimization</b>
   <br/>
   <div style="text-align : center;">
     <img src="{{ "/assets/img/paper/tiv.jpg" | absolute_url }}" width=300 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
@@ -52,7 +52,7 @@ profile_picture:
 </p>
 
 <p>
-  ◼ <b>Autonomous System</b> 🚗
+  ◼ <b>Autonomous System</b>
   <br/>
   <div style="text-align : center;">
     <img src="{{ "/assets/img/paper/tits.jpg" | absolute_url }}" width=700 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
@@ -65,7 +65,7 @@ profile_picture:
 </p>
 
 <p>
-  ◼ <b>Quantum Machine Learning</b> ⚛️
+  ◼ <b>Quantum Machine Learning</b>
   <br/>
   <div style="text-align : center;"> 
     <img src="{{ "/assets/img/paper/QNN.jpg" | absolute_url }}" width=350 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
