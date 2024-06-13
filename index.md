@@ -72,8 +72,8 @@ profile_picture:
   </div>
   <br/>
   <div style="text-align : center;" >
-    <img src="{{ "/assets/img/paper/Q2MIX.jpg" | absolute_url }}" width=250 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
-    <img src="{{ "/assets/img/paper/basis.jpg" | absolute_url }}" width=250 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
+    <img src="{{ "/assets/img/paper/Q2MIX.jpg" | absolute_url }}" width=250 class="post-pic" style="border: none; outline: none;"/>
+    <img src="{{ "/assets/img/paper/basis.jpg" | absolute_url }}" width=250 class="post-pic" style="border: none; outline: none;"/>
   </div>
   <br/>
 </p>
