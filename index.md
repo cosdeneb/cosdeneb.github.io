@@ -29,13 +29,23 @@ profile_picture:
   • <b>Sep. 2022 - Oct. 2023</b> Research Assistant in Department of Electrical and Computer Engineering,   <font color='#b22222'>Korea University</font>, South Korea
 </p> 
 
-<br/>
 <p>
-◼ Multi-Agent Reinforcement Learning
-<br/>
-<div style="text-align : center;">
-  <img src="{{ "/assets/img/paper/smac.jpg" | absolute_url }}" width=230 class="post-pic"/>
-  <img src="{{ "/assets/img/paper/smac_reward.jpg" | absolute_url }}" width=230 class="post-pic"/>
-</div>
-<br/>
+  <br/>
+  ◼ <b>Multi-Agent Reinforcement Learning</b>
+  <br/>
+  <div style="text-align : center;">
+    <img src="{{ "/assets/img/paper/smac.jpg" | absolute_url }}" width=250 class="post-pic"/>
+    <img src="{{ "/assets/img/paper/smac_reward.jpg" | absolute_url }}" width=250 class="post-pic"/>
+  </div>
+  <br/>
+</p>
+
+<p>
+  ◼ <b>Trajectory Optimization</b>
+  <br/>
+  <div style="text-align : center;">
+    <img src="{{ "/assets/img/paper/tiv.jpg" | absolute_url }}" width=250 class="post-pic"/>
+    <img src="{{ "/assets/img/paper/smac_reward.jpg" | absolute_url }}" width=250 class="post-pic"/>
+  </div>
+  <br/>
 </p>
