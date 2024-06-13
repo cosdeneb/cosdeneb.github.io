@@ -58,7 +58,9 @@ profile_picture:
   ◼ <b>Autonomous System</b>
   <br/>
   <div style="text-align : center;">
-    <img src="{{ "/assets/img/paper/tits.jpg" | absolute_url }}" width=500 class="post-pic"/>
+    <img src="{{ "/assets/img/paper/tits.jpg" | absolute_url }}" width=600 class="post-pic"/>
+  </div>
+  <div style="text-align : center;">
     <img src="{{ "/assets/img/paper/smac_reward.jpg" | absolute_url }}" width=250 class="post-pic"/>
   </div>
   <br/>
