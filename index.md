@@ -68,8 +68,12 @@ profile_picture:
   ◼ <b>Quantum Machine Learning</b>
   <br/>
   <div style="text-align : center;">
-    <img src="{{ "/assets/img/paper/smac.jpg" | absolute_url }}" width=250 class="post-pic"/>
-    <img src="{{ "/assets/img/paper/smac_reward.jpg" | absolute_url }}" width=250 class="post-pic"/>
+    <img src="{{ "/assets/img/paper/QNN.jpg" | absolute_url }}" width=200 class="post-pic"/>
+  </div>
+  <br/>
+  <div style="text-align : center;">
+    <img src="{{ "/assets/img/paper/Q2MIX.jpg" | absolute_url }}" width=250 class="post-pic"/>
+    <img src="{{ "/assets/img/paper/basis.jpg" | absolute_url }}" width=250 class="post-pic"/>
   </div>
   <br/>
 </p>
