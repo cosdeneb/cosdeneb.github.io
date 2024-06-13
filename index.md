@@ -55,7 +55,7 @@ profile_picture:
   ◼ <b>Autonomous System</b>
   <br/>
   <div style="text-align : center;">
-    <img src="{{ "/assets/img/paper/tits.jpg" | absolute_url }}" width=600 class="post-pic"/>
+    <img src="{{ "/assets/img/paper/tits.jpg" | absolute_url }}" width=700 class="post-pic"/>
   </div>
   <br/>
   <div style="text-align : center;">
@@ -67,13 +67,19 @@ profile_picture:
 <p>
   ◼ <b>Quantum Machine Learning</b>
   <br/>
-  <div style="text-align : center;">
-    <img src="{{ "/assets/img/paper/QNN.jpg" | absolute_url }}" width=200 class="post-pic"/>
+  <div class="container">
+    <img src="{{ "/assets/img/paper/QNN.jpg" | absolute_url }}" width=300 class="post-pic"/>
   </div>
   <br/>
-  <div style="text-align : center;">
+  <div style="text-align : center;" >
     <img src="{{ "/assets/img/paper/Q2MIX.jpg" | absolute_url }}" width=250 class="post-pic"/>
     <img src="{{ "/assets/img/paper/basis.jpg" | absolute_url }}" width=250 class="post-pic"/>
   </div>
   <br/>
 </p>
+
+.container {
+  text-align: center;
+  border-radius : 10%;
+  padding : 0 px;
+}
