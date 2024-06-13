@@ -60,6 +60,7 @@ profile_picture:
   <div style="text-align : center;">
     <img src="{{ "/assets/img/paper/tits.jpg" | absolute_url }}" width=600 class="post-pic"/>
   </div>
+  <br/>
   <div style="text-align : center;">
     <img src="{{ "/assets/img/paper/smac_reward.jpg" | absolute_url }}" width=250 class="post-pic"/>
   </div>
