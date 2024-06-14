@@ -36,6 +36,10 @@ profile_picture:
     <img src="{{ "/assets/img/paper/smac_reward.jpg" | absolute_url }}" width=300 class="post-pic" style="border: none; outline: none;"/>
   </div>
   <br/>
+  <div style="text-align : center;">
+    <img src="{{ "/assets/img/paper/commnet.jpg" | absolute_url }}" width=300 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
+  </div>
+  <br/>
 </p>
 
 <p>
