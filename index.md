@@ -6,7 +6,7 @@ profile_picture:
 ---
 <br/>
 <p>
-  👨‍🎓 <b>Chanyoung Park</b> is an alumni of the School of Electrical and Computer Engineering at <font color='#00008b'>Ajou University</font>, South Korea, where he he graduated with honors in 2022 (early graduation). From September 2022 to October 2023, he worked as a Research Assistant (RA) at <font color='#b22222'>Korea University</font>, South Korea, contributing to several papers and research projects. 
+  👨‍🎓 <b>Chanyoung Park</b> is an alumni of the School of Electrical and Computer Engineering at <font color='#00008b'>Ajou University</font>, South Korea, where I graduated with honors in 2022 (early graduation). From September 2022 to October 2023, he worked as a Research Assistant (RA) at <font color='#b22222'>Korea University</font>, South Korea, contributing to several papers and research projects. 
 </p>
 
 <p>
