@@ -56,7 +56,7 @@ profile_picture:
 </p>
 
 <p>
-  ◼ <b>Autonomous System</b> 🚗
+  ◼ <b>Autonomous System</b> 🚁
   <br/>
   <div style="text-align : center;">
     <img src="{{ "/assets/img/paper/tits.jpg" | absolute_url }}" width=700 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
@@ -64,6 +64,15 @@ profile_picture:
   <br/>
   <div style="text-align : center;">
     <img src="{{ "/assets/img/paper/pos.jpg" | absolute_url }}" width=650 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
+  </div>
+  <br/>
+</p>
+
+<p>
+  ◼ <b>Visual Learning</b> 🚗
+  <br/>
+  <div style="text-align : center;"> 
+    <img src="{{ "/assets/img/paper/object_detection.jpg" | absolute_url }}" width=350 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
   </div>
   <br/>
 </p>
