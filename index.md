@@ -89,7 +89,7 @@ profile_picture:
   <br/>
   </div>
   <div style="text-align : center;"> 
-    <img src="{{ "/assets/img/paper/access_img.jpg" | absolute_url }}" width=500 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
+    <img src="{{ "/assets/img/paper/access_img.jpg" | absolute_url }}" width=600 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
   </div>
   <br/>
 </p>
