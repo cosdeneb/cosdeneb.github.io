@@ -86,6 +86,9 @@ profile_picture:
   <br/>
   <div style="text-align : center;"> 
     <img src="{{ "/assets/img/paper/object_detection.jpg" | absolute_url }}" width=250 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
+  <br/>
+  </div>
+  <div style="text-align : center;"> 
     <img src="{{ "/assets/img/paper/access_img.jpg" | absolute_url }}" width=500 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
   </div>
   <br/>
@@ -109,8 +112,8 @@ profile_picture:
   ◼ <b>Soft Engineering</b> 💻
   <br/>
   <div style="text-align : center;"> 
-    <img src="{{ "/assets/img/paper/object_detection.jpg" | absolute_url }}" width=250 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
-    <img src="{{ "/assets/img/paper/access_img.jpg" | absolute_url }}" width=500 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
+    <img src="{{ "/assets/img/paper/equate.jpg" | absolute_url }}" width=400 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
+    <img src="{{ "/assets/img/paper/equate_plot.jpg" | absolute_url }}" width=400 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
   </div>
   <br/>
 </p>
