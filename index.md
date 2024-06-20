@@ -63,7 +63,7 @@ profile_picture:
   </div>
   <br/>
   <div style="text-align : center;">
-    <img src="{{ "/assets/img/paper/pos.jpg" | absolute_url }}" width=650 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
+    <img src="{{ "/assets/img/paper/pos.jpg" | absolute_url }}" width=600 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
   </div>
   <br/>
 </p>
