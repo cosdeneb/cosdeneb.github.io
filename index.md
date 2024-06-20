@@ -109,7 +109,7 @@ profile_picture:
 </p>
 
 <p>
-  ◼ <b>Soft Engineering</b> 💻
+  ◼ <b>Software Engineering</b> 💻
   <br/>
   <div style="text-align : center;"> 
     <img src="{{ "/assets/img/paper/equate.jpg" | absolute_url }}" width=400 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
