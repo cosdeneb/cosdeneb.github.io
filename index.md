@@ -36,13 +36,9 @@ profile_picture:
     <img src="{{ "/assets/img/paper/smac_reward.jpg" | absolute_url }}" width=300 class="post-pic" style="border: none; outline: none;"/>
   </div>
   <br/>
-  <font color='#666666'>[1] Chanyoung Park, "Lightweight Quantum Multi-Agent Reinforcement Learning...," submitted to Elsevier Neural Networks.</font>
-  <br/>
   <div style="text-align : center;">
     <img src="{{ "/assets/img/paper/commnet.jpg" | absolute_url }}" width=500 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
   </div>
-  <br/>
-  <font color='#666666'>[2] Chanyoung Park et al., "Multi-agent reinforcement learning for Cooperative Air Transportation Services...," IEEE TIV 2023.</font>
   <br/>
 </p>
 
