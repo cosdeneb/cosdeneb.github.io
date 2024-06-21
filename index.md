@@ -82,7 +82,7 @@ profile_picture:
 </p>
 
 <p>
-  ◼ <b>Visual Learning</b> 🚗
+  ◼ <b>Visual Learning (i.e., Classification, Object Detection)</b> 🚗
   <br/>
   <div style="text-align : center;"> 
     <img src="{{ "/assets/img/paper/object_detection.jpg" | absolute_url }}" width=250 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
