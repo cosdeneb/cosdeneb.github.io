@@ -25,7 +25,7 @@ profile_picture:
 
 
 <br/>
-👨‍🔬 My <b>research interests</b> include AI-based autonomous driving systems, intelligent robotic manipulation, and Visual Reinforcement Learning. Here is a summary of the research areas I have been involved in:
+👨‍🔬 My <b>research interests</b> include <font color='#009900'>AI-based autonomous driving</font>, <font color='#009900'>intelligent robotic manipulation</font>, and <font color='#009900'>Visual Reinforcement Learning</font>. Here is a summary of the research areas I have been involved in:
 <br/>
 
 <p>
