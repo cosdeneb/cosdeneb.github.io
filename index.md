@@ -76,7 +76,7 @@ profile_picture:
   </div>
   <br/>
   <div style="text-align : center;"> 
-    <img src="{{ "/assets/img/paper/two_stage.jpg" | absolute_url }}" width=400 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
+    <img src="{{ "/assets/img/paper/two_stage.jpg" | absolute_url }}" width=350 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
   </div>
   <br/>
 </p>
@@ -112,7 +112,7 @@ profile_picture:
   ◼ <b>Software Engineering</b> 💻
   <br/>
   <div style="text-align : center;"> 
-    <img src="{{ "/assets/img/paper/equate.jpg" | absolute_url }}" width=500 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
+    <img src="{{ "/assets/img/paper/equate.jpg" | absolute_url }}" width=400 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
     <img src="{{ "/assets/img/paper/equate_plot.jpg" | absolute_url }}" width=400 class="post-pic" style="border: none; outline: none; margin: 0 auto; display: block;"/>
   </div>
   <br/>
