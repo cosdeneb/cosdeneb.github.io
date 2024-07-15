@@ -8,16 +8,17 @@ This page contains a selected list of <b>journal articles</b> and <b>internation
 <br/>
 
 Below is a summary of the papers I have published: <br/>
-• <font color='#dc143c'>84</font> Citations (h-index: <font color='#dc143c'>4</font>, i10-index <font color='#dc143c'>4</font>) from <a href="https://scholar.google.com/citations?hl=ko&user=fGD7V2IAAAAJ">Google Scholar Profile</a> (as of July 04, 2024) <br/>
+• <font color='#dc143c'>86</font> Citations (h-index: <font color='#dc143c'>4</font>, i10-index <font color='#dc143c'>4</font>) from <a href="https://scholar.google.com/citations?hl=ko&user=fGD7V2IAAAAJ">Google Scholar Profile</a> (as of July 15, 2024) <br/>
 • <font color='#dc143c'>11</font> SCI journals (<font color='#dc143c'>10</font> in IEEE Magazines and ComSoc/VTS Journals) and <font color='#dc143c'>2</font> top-tier conferences <br/>
 <br/>
 
 <p>
   <b>• Book Chapter</b> <br/>
   1. Fundamentals of 6G Communications and Networking, Springer (2023) <br/>
-  – Ch. 28. Convergence of 6G and Wi-Fi Networks (H. Lee, S. Park, M. Yoo, <b>C. Park</b>, H. Baek, J. Kim) <br/>
+  – Ch. 20. Network Disaggregation (S. Park, <b>C. Park</b>, J.P. Kim, M. Choi, J. Kim) <br/>
   – Ch. 22. AI-Native Network Algorithms and Architectures (H. Lee, S. Park, H. Baek, <b>C. Park</b>, S. Son, J. Park, J. Kim) <br/>
-  – Ch. 20. Network Disaggregation (S. Park, <b>C. Park</b>, J.P. Kim, M. Choi, J. Kim) <br/><br/>
+  – Ch. 28. Convergence of 6G and Wi-Fi Networks (H. Lee, S. Park, M. Yoo, <b>C. Park</b>, H. Baek, J. Kim) <br/>
+  <br/>
 </p>
 
 <p>
