@@ -10,6 +10,10 @@ profile_picture:
 </p>
 
 <p>
+  👨‍🔬 My <b>research interests</b> include <font color='#009900'>AI-based Autonomous Driving</font>, <font color='#009900'>Intelligent Robotic Manipulation</font>, and <font color='#009900'>Visual Reinforcement Learning</font>.
+</p>
+
+<p>
   For more information, please see my <a href="https://drive.google.com/file/d/1fp5jUsH5IcjtFOl6DMzj7YTzL395NrB3/view?usp=sharing">Curriculum Vitae</a>.
 </p>
 
@@ -22,8 +26,3 @@ profile_picture:
   <br/>
   • <b>Sep. 2022 - Oct. 2023</b> Research Assistant in Department of Electrical and Computer Engineering, <font color='#b22222'>Korea University</font>, South Korea
 </p> 
-
-
-<br/>
-👨‍🔬 My <b>research interests</b> include <font color='#009900'>AI-based Autonomous Driving</font>, <font color='#009900'>Intelligent Robotic Manipulation</font>, and <font color='#009900'>Visual Reinforcement Learning</font>.
-<br/>
