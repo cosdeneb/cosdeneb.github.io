@@ -14,7 +14,7 @@ profile_picture:
 </p>
 
 <p>
-  For more information, please see my <a href="https://drive.google.com/file/d/1fp5jUsH5IcjtFOl6DMzj7YTzL395NrB3/view?usp=sharing">Curriculum Vitae</a>.
+  For more information, please see my <a href="https://drive.google.com/file/d/10iaqMoxBmH0s7OtIwVfNXjO4IOJtxdwW/view?usp=sharing">Curriculum Vitae</a>.
 </p>
 
 <p>
