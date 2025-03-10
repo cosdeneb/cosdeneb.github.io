@@ -8,6 +8,10 @@ This page provides a list of courses and topics I have taught as a teaching assi
 <br/> <br/>
 
 <p>
+  <b>Program</b> <br/>
+  • Unity-based Reinforcement Learning Algorithm Development and Simulation <br/>
+  <b>Korean Institute of Communications and Information Sciences (KICS)</b>, Feb. 2023. (2.5-hour talk) <br/><br/>
+  
   <b>Invited Talk</b> <br/>
   • 1st Workshop on Recent Trends in Reinforcement Learning Technology <br/>
   <b>Open Standards & ICT Association (OSIA)</b>, Mar. 2023. (3.5-hour talk) <br/><br/>
