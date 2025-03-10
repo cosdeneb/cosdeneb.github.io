@@ -14,9 +14,8 @@ Below is a summary of the papers I have published: <br/>
 
 <p>
   <b>• Software R&D Copyright Registration</b> <br/>
-  1. Voice-Interactive Virtual Character Program<br/>
-  Y. Kim, <b>C. Park</b> <br/>
-  Korea Copyright Commission, C-2021-059388, Dec. 2021.
+  1. Voice-Interactive Virtual Character Program (Y. Kim, <b>C. Park</b>) <br/>
+  <font color='#3e32a8'>Korea Copyright Commission</font>, C-2021-059388, Dec. 2021. <br/>
   <br/>
 </p>
 
