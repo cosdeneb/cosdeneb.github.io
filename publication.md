@@ -34,7 +34,7 @@ Below is a summary of the papers I have published: <br/>
 
   1. Adaptive Quantum Federated Learning for Autonomous Surveillance Multi-Drone Networks <br/>
   S. Park, ²<b>C. Park</b>, S. Jung, J. Kim <br/>
-  <font color='#da70d6'>IEEE Transactions on Intelligent Vehicles</font> <font color='#dc143c'>(<b>Top</b>, IF:14)</font>, Early Access. <a href="https://ieeexplore.ieee.org/abstract/document/10764760">[Link]</a><br/>
+  <font color='#da70d6'>IEEE Transactions on Intelligent Vehicles</font> <font color='#dc143c'>(IF:14)</font>, Early Access. <a href="https://ieeexplore.ieee.org/abstract/document/10764760">[Link]</a><br/>
   <font color='#666666'>[TL; DR] ...</font><br/><br/>
   
   2. Joint Quantum Reinforcement Learning and Stabilized Control fro Spatio-Temporal Coordination in Metaverse <br/>
