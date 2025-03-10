@@ -49,7 +49,7 @@ Below is a summary of the papers I have published: <br/>
   
   4. Handover Protocol Learning for LEO Satellite Networks: Access Delay and Collision Minimization <br/>
   J.-H. Lee, ²<b>C. Park</b>, S. Park, and A. F. Molisch <br/>
-  <font color='#da70d6'>IEEE Transactions on Wireless Communications</font> <font color='#dc143c'>(<b>Top</b>, IF:10.4)</font>, in Press. <a href="https://ieeexplore.ieee.org/abstract/document/10371217">[Link]</a><br/>
+  <font color='#da70d6'>IEEE Transactions on Wireless Communications</font> <font color='#dc143c'>(<b>Top</b>, IF:10.4)</font>, 23(7), Jul. 2024. <a href="https://ieeexplore.ieee.org/abstract/document/10371217">[Link]</a><br/>
   <font color='#666666'>[TL; DR] A deep reinforcement learning-based handover protocol for LEO satellite networks is developed to reduce access delays and collision rates while improving handover success and efficiency. </font><br/><br/>
 
   5. Learning-based Cooperative Mobility Control for Autonomous Drone-Delivery <br/>
