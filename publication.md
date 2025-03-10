@@ -69,7 +69,7 @@ Below is a summary of the papers I have published: <br/>
 
   8. Two-Stage Self-Adaptive Task Outsourcing Decision Making for Edge-Assisted Multi-UAV Networks <br/>
   S. Jung, ²<b>C. Park</b>, M. Levorato, J.-H. Kim, and J. Kim <br/>
-  <font color='#da70d6'>IEEE Transactions on Vehicular Technology</font> <font color='#dc143c'>(IF:6.8)</font>, 72(11): 14889 - 14905, Nov. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10144676">[Link]</a><br/>
+  <font color='#da70d6'>IEEE Transactions on Vehicular Technology</font> <font color='#dc143c'>(IF:6.8)</font>, 72(11): 14889-14905, Nov. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10144676">[Link]</a><br/>
   <font color='#666666'>[TL; DR] A two-stage algorithm is designed to optimize multi-UAV positioning for surveillance and task outsourcing to edge devices, enhancing efficiency and energy consumption in UAV networks.</font><br/><br/>
 
   9. Two Tales of Platoon Intelligence for Autonomous Mobility Control: Enabling Deep Learning Recipes <br/>
