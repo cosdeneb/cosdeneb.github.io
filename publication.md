@@ -39,27 +39,27 @@ Below is a summary of the papers I have published: <br/>
   
   2. Joint Quantum Reinforcement Learning and Stabilized Control fro Spatio-Temporal Coordination in Metaverse <br/>
   S. Park, J. Chung, ³<b>C. Park</b>, S. Jung, M. Choi, S. Cho, J. Kim <br/>
-  <font color='#da70d6'>IEEE Transactions on Mobile Computing</font> <font color='#dc143c'>(<b>Top</b>, IF:7.9)</font>, 23(11), Nov. 2024. <a href="https://ieeexplore.ieee.org/abstract/document/10543150">[Link]</a><br/>
+  <font color='#da70d6'>IEEE Transactions on Mobile Computing</font> <font color='#dc143c'>(<b>Top</b>, IF:7.9)</font>, 23(11): 12410-12427, Nov. 2024. <a href="https://ieeexplore.ieee.org/abstract/document/10543150">[Link]</a><br/>
   <font color='#666666'>[TL; DR] The paper proposes a novel system using quantum multi-agent reinforcement learning and stabilized control for achieving high spatio-temporal synchronization between physical-space and virtual meta-space in the metaverse.</font><br/><br/>
   
   3. Age-of-Information Aware Caching and Delivery for Infrastructure-Assisted Connected Vehicles <br/>
   S. Park, ²<b>C. Park</b>, S. Jung, M. Choi, J. Kim <br/> 
-  <font color='#da70d6'>IEEE Transactions on Vehicular Technology</font> <font color='#dc143c'>(IF:6.8)</font>, 73(7), Jul. 2024. <a href="https://ieeexplore.ieee.org/abstract/document/10491361">[Link]</a><br/>
+  <font color='#da70d6'>IEEE Transactions on Vehicular Technology</font> <font color='#dc143c'>(IF:6.8)</font>, 73(7): 10681-10696, Jul. 2024. <a href="https://ieeexplore.ieee.org/abstract/document/10491361">[Link]</a><br/>
   <font color='#666666'>[TL; DR] An algorithm utilizing Age-of-Information and infrastructure components is suggested to enhance content delivery and data freshness in connected vehicles.</font><br/><br/>
   
   4. Handover Protocol Learning for LEO Satellite Networks: Access Delay and Collision Minimization <br/>
   J.-H. Lee, ²<b>C. Park</b>, S. Park, and A. F. Molisch <br/>
-  <font color='#da70d6'>IEEE Transactions on Wireless Communications</font> <font color='#dc143c'>(<b>Top</b>, IF:10.4)</font>, 23(7), Jul. 2024. <a href="https://ieeexplore.ieee.org/abstract/document/10371217">[Link]</a><br/>
+  <font color='#da70d6'>IEEE Transactions on Wireless Communications</font> <font color='#dc143c'>(<b>Top</b>, IF:10.4)</font>, 23(7): 7624-7637, Jul. 2024. <a href="https://ieeexplore.ieee.org/abstract/document/10371217">[Link]</a><br/>
   <font color='#666666'>[TL; DR] A deep reinforcement learning-based handover protocol for LEO satellite networks is developed to reduce access delays and collision rates while improving handover success and efficiency. </font><br/><br/>
 
   5. Learning-based Cooperative Mobility Control for Autonomous Drone-Delivery <br/>
   S. Park, ²<b>C. Park</b>, and J. Kim <br/>
-  <font color='#da70d6'>IEEE Transactions on Vehicular Technology</font> <font color='#dc143c'>(IF:6.8)</font>, 73(4), Apr. 2024. <a href="https://ieeexplore.ieee.org/abstract/document/10310117">[Link]</a><br/>
+  <font color='#da70d6'>IEEE Transactions on Vehicular Technology</font> <font color='#dc143c'>(IF:6.8)</font>, 73(4): 4870-7885, Apr. 2024. <a href="https://ieeexplore.ieee.org/abstract/document/10310117">[Link]</a><br/>
   <font color='#666666'>[TL; DR] The paper introduces a multi-agent deep reinforcement learning algorithm to optimize package delivery and energy efficiency in autonomous drone systems using a communication network-based approach.</font><br/><br/>
 
   6. Quantum Multi-Agent Reinforcement Learning for Autonomous Mobility Cooperation <br/>
   S. Park, J. P. Kim, ³<b>C. Park</b>, S. Jung, and J. Kim <br/>
-  <font color='#da70d6'>IEEE Communications Magazine</font> <font color='#dc143c'>(<b>Top</b>, IF:11.2)</font>, 62(6), Jun. 2024. <a href="https://ieeexplore.ieee.org/abstract/document/10232949">[Link]</a><br/>
+  <font color='#da70d6'>IEEE Communications Magazine</font> <font color='#dc143c'>(<b>Top</b>, IF:11.2)</font>, 62(6): 106-112, Jun. 2024. <a href="https://ieeexplore.ieee.org/abstract/document/10232949">[Link]</a><br/>
   <font color='#666666'>[TL; DR] Quantum multi-agent reinforcement learning is proposed to enhance parameter efficiency and convergence speed in autonomous mobility systems, leveraging quantum computing and actor-critic networks to overcome the limitations of traditional algorithms.</font><br/><br/>
   
   7. Quantum Multi-Agent Actor-Critic Networks for Cooperative Mobile Access in Multi-UAV Systems <br/>
