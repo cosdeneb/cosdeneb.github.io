@@ -79,17 +79,17 @@ Below is a summary of the papers I have published: <br/>
     
   10. EQuaTE: Efficient Quantum Train Engine for Run-Time Dynamic Analysis and Visual Feedback in Autonomous Driving <br/>
   S. Park, H. Feng, ³<b>C. Park</b>, Y. K. Lee, S. Jung, J. Kim <br/>
-  <font color='#da70d6'>IEEE Internet Computing</font> <font color='#dc143c'>(IF:3.2)</font>, 27(5):24-31, Sep.-Oct. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10229500">[Link]</a><br/>
+  <font color='#da70d6'>IEEE Internet Computing</font> <font color='#dc143c'>(IF:3.2)</font>, 27(5): 24-31, Sep.-Oct. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10229500">[Link]</a><br/>
   <font color='#666666'>[TL; DR] A novel software tool that identifies and visualizes barren plateaus in quantum neural networks to enhance training performance in autonomous driving applications is presented.</font><br/><br/>
     
   11. Multi-Agent Reinforcement Learning for Cooperative Air Transportation Services in City-Wide Autonomous Urban Air Mobility <br/>
   ¹<b>C. Park</b>, G. S. Kim, S. Park, S. Jung, J. Kim <br/>
-  <font color='#da70d6'>IEEE Transactions on Intelligent Vehicles</font> <font color='#dc143c'>(IF:8.2)</font>, 8(8):4016-4030, Aug. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10144378">[Link]</a><br/>
+  <font color='#da70d6'>IEEE Transactions on Intelligent Vehicles</font> <font color='#dc143c'>(IF:8.2)</font>, 8(8): 4016-4030, Aug. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10144378">[Link]</a><br/>
   <font color='#666666'>[TL; DR] The paper introduces the multi-agent deep reinforcement learning algorithm with centralized training and distributed execution to improve coordination and efficiency in city-wide urban air mobility systems, enhancing air transportation services.</font><br/><br/>
 
   12. Workload-Aware Scheduling using Markov Decision Process for Infrastructure-Assisted Learning-Based Multi-UAV Surveillance Networks <br/>
   S. Park, ²<b>C. Park</b>, S. Jung, J.-H. Kim, J. Kim <br/>
-  <font color='#da70d6'>IEEE Access (IEEE Vehicular Technology Society Section)</font> <font color='#dc143c'>(IF:3.9)</font>, 11:16533-16548, Feb. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10045685">[Link]</a><br/>
+  <font color='#da70d6'>IEEE Access (IEEE Vehicular Technology Society Section)</font> <font color='#dc143c'>(IF:3.9)</font>, 11: 16533-16548, Feb. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10045685">[Link]</a><br/>
 <font color='#666666'>[TL; DR] A novel scheduling algorithm using Markov decision processes is introduced to optimize power transfer and data distribution between UAVs and towers, enhancing surveillance performance and efficiency.</font><br/><br/>
 </p>
 
