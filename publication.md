@@ -54,7 +54,7 @@ Below is a summary of the papers I have published: <br/>
 
   5. Learning-based Cooperative Mobility Control for Autonomous Drone-Delivery <br/>
   S. Park, ²<b>C. Park</b>, and J. Kim <br/>
-  <font color='#da70d6'>IEEE Transactions on Vehicular Technology</font> <font color='#dc143c'>(IF:6.8)</font>, 73(4):4870-7885, Apr. 2024. <a href="https://ieeexplore.ieee.org/abstract/document/10310117">[Link]</a><br/>
+  <font color='#da70d6'>IEEE Transactions on Vehicular Technology</font> <font color='#dc143c'>(IF:6.8)</font>, 73(4), Apr. 2024. <a href="https://ieeexplore.ieee.org/abstract/document/10310117">[Link]</a><br/>
   <font color='#666666'>[TL; DR] The paper introduces a multi-agent deep reinforcement learning algorithm to optimize package delivery and energy efficiency in autonomous drone systems using a communication network-based approach.</font><br/><br/>
 
   6. Quantum Multi-Agent Reinforcement Learning for Autonomous Mobility Cooperation <br/>
