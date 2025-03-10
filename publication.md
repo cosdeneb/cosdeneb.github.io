@@ -25,6 +25,8 @@ Below is a summary of the papers I have published: <br/>
   – Ch. 20. Network Disaggregation (S. Park, <b>C. Park</b>, J.P. Kim, M. Choi, J. Kim) <br/>
   – Ch. 22. AI-Native Network Algorithms and Architectures (H. Lee, S. Park, H. Baek, <b>C. Park</b>, S. Son, J. Park, J. Kim) <br/>
   – Ch. 28. Convergence of 6G and Wi-Fi Networks (H. Lee, S. Park, M. Yoo, <b>C. Park</b>, H. Baek, J. Kim) <br/>
+  <font color='#666666'>[TL; DR] A software program implementing a virtual character with voice recognition and speech output, developed using Android Studio and Unity. It integrates IBM Watson STT/TTS APIs to process voice commands and generate interactive responses. Designed for Android smartphones, HMDs, and AR environments, with potential for AI-driven enhancements.  
+
   <br/>
 </p>
 
