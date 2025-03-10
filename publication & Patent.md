@@ -1,7 +1,7 @@
 ---
 layout: work
 title: Publication 📕
-slug: /publication
+slug: /publication & Patent
 ---
 
 This page contains a selected list of <b>journal articles</b> and <b>international conference papers</b> that I have authored or published. 😊
