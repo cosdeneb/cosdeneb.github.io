@@ -13,6 +13,14 @@ Below is a summary of the papers I have published: <br/>
 <br/>
 
 <p>
+  <b>• Software R&D Copyright Registration</b> <br/>
+  1. Voice-Interactive Virtual Character Program<br/>
+  Y. Kim, <b>C. Park</b> <br/>
+  Korea Copyright Commission, C-2021-059388, Dec. 2021.
+  <br/>
+</p>
+
+<p>
   <b>• Book Chapter</b> <br/>
   1. Fundamentals of 6G Communications and Networking, Springer (2023) <br/>
   – Ch. 20. Network Disaggregation (S. Park, <b>C. Park</b>, J.P. Kim, M. Choi, J. Kim) <br/>
