@@ -32,12 +32,19 @@ Below is a summary of the papers I have published: <br/>
 <p>
   <b>• SCI Journal</b> <br/>
 
+
+  <br/>
+  <div style="text-align : center;">
+    <img src="{{ "/assets/img/content/a3/tokyo1.jpg" | absolute_url }}" width=200 class="post-pic"/>
+  </div>
+  <br/>
+
   1. Adaptive Quantum Federated Learning for Autonomous Surveillance Multi-Drone Networks <br/>
   S. Park, ²<b>C. Park</b>, S. Jung, J. Kim <br/>
   <font color='#da70d6'>IEEE Transactions on Intelligent Vehicles</font> <font color='#dc143c'>(IF:14)</font>, Early Access. <a href="https://ieeexplore.ieee.org/abstract/document/10764760">[Link]</a><br/>
   <font color='#666666'>[TL; DR] ...</font><br/><br/>
   
-  2. Joint Quantum Reinforcement Learning and Stabilized Control fro Spatio-Temporal Coordination in Metaverse <br/>
+  2. Joint Quantum Reinforcement Learning and Stabilized Control for Spatio-Temporal Coordination in Metaverse <br/>
   S. Park, J. Chung, ³<b>C. Park</b>, S. Jung, M. Choi, S. Cho, J. Kim <br/>
   <font color='#da70d6'>IEEE Transactions on Mobile Computing</font> <font color='#dc143c'>(<b>Top</b>, IF:7.9)</font>, 23(11): 12410-12427, Nov. 2024. <a href="https://ieeexplore.ieee.org/abstract/document/10543150">[Link]</a><br/>
   <font color='#666666'>[TL; DR] The paper proposes a novel system using quantum multi-agent reinforcement learning and stabilized control for achieving high spatio-temporal synchronization between physical-space and virtual meta-space in the metaverse.</font><br/><br/>
