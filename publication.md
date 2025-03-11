@@ -32,7 +32,7 @@ Below is a summary of the papers I have published: <br/>
 <p>
   <b>• SCI Journal</b> <br/>
 
-  <img src="https://your-image-url.com/image.png" width="20" style="vertical-align: middle; margin-right: 5px;">
+  <img src="{{ "/assets/img/content/a3/tokyo1.jpg" | absolute_url }}" width="20" style="vertical-align: middle; margin-right: 5px;">
   1. Adaptive Quantum Federated Learning for Autonomous Surveillance Multi-Drone Networks <br/>
   S. Park, ²<b>C. Park</b>, S. Jung, J. Kim <br/>
   <font color='#da70d6'>IEEE Transactions on Intelligent Vehicles</font> <font color='#dc143c'>(IF:14)</font>, Early Access. <a href="https://ieeexplore.ieee.org/abstract/document/10764760">[Link]</a><br/>
