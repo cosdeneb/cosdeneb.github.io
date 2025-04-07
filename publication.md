@@ -9,7 +9,7 @@ This page contains a selected list of <b>journal articles</b> and <b>internation
 
 Below is a summary of the papers I have published: <br/>
 • <font color='#dc143c'>227</font> Citations (h-index: <font color='#dc143c'>8</font>, i10-index <font color='#dc143c'>7</font>) from <a href="https://scholar.google.com/citations?hl=ko&user=fGD7V2IAAAAJ">Google Scholar Profile</a> (as of April 07, 2025) <br/>
-• <font color='#dc143c'>11</font> SCI journals (<font color='#dc143c'>10</font> in IEEE Magazines and ComSoc/VTS Journals) and <font color='#dc143c'>2</font> top-tier conferences <br/>
+• <font color='#dc143c'>12</font> SCI journals (<font color='#dc143c'>10</font> in IEEE Magazines and ComSoc/VTS Journals) and <font color='#dc143c'>2</font> top-tier conferences <br/>
 <br/>
 
 <p>
