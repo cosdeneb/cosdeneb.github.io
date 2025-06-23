@@ -10,7 +10,7 @@ profile_picture:
 </p>
 
 <p>
-  👨‍🔬 My <b>research interests</b> include <font color='#009900'>AI-based Autonomous Driving</font>, <font color='#009900'>Intelligent Robotic Manipulation</font>, and <font color='#009900'>Visual Reinforcement Learning</font>.
+  👨‍🔬 My <b>research interests</b> include <font color='#009900'>AI-based Autonomous Driving</font>, <font color='#009900'>Intelligent Robotic Manipulation</font>, and <font color='#009900'>Reinforcement Learning</font>.
 </p>
 
 <p>
