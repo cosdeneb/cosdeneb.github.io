@@ -1,7 +1,7 @@
 ---
 layout: home
 profile_picture:
-  src: /assets/img/suit_cy.jpg
+  src: /assets/img/title_cy.jpg
   alt: website picture
 ---
 
