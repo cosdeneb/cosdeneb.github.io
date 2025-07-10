@@ -24,10 +24,16 @@ Below is a summary of the papers I have published: <br/>
 <p>
   <b>• SCI Journal</b> <br/>
 
-  <img src="/assets/img/cy.jpg" alt="논문1 이미지" style="width:60px; vertical-align:middle; margin-right:10px;"/>
-  1. Adaptive Quantum Federated Learning for Autonomous Surveillance Multi-Drone Networks <br/>
-  S. Park, ²<b>C. Park</b>, S. Jung, J. Kim <br/>
-  <font color='#da70d6'>IEEE Transactions on Intelligent Vehicles</font> <font color='#dc143c'>(IF:14)</font>, Early Access. <a href="https://ieeexplore.ieee.org/abstract/document/10764760">[Link]</a><br/><br/>
+  <div style="display: flex; align-items: flex-start; margin-bottom: 24px;">
+  <img src="/assets/img/cy.jpg" alt="논문1 이미지" style="width: 60px; margin-right: 16px;"/>
+  <div>
+    1. Adaptive Quantum Federated Learning for Autonomous Surveillance Multi-Drone Networks <br/>
+    S. Park, ²<b>C. Park</b>, S. Jung, J. Kim <br/>
+    <font color='#da70d6'>IEEE Transactions on Intelligent Vehicles</font>
+    <font color='#dc143c'>(IF:14)</font>, Early Access.
+    <a href="https://ieeexplore.ieee.org/abstract/document/10764760">[Link]</a><br/><br/>
+  </div>
+</div>
   
   2. Joint Quantum Reinforcement Learning and Stabilized Control for Spatio-Temporal Coordination in Metaverse <br/>
   S. Park, J. Chung, ³<b>C. Park</b>, S. Jung, M. Choi, S. Cho, J. Kim <br/>
