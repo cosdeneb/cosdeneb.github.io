@@ -61,7 +61,7 @@ Below is a summary of the papers I have published: <br/>
     
   10. EQuaTE: Efficient Quantum Train Engine for Run-Time Dynamic Analysis and Visual Feedback in Autonomous Driving <br/>
   S. Park, H. Feng, ³<b>C. Park</b>, Y. K. Lee, S. Jung, J. Kim <br/>
-  <font color='#da70d6'>IEEE Internet Computing</font> <font color='#dc143c'>(IF:3.2)</font>, 27(5): 24-31, Sep.-Oct. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10229500">[Link]</a>br/><br/>
+  <font color='#da70d6'>IEEE Internet Computing</font> <font color='#dc143c'>(IF:3.2)</font>, 27(5): 24-31, Sep.-Oct. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10229500">[Link]</a><br/><br/>
     
   11. Multi-Agent Reinforcement Learning for Cooperative Air Transportation Services in City-Wide Autonomous Urban Air Mobility <br/>
   ¹<b>C. Park</b>, G. S. Kim, S. Park, S. Jung, J. Kim <br/>
