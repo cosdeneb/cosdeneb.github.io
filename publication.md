@@ -15,7 +15,7 @@ Below is a summary of the papers I have published: <br/>
 <p>
   <b>• Software R&D Copyright Registration</b> <br/>
   1. Voice-Interactive Virtual Character Program (Y. Kim, <b>C. Park</b>) <br/>
-  <font color='#3e32a8'>Korea Copyright Commission</font>, C-2021-059388, Dec. 2021.
+  <font color='#3e32a8'>Korea Copyright Commission</font>, C-2021-059388, Dec. 2021.<br/>
   <br/>
 </p>
 
@@ -32,12 +32,11 @@ Below is a summary of the papers I have published: <br/>
   <b>• SCI Journal</b> <br/>
   1. Adaptive Quantum Federated Learning for Autonomous Surveillance Multi-Drone Networks <br/>
   S. Park, ²<b>C. Park</b>, S. Jung, J. Kim <br/>
-  <font color='#da70d6'>IEEE Transactions on Intelligent Vehicles</font> <font color='#dc143c'>(IF:14)</font>, Early Access. <a href="https://ieeexplore.ieee.org/abstract/document/10764760">[Link]</a><br/>
+  <font color='#da70d6'>IEEE Transactions on Intelligent Vehicles</font> <font color='#dc143c'>(IF:14)</font>, Early Access. <a href="https://ieeexplore.ieee.org/abstract/document/10764760">[Link]</a><br/><br/>
   
   2. Joint Quantum Reinforcement Learning and Stabilized Control for Spatio-Temporal Coordination in Metaverse <br/>
   S. Park, J. Chung, ³<b>C. Park</b>, S. Jung, M. Choi, S. Cho, J. Kim <br/>
-  <font color='#da70d6'>IEEE Transactions on Mobile Computing</font> <font color='#dc143c'>(<b>Top</b>, IF:7.9)</font>, 23(11): 12410-12427, Nov. 2024. <a href="https://ieeexplore.ieee.org/abstract/document/10543150">[Link]</a><br/>
-  <font color='#666666'>[TL; DR] The paper proposes a novel system using quantum multi-agent reinforcement learning and stabilized control for achieving high spatio-temporal synchronization between physical-space and virtual meta-space in the metaverse.</font><br/><br/>
+  <font color='#da70d6'>IEEE Transactions on Mobile Computing</font> <font color='#dc143c'>(<b>Top</b>, IF:7.9)</font>, 23(11): 12410-12427, Nov. 2024. <a href="https://ieeexplore.ieee.org/abstract/document/10543150">[Link]</a><br/><br/>
   
   3. Age-of-Information Aware Caching and Delivery for Infrastructure-Assisted Connected Vehicles <br/>
   S. Park, ²<b>C. Park</b>, S. Jung, M. Choi, J. Kim <br/> 
