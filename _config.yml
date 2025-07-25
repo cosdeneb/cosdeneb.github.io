@@ -13,7 +13,7 @@ header:
     - name: Home
       slug: /
     - name: Publication
-    - name: Teaching
+    # - name: Teaching
     - name: Blog
 
 footer:
