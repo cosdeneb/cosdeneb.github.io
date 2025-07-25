@@ -6,7 +6,7 @@ profile_picture:
 ---
 
 <p>
-  👨‍🎓 I am an alumni of the School of Electrical and Computer Engineering at <font color='#00008b'>Ajou University</font>, South Korea, where I graduated with honors in 2022 (early graduation). From September 2022 to October 2023, I worked as a Research Assistant (RA) at <font color='#b22222'>Korea University</font>, South Korea, contributing to several papers and research projects. 
+  👨‍🎓 I am a M.S student in the School of Computing at KAIST, advised by Prof. Sung-eui Yoon in the Scalable Graphics, Vision, and Robotics (SGVR) Lab.
 </p>
 
 <p>
