@@ -94,5 +94,5 @@ Below is a summary of the papers I have published: <br/>
 
   2. Cooperative Multi-Agent Deep Reinforcement Learning for Reliable and Energy-Efficient Mobile Access via Multi-UAV Control <br/>
   ¹<b>C. Park</b>, S. Park, S. Jung, C. Cordeiro, and J. Kim <br/>
-  <font color='#ffa500'>arXiv:2210.00945</font> <a href="https://arxiv.org/abs/2210.00945">[Link]</a>br/><br/>
+  <font color='#ffa500'>arXiv:2210.00945</font> <a href="https://arxiv.org/abs/2210.00945">[Link]</a>
 </p>
