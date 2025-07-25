@@ -16,13 +16,3 @@ profile_picture:
 <p>
   For more information, please see my <a href="https://drive.google.com/file/d/1rxIQOpsSAclfBOHyGsJfmOwXDYDGngBC/view?usp=sharing">Curriculum Vitae</a>.
 </p>
-
-<p>
-  <br/>
-  <b>Position</b>
-  <br/>
-  • <b>Mar. 2019 - Aug. 2022</b> B.S.E in Department of Electrical and Computer Engineering,<br/>
-  <font color='#00008b'>Ajou University</font>, South Korea (Early Graduation)
-  <br/>
-  • <b>Sep. 2022 - Oct. 2023</b> Research Assistant in Department of Electrical and Computer Engineering, <font color='#b22222'>Korea University</font>, South Korea
-</p> 
