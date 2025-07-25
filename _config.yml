@@ -25,13 +25,13 @@ footer:
     # - name: WeChat
     #   value: YourWeChatUsername
     #   link: "#"
-  # follow:
+  follow:
     - name: ORCID
       link: https://orcid.org/0000-0002-7945-2362
     - name: Google scholar
       link: https://scholar.google.com/citations?hl=ko&user=fGD7V2IAAAAJ
-    # - name: Instagram
-    #   link: https://www.instagram.com/ch.anyoung/
+    - name: Instagram
+      link: https://www.instagram.com/__parkchanyoung/
     - name: GitHub
       link: https://github.com/cosdeneb
     # - name: Twitter
