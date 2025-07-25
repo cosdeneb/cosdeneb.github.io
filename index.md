@@ -10,7 +10,7 @@ profile_picture:
 </p>
 
 <p>
-  👨‍🔬 My <b>research interests</b> include <font color='#009900'>AI-based Autonomous Driving</font>, <font color='#009900'>Intelligent Robotic Manipulation</font>, and <font color='#009900'>Reinforcement Learning</font>. <br> I am especially intrigued by developing reinforcement learning alogirhtms that enable robots to perform autonomous driving through motion planning and optimize manipulation skills, aiming toward the realization of   physical AI.
+  👨‍🔬 My <b>research interests</b> include <font color='#009900'>AI-based Autonomous Driving</font>, <font color='#009900'>Intelligent Robotic Manipulation</font>, and <font color='#009900'>Reinforcement Learning</font>. <br> I am especially intrigued by developing reinforcement learning algorithms that enable robots to perform motion planning and optimize manipulation skills, aiming toward the realization of   physical AI.
 </p>
 
 <p>
