@@ -6,7 +6,7 @@ profile_picture:
 ---
 
 <p>
-  👨‍🎓 I am a M.S student in the School of Computing at KAIST, advised by Prof. Sung-eui Yoon in the Scalable Graphics, Vision, and Robotics (SGVR) Lab.
+  👨‍🎓 I am an M.S student in the School of Computing at KAIST, advised by Prof. Sung-eui Yoon in the Scalable Graphics, Vision, and Robotics (SGVR) Lab.
 </p>
 
 <p>
