@@ -76,5 +76,5 @@ Below is a summary of the papers I have published: <br/>
   <font color='#ffa500'>arXiv:2211.15375</font> <a href="https://arxiv.org/abs/2211.15375">[Link]</a><br/><br/>
   
   2. ¹Cooperative Multi-Agent Deep Reinforcement Learning for Reliable and Energy-Efficient Mobile Access via Multi-UAV Control <br/>
-  <font color='#ffa500'>arXiv:2210.00945</font> <a href="https://arxiv.org/abs/2210.00945">[Link]</a>br/><br/>
+  <font color='#ffa500'>arXiv:2210.00945</font> <a href="https://arxiv.org/abs/2210.00945">[Link]</a><br/><br/>
 </p>
