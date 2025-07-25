@@ -32,8 +32,8 @@ footer:
       link: https://scholar.google.com/citations?hl=ko&user=fGD7V2IAAAAJ
     # - name: Instagram
     #   link: https://www.instagram.com/ch.anyoung/
-    # - name: GitHub
-    #   link: http://github.com/cosdeneb
+    - name: GitHub
+      link: https://github.com/cosdeneb
     # - name: Twitter
     #   link: http://twitter.com/YourTwitterUsername
     #   username: "@YourTwitterUsername"
