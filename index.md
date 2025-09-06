@@ -11,3 +11,7 @@ profile_picture:
 <p>
   👨‍🔬 My <b>research interests</b> include <font color='#009900'>AI-based Autonomous Driving</font>, <font color='#009900'>Intelligent Robotic Manipulation</font>, and <font color='#009900'>Reinforcement Learning</font>. <br> I am especially intrigued by developing RL algorithms that enable robots to perform motion planning and optimize manipulation skills, aiming toward the realization of physical AI.
 </p>
+
+<p>
+  📝 Here is my <a href="https://drive.google.com/file/d/1jujS6oCbr5--ePoY8N1Yh9ACIArTMyR6/view?usp=sharing">Curriculum Vitae</a>, summarizing my academic background, research experiences, and relevant skills.
+</p>
