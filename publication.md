@@ -85,14 +85,3 @@ Below is a summary of the papers I have published: <br/>
   G. S Kim, H. Lee, ³<b>C. Park</b>, S. Jung, J.-H Kim, J. Kim <br/>
   <font color='#32cd32'>IEEE International Conference on Information Networking (ICOIN)</font>, Jan. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10048910">[Link]</a><br/><br/>
 </p>
-
-<p>
-  <b>• Preprints</b><br/>
-  1. Software Simulation and Visualization of Quantum Multi-Drone Reinforcement Learning <br/>
-  ¹<b>C. Park</b>, J. P. Kim, W. J. Yun, S. Park, S. Jung, and J. Kim <br/>
-  <font color='#ffa500'>arXiv:2211.15375</font> <a href="https://arxiv.org/abs/2211.15375">[Link]</a><br/><br/>
-
-  2. Cooperative Multi-Agent Deep Reinforcement Learning for Reliable and Energy-Efficient Mobile Access via Multi-UAV Control <br/>
-  ¹<b>C. Park</b>, S. Park, S. Jung, C. Cordeiro, and J. Kim <br/>
-  <font color='#ffa500'>arXiv:2210.00945</font> <a href="https://arxiv.org/abs/2210.00945">[Link]</a>
-</p>
