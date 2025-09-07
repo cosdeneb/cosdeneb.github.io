@@ -13,5 +13,5 @@ profile_picture:
 </p>
 
 <p>
-  📝 Here is my <a href="https://drive.google.com/file/d/1FeGdnS6Nf8FJKtLSiZKjwi6nJaNMOj-_/view?usp=sharing">Curriculum Vitae</a>, summarizing my academic background, research experiences, and relevant skills.
+  📝 Here is my <a href="https://drive.google.com/file/d/19HYrnH8A8YBGYdV5rtmwE58Z43t9o8C1/view?usp=sharing">Curriculum Vitae</a>, summarizing my academic background, research experiences, and relevant skills.
 </p>
