@@ -17,7 +17,7 @@ This page provides a list of courses and topics I have taught as a teaching assi
 
   <b>2022-2023</b> <br/>
   <font color='#2F80ED'><b>Korea Advanced Institute of Science and Technology (KAIST)</b></font> <br/>
-  • <b>Spring 26</b> Graduate Teaching Assistant: CS101 Introduction to Programming <br/>
+  • <b>Spring 26</b> Graduate Teaching Assistant: CS101 Introduction to Programming <br/><br/>
 
   <b>2022-2023</b> (Based on C, Python) <br/>
   <font color='#b22222'><b>Korea University</b></font> <br/>
