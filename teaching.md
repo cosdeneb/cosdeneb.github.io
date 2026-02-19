@@ -16,7 +16,7 @@ This page provides a list of courses and topics I have taught as a teaching assi
   <b>Korean Institute of Communications and Information Sciences (KICS)</b>, Feb. 2023. (2.5-hour talk) <br/><br/>
 
   <b>2022-2023</b> <br/>
-  <font color='#b22222'><b>Korea Advanced Institute of Science and Technology (KAIST)</b></font> <br/>
+  <font color='#2F80ED'><b>Korea Advanced Institute of Science and Technology (KAIST)</b></font> <br/>
   • <b>Spring 26</b> Graduate Teaching Assistant: CS101 Introduction to Programming <br/>
 
   <b>2022-2023</b> (Based on C, Python) <br/>
