@@ -15,7 +15,7 @@ This page provides a list of courses and topics I have taught as a teaching assi
   • Unity-based Reinforcement Learning Algorithm Development and Simulation <br/>
   <b>Korean Institute of Communications and Information Sciences (KICS)</b>, Feb. 2023. (2.5-hour talk) <br/><br/>
 
-  <b>2022-2023</b> <br/>
+  <b>2026</b> <br/>
   <font color='#2F80ED'><b>Korea Advanced Institute of Science and Technology (KAIST)</b></font> <br/>
   • <b>Spring 26</b> Graduate Teaching Assistant: CS101 Introduction to Programming <br/><br/>
 
