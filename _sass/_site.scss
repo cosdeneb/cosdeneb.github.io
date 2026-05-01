@@ -96,18 +96,50 @@
     padding-left: 12px;
     margin-bottom: 12px;
   }
-}
 
-.timeline-item {
-  border-left: 3px solid $grey-color-light;
-  padding-left: 12px;
-  margin-bottom: 14px;
+  &.compact {
+    margin-bottom: 0;
+
+    li {
+      margin-bottom: 6px;
+    }
+  }
 }
 
 .timeline-meta {
   color: $grey-color;
   font-weight: bold;
   margin-bottom: 2px;
+}
+
+.teaching-school {
+  margin-bottom: 16px;
+
+  .timeline-meta {
+    padding-left: 12px;
+    border-left: 3px solid $grey-color-light;
+  }
+
+  &.kaist {
+    .timeline-meta {
+      color: #2f80ed;
+      border-left-color: #2f80ed;
+    }
+  }
+
+  &.korea {
+    .timeline-meta {
+      color: #b22222;
+      border-left-color: #b22222;
+    }
+  }
+
+  &.ajou {
+    .timeline-meta {
+      color: #00008b;
+      border-left-color: #00008b;
+    }
+  }
 }
 
 .page-intro {

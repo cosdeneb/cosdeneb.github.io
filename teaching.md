@@ -22,19 +22,26 @@ This page provides a list of courses and topics I have taught as a teaching assi
 
 <div class="info-section">
   <h2>Teaching Assistant</h2>
-  <div class="timeline-item">
-    <div class="timeline-meta">2026 · KAIST</div>
-    <div><b>Spring 26</b> Graduate Teaching Assistant: CS101 Introduction to Programming</div>
+
+  <div class="teaching-school kaist">
+    <div class="timeline-meta">2026 · Korea Advanced Institute of Science and Technology (KAIST)</div>
+    <ul class="clean-list compact">
+      <li><b>Spring 26</b> Graduate Teaching Assistant: CS101 Introduction to Programming</li>
+    </ul>
   </div>
 
-  <div class="timeline-item">
+  <div class="teaching-school korea">
     <div class="timeline-meta">2022-2023 · Korea University</div>
-    <div><b>Spring 23</b> Graduate Teaching Assistant: 231R Future Mobility Technology</div>
-    <div><b>Fall 22</b> Graduate Teaching Assistant: 222R Computer Languages Lab</div>
+    <ul class="clean-list compact">
+      <li><b>Spring 23</b> Graduate Teaching Assistant: 231R Future Mobility Technology</li>
+      <li><b>Fall 22</b> Graduate Teaching Assistant: 222R Computer Languages Lab</li>
+    </ul>
   </div>
 
-  <div class="timeline-item">
+  <div class="teaching-school ajou">
     <div class="timeline-meta">2022 · Ajou University</div>
-    <div><b>Spring 22</b> Teaching Assistant: ECE223 Electromagnetism</div>
+    <ul class="clean-list compact">
+      <li><b>Spring 22</b> Teaching Assistant: ECE223 Electromagnetism</li>
+    </ul>
   </div>
 </div>
