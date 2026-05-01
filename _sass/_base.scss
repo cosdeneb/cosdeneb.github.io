@@ -127,8 +127,9 @@ a {
 /**
  * Enforce bold (Firefox)
  */
-strong {
-  font-weight: bold;
+strong,
+b {
+  font-weight: 700;
 }
 
 /**
