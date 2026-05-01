@@ -4,5 +4,6 @@ title: Blog
 slug: /blog
 ---
 
-This page shares various stories about my academic and research experiences, including awards, conference presentations, and more! 🌟
-<br/><br/>
+<p class="page-intro">
+  This page shares stories about my academic and research experiences, including awards, conference presentations, and more! 🌟
+</p>

@@ -20,7 +20,7 @@ Below is a summary of the papers I have published: <br/>
     <div class="publication-content">
       <b>1. Demo: EQuaTE: Efficient Quantum Train Engine Design and Demonstration for Dynamic Software Analysis</b><br/>
       S. Park, H. Feng, W. J. Yun, ⁴<b>C. Park</b>, Y. K. Lee, S. Jung and J. Kim <br/>
-      <span class="venue conference">IEEE International Conference on Distributed Computing Systems (ICDCS)</span>, Jul. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10272530">[Link]</a>
+      <span class="venue conference">IEEE International Conference on Distributed Computing Systems (ICDCS)</span> <span class="metric">(Acceptance rate: 18.9%)</span>, Jul. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10272530">[Link]</a>
     </div>
   </div>
 
@@ -29,7 +29,7 @@ Below is a summary of the papers I have published: <br/>
     <div class="publication-content">
       <b>2. Poster: Coordinated Multi-Agent Reinforcement Learning for Unmanned Aerial Vehicle Swarms in Autonomous Mobile Access Applications</b><br/>
       ¹<b>C. Park</b>, H. Lee, W. J. Yun, S. Park, S. Jung and J. Kim <br/>
-      <span class="venue conference">IEEE International Conference on Distributed Computing Systems (ICDCS)</span>, Jul. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10272444">[Link]</a>
+      <span class="venue conference">IEEE International Conference on Distributed Computing Systems (ICDCS)</span> <span class="metric">(Acceptance rate: 18.9%)</span>, Jul. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10272444">[Link]</a>
     </div>
   </div>
 
@@ -160,6 +160,21 @@ Below is a summary of the papers I have published: <br/>
       <b>12. Workload-Aware Scheduling using Markov Decision Process for Infrastructure-Assisted Learning-Based Multi-UAV Surveillance Networks</b><br/>
       S. Park, ²<b>C. Park</b>, S. Jung, J.-H. Kim, J. Kim <br/>
       <span class="venue journal">IEEE Access (IEEE Vehicular Technology Society Section)</span> <span class="metric">(IF:3.9)</span>, 11: 16533-16548, Feb. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10045685">[Link]</a>
+    </div>
+  </div>
+</div>
+
+<p><b>• Book Chapter</b></p>
+
+<div class="publication-list">
+  <div class="publication-item">
+    <div class="publication-placeholder" aria-hidden="true"></div>
+    <div class="publication-content">
+      <b>1. Fundamentals of 6G Communications and Networking</b><br/>
+      <span class="venue book">Springer</span>, 2023 <br/>
+      Ch. 20. Network Disaggregation (S. Park, <b>C. Park</b>, J. P. Kim, M. Choi, J. Kim) <br/>
+      Ch. 22. AI-Native Network Algorithms and Architectures (H. Lee, S. Park, H. Baek, <b>C. Park</b>, S. Son, J. Park, J. Kim) <br/>
+      Ch. 28. Convergence of 6G and Wi-Fi Networks (H. Lee, S. Park, M. Yoo, <b>C. Park</b>, H. Baek, J. Kim)
     </div>
   </div>
 </div>

@@ -8,10 +8,10 @@ profile_picture:
   👨‍🎓 Hi! I am an M.S student in the School of Computing at KAIST, advised by Prof. <a href="https://sgvr.kaist.ac.kr/~sungeui/">Sung-eui Yoon</a> in the <a href="https://sgvr.kaist.ac.kr/">Scalable Graphics, Vision, and Robotics (SGVR) Lab</a>.
 </p>
 
-<p>
-  👨‍🔬 My <b>research interests</b> include <font color='#009900'>AI-based Autonomous Driving</font>, <font color='#009900'>Intelligent Robotic Manipulation</font>, and <font color='#009900'>Reinforcement Learning</font>. <br> I am especially intrigued by developing RL algorithms that enable robots to perform motion planning and optimize manipulation skills, aiming toward the realization of physical AI.
+<p class="home-highlight">
+  👨‍🔬 My <b>research interests</b> include <span class="keyword">AI-based Autonomous Driving</span>, <span class="keyword">Intelligent Robotic Manipulation</span>, and <span class="keyword">Reinforcement Learning</span>. <br> I am especially intrigued by developing RL algorithms that enable robots to perform motion planning and optimize manipulation skills, aiming toward the realization of physical AI.
 </p>
 
-<p>
+<p class="home-highlight">
   📝 Here is my <a href="{{ '/Chanyoung_Park_CV.pdf' | absolute_url }}">Curriculum Vitae</a>, summarizing my academic background, research experiences, and relevant skills.
 </p>

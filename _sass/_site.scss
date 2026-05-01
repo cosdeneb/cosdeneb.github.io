@@ -11,6 +11,16 @@
   }
 }
 
+.home-highlight {
+  border-left: 3px solid $grey-color-light;
+  padding-left: 12px;
+}
+
+.keyword {
+  color: #168f42;
+  font-weight: bold;
+}
+
 .venue {
   font-weight: bold;
 }
@@ -21,6 +31,10 @@
 
 .venue.conference {
   color: #168f42;
+}
+
+.venue.book {
+  color: #2a7ae2;
 }
 
 .metric {
@@ -47,14 +61,58 @@
   flex: 0 0 112px;
   width: 112px;
   height: 78px;
-  border: 1px solid $grey-color-light;
-  background-color: #fff;
+  border: 1px solid #d7d7d7;
+  background-color: #fafafa;
+  box-shadow: inset 0 0 0 1px #fff;
 }
 
 .publication-content {
   flex: 1;
   min-width: 0;
   line-height: 1.55;
+}
+
+.info-section {
+  clear: both;
+  margin-top: 20px;
+
+  h2 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.4;
+    color: $grey-color-dark;
+    border-bottom: 1px solid $grey-color-light;
+    margin-bottom: 10px;
+    padding-bottom: 3px;
+  }
+}
+
+.clean-list {
+  margin-left: 0;
+  list-style: none;
+
+  li {
+    border-left: 3px solid $grey-color-light;
+    padding-left: 12px;
+    margin-bottom: 12px;
+  }
+}
+
+.timeline-item {
+  border-left: 3px solid $grey-color-light;
+  padding-left: 12px;
+  margin-bottom: 14px;
+}
+
+.timeline-meta {
+  color: $grey-color;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.page-intro {
+  border-left: 3px solid $grey-color-light;
+  padding-left: 12px;
 }
 
 @include media-query($on-mobile) {
