@@ -9,7 +9,7 @@ profile_picture:
 </p>
 
 <p class="home-highlight">
-  👨‍🔬 My <b>research interests</b> include <span class="keyword">AI-based Autonomous Driving</span>, <span class="keyword">Intelligent Robotic Manipulation</span>, and <span class="keyword">Reinforcement Learning</span>. <br> I am especially intrigued by developing RL algorithms that enable robots to perform motion planning and optimize manipulation skills, aiming toward the realization of physical AI.
+  👨‍🔬 My <b>research interests</b> include <span class="keyword">AI-based Autonomous Driving</span>, <span class="keyword">Intelligent Robotic Manipulation</span>, <span class="keyword">Reinforcement Learning</span>, <span class="keyword">Multi-Agent Systems</span>, and <span class="keyword">Visuomotor Policy Learning</span>. <br> I am especially intrigued by developing RL algorithms that enable robots to perform motion planning and optimize manipulation skills, aiming toward the realization of physical AI.
 </p>
 
 <p class="home-highlight">
