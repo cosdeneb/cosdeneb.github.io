@@ -11,6 +11,95 @@
   }
 }
 
+.home-section-title,
+.publication-section-title {
+  clear: both;
+  font-size: 18px;
+  line-height: 1.4;
+  margin-top: 28px;
+  margin-bottom: 12px;
+}
+
+.publication-list {
+  clear: both;
+  margin-bottom: 22px;
+}
+
+.publication-item {
+  display: flex;
+  gap: 14px;
+  padding: 14px 0;
+  border-top: 1px solid $grey-color-light;
+}
+
+.publication-list .publication-item:last-child {
+  border-bottom: 1px solid $grey-color-light;
+}
+
+.publication-thumb {
+  flex: 0 0 112px;
+  width: 112px;
+  height: 78px;
+  object-fit: cover;
+  border: 1px solid $grey-color-light;
+  background-color: #fff;
+}
+
+.publication-content {
+  flex: 1;
+  min-width: 0;
+  line-height: 1.55;
+}
+
+.publication-title {
+  font-weight: bold;
+  line-height: 1.45;
+  margin-bottom: 3px;
+}
+
+.publication-list.compact .publication-item {
+  padding: 12px 0;
+}
+
+.publication-list.compact .publication-thumb {
+  flex-basis: 96px;
+  width: 96px;
+  height: 66px;
+}
+
+.venue {
+  font-weight: bold;
+}
+
+.venue.journal {
+  color: #9b4cc2;
+}
+
+.venue.conference {
+  color: #168f42;
+}
+
+.metric {
+  color: #dc143c;
+}
+
+.publication-more {
+  margin-top: -8px;
+}
+
+@include media-query($on-mobile) {
+  .publication-item {
+    gap: 10px;
+  }
+
+  .publication-thumb,
+  .publication-list.compact .publication-thumb {
+    flex-basis: 82px;
+    width: 82px;
+    height: 58px;
+  }
+}
+
 .footer-col {
   font-size: 12px;
 
