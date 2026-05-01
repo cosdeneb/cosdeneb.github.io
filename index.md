@@ -13,37 +13,5 @@ profile_picture:
 </p>
 
 <p>
-  📝 Here is my <a href="https://drive.google.com/file/d/13hgJe6jbzCJGgjK9AVvB13Mfs8p0A08x/view?usp=sharing">Curriculum Vitae</a>, summarizing my academic background, research experiences, and relevant skills.
-</p>
-
-<h2 class="home-section-title">Selected Publications</h2>
-
-<div class="publication-list compact">
-  <div class="publication-item">
-    <img src="{{ '/assets/img/paper/equate.jpg' | absolute_url }}" alt="EQuaTE demo representative figure" class="publication-thumb" />
-    <div class="publication-content">
-      <div class="publication-title">Demo: EQuaTE: Efficient Quantum Train Engine Design and Demonstration for Dynamic Software Analysis</div>
-      <div><span class="venue conference">IEEE ICDCS</span>, Jul. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10272530">[Link]</a></div>
-    </div>
-  </div>
-
-  <div class="publication-item">
-    <img src="{{ '/assets/img/paper/tiv.jpg' | absolute_url }}" alt="Urban air mobility representative figure" class="publication-thumb" />
-    <div class="publication-content">
-      <div class="publication-title">Multi-Agent Deep Reinforcement Learning for Efficient Passenger Delivery in Urban Air Mobility</div>
-      <div><span class="venue conference">IEEE ICC</span>, May-Jun. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10279436">[Link]</a></div>
-    </div>
-  </div>
-
-  <div class="publication-item">
-    <img src="{{ '/assets/img/paper/TIV_2025.png' | absolute_url }}" alt="Adaptive quantum federated learning representative figure" class="publication-thumb" />
-    <div class="publication-content">
-      <div class="publication-title">Adaptive Quantum Federated Learning for Autonomous Surveillance Multi-Drone Networks</div>
-      <div><span class="venue journal">IEEE Transactions on Intelligent Vehicles</span>, Early Access. <a href="https://ieeexplore.ieee.org/abstract/document/10764760">[Link]</a></div>
-    </div>
-  </div>
-</div>
-
-<p class="publication-more">
-  <a href="{{ '/publication' | absolute_url }}">View all publications →</a>
+  📝 Here is my <a href="{{ '/Chanyoung_Park_CV.pdf' | absolute_url }}">Curriculum Vitae</a>, summarizing my academic background, research experiences, and relevant skills.
 </p>
