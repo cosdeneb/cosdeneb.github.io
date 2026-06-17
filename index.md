@@ -13,22 +13,22 @@ profile_picture:
     I develop learning-based algorithms that enable robots to perform motion planning and optimize manipulation skills, aiming toward the realization of physical AI.
   </p>
 
-  <div class="home-meta">
-    <span>chanyoung [at] kaist.ac.kr</span>
-    <span>Daejeon, Korea</span>
-    <span>Robotics • AI</span>
-  </div>
-
   <div class="home-actions">
     <a class="home-button primary" href="{{ '/Chanyoung_Park_CV.pdf' | absolute_url }}">CV</a>
     <a class="home-button" href="https://scholar.google.com/citations?hl=ko&user=fGD7V2IAAAAJ">Scholar</a>
     <a class="home-button" href="https://github.com/cosdeneb">GitHub</a>
     <a class="home-button" href="https://www.linkedin.com/in/chanyoung-park-799b672ab/">LinkedIn</a>
   </div>
+
+  <div class="home-meta">
+    <span>chanyoung [at] kaist.ac.kr</span>
+    <span>Daejeon, Korea</span>
+    <span>Robotics • AI</span>
+  </div>
 </div>
 
 <div class="research-interests">
-  <h2>Research Interests</h2>
+  <h2 class="home-section-title">Research Interests</h2>
   <div class="research-tags">
     <span>AI-based Autonomous Driving</span>
     <span>Intelligent Robotic Manipulation</span>
@@ -39,14 +39,14 @@ profile_picture:
 </div>
 
 <div class="home-news">
-  <h2>News</h2>
+  <h2 class="home-section-title">News</h2>
   <ul>
     <li><span class="news-date">Jun. 2026</span> A paper accepted in IROS 2026.</li>
   </ul>
 </div>
 
 <div class="home-selected-publication">
-  <h2>Selected Publication</h2>
+  <h2 class="home-section-title">Selected Publication</h2>
   <div class="publication-list">
     <h3 class="publication-year">2026</h3>
     <div class="publication-item">
