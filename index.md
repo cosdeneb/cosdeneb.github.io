@@ -28,11 +28,11 @@ profile_picture:
 <div class="research-interests">
   <h2 class="home-section-title">Research Interests</h2>
   <div class="research-tags">
-    <span>AI-based Autonomous Driving</span>
-    <span>Intelligent Robotic Manipulation</span>
-    <span>Reinforcement Learning</span>
-    <span>Multi-Agent Systems</span>
-    <span>Visuomotor Policy Learning</span>
+    <span>🚗 AI-based Autonomous Driving</span>
+    <span>🤖 Intelligent Robotic Manipulation</span>
+    <span>🎯 Reinforcement Learning</span>
+    <span>🤝 Multi-Agent Systems</span>
+    <span>👁️ Visuomotor Policy Learning</span>
   </div>
 </div>
 
