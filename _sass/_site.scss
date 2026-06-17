@@ -216,14 +216,25 @@
   }
 
   .publication-year {
-    margin: 16px 0 8px;
-    font-size: 15px;
-    line-height: 1.35;
-    color: $grey-color-dark;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 24px 0 10px;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #1f5f3a;
   }
 
   .publication-year:first-child {
     margin-top: 0;
+  }
+
+  .publication-year::after {
+    content: "";
+    flex: 1;
+    height: 2px;
+    background-color: #d9eadf;
   }
 
   .publication-item {
