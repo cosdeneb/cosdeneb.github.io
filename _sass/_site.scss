@@ -13,6 +13,16 @@
   }
 }
 
+.home-wrapper {
+  max-width: -webkit-calc(980px - (#{$spacing-unit} * 2));
+  max-width: calc(980px - (#{$spacing-unit} * 2));
+
+  @include media-query($on-laptop) {
+    max-width: -webkit-calc(800px - (#{$spacing-unit}));
+    max-width: calc(800px - (#{$spacing-unit}));
+  }
+}
+
 .home-intro {
   margin-bottom: 18px;
   padding: 16px 18px;
@@ -139,11 +149,12 @@
   }
 
   .publication-thumb {
-    flex-basis: 180px;
-    width: 180px;
-    max-width: 180px;
-    height: 118px;
+    flex-basis: 260px;
+    width: 260px;
+    max-width: 260px;
+    height: 112px;
     border-radius: 4px;
+    object-fit: contain;
   }
 
   .publication-list {
