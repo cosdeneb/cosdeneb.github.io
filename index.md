@@ -19,12 +19,12 @@ profile_picture:
     <a class="home-button" href="https://github.com/cosdeneb">GitHub</a>
     <a class="home-button" href="https://www.linkedin.com/in/chanyoung-park-799b672ab/">LinkedIn</a>
   </div>
+</div>
 
-  <div class="home-meta">
-    <span>chanyoung [at] kaist.ac.kr</span>
-    <span>Daejeon, Korea</span>
-    <span>Robotics • AI</span>
-  </div>
+<div class="home-meta">
+  <span>chanyoung [at] kaist.ac.kr</span>
+  <span>Daejeon, Korea</span>
+  <span>Robotics • AI</span>
 </div>
 
 <div class="research-interests">
