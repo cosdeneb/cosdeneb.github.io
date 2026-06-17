@@ -67,4 +67,4 @@ exclude:
   - vendor/ruby/
 
 # Used for defeating caching
-version: 7
+version: 8
