@@ -52,7 +52,7 @@ profile_picture:
       <div class="publication-content">
         <span class="publication-title">Distilling Collaborative Dynamics into Latent Space for Implicit Coordination in Decentralized Multi-Agent Manipulation</span><br/>
         <b>Chanyoung Park</b>, Minsung Yoon, Andrew Jeong, Sung-eui Yoon<br/>
-        <span class="venue conference">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</span>, 2026
+        <span class="venue conference">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026</span>
         <div class="publication-actions">
           <span class="publication-button muted">Project</span>
           <a class="publication-button" href="{{ '/assets/pdf/iros-2026.pdf' | absolute_url }}">Paper</a>
@@ -125,7 +125,7 @@ profile_picture:
       <div class="publication-content">
         <span class="publication-title">Coordinated Multi-Agent Reinforcement Learning for Unmanned Aerial Vehicle Swarms in Autonomous Mobile Access Applications</span><br/>
         <b>Chanyoung Park</b>, H. Lee, W. J. Yun, S. Park, S. Jung and J. Kim<br/>
-        <span class="venue conference">IEEE International Conference on Distributed Computing Systems (ICDCS)</span>, 2023
+        <span class="venue conference">IEEE International Conference on Distributed Computing Systems (ICDCS), 2023</span>
         <div class="publication-actions">
           <a class="publication-button" href="https://ieeexplore.ieee.org/abstract/document/10272444">Paper</a>
         </div>
@@ -136,7 +136,7 @@ profile_picture:
       <div class="publication-content">
         <span class="publication-title">Multi-Agent Deep Reinforcement Learning for Efficient Passenger Delivery in Urban Air Mobility</span><br/>
         <b>Chanyoung Park</b>, S. Park, G. S. Kim, S. Jung, J.-H. Kim, J. Kim<br/>
-        <span class="venue conference">IEEE International Conference on Communications (ICC)</span>, 2023
+        <span class="venue conference">IEEE International Conference on Communications (ICC), 2023</span>
         <div class="publication-actions">
           <a class="publication-button" href="https://ieeexplore.ieee.org/abstract/document/10279436">Paper</a>
         </div>
