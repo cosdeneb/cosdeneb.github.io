@@ -59,7 +59,7 @@ profile_picture:
       </div>
     </div>
     <div class="publication-item">
-      <div class="publication-placeholder" aria-hidden="true"></div>
+      <img class="publication-thumb" src="{{ '/assets/img/paper/icdcs-23.png' | absolute_url }}" alt="ICDCS 2023 paper overview">
       <div class="publication-content">
         <span class="publication-title">Coordinated Multi-Agent Reinforcement Learning for Unmanned Aerial Vehicle Swarms in Autonomous Mobile Access Applications</span><br/>
         <b>Chanyoung Park</b>, H. Lee, W. J. Yun, S. Park, S. Jung and J. Kim<br/>
@@ -70,7 +70,7 @@ profile_picture:
       </div>
     </div>
     <div class="publication-item">
-      <div class="publication-placeholder" aria-hidden="true"></div>
+      <img class="publication-thumb" src="{{ '/assets/img/paper/icc-23.png' | absolute_url }}" alt="ICC 2023 paper overview">
       <div class="publication-content">
         <span class="publication-title">Multi-Agent Deep Reinforcement Learning for Efficient Passenger Delivery in Urban Air Mobility</span><br/>
         <b>Chanyoung Park</b>, S. Park, G. S. Kim, S. Jung, J.-H. Kim, J. Kim<br/>
@@ -83,20 +83,53 @@ profile_picture:
     <div class="publication-item">
       <div class="publication-placeholder" aria-hidden="true"></div>
       <div class="publication-content">
-        <span class="publication-title">Quantum Multi-Agent Actor-Critic Networks for Cooperative Mobile Access in Multi-UAV Systems</span><br/>
-        <b>Chanyoung Park</b>, W. J. Yun, J. P. Kim, T. K. Rodrigues, S. Park, S. Jung, J. Kim<br/>
-        <span class="venue journal">IEEE Internet of Things Journal</span>
+        <span class="publication-title">Handover Protocol Learning for LEO Satellite Networks: Access Delay and Collision Minimization</span><br/>
+        J.-H. Lee, <b>Chanyoung Park</b>, S. Park, and A. F. Molisch<br/>
+        <span class="venue journal">IEEE Transactions on Wireless Communications</span> <span class="metric">(IF:10.4)</span>
         <div class="publication-actions">
-          <a class="publication-button" href="https://ieeexplore.ieee.org/abstract/document/10143981">Paper</a>
+          <a class="publication-button" href="https://ieeexplore.ieee.org/abstract/document/10371217">Paper</a>
         </div>
       </div>
     </div>
     <div class="publication-item">
       <div class="publication-placeholder" aria-hidden="true"></div>
       <div class="publication-content">
+        <span class="publication-title">Joint Quantum Reinforcement Learning and Stabilized Control for Spatio-Temporal Coordination in Metaverse</span><br/>
+        S. Park, J. Chung, <b>Chanyoung Park</b>, S. Jung, M. Choi, S. Cho, J. Kim<br/>
+        <span class="venue journal">IEEE Transactions on Mobile Computing</span> <span class="metric">(IF:7.9)</span>
+        <div class="publication-actions">
+          <a class="publication-button" href="https://ieeexplore.ieee.org/abstract/document/10543150">Paper</a>
+        </div>
+      </div>
+    </div>
+    <div class="publication-item">
+      <div class="publication-placeholder" aria-hidden="true"></div>
+      <div class="publication-content">
+        <span class="publication-title">Adaptive Quantum Federated Learning for Autonomous Surveillance Multi-Drone Networks</span><br/>
+        S. Park, <b>Chanyoung Park</b>, S. Jung, J. Kim<br/>
+        <span class="venue journal">IEEE Transactions on Intelligent Vehicles</span> <span class="metric">(IF:14)</span>
+        <div class="publication-actions">
+          <a class="publication-button" href="https://ieeexplore.ieee.org/abstract/document/10764760">Paper</a>
+        </div>
+      </div>
+    </div>
+    <div class="publication-item">
+      <img class="publication-thumb" src="{{ '/assets/img/paper/iotj-23.png' | absolute_url }}" alt="IEEE IoT Journal 2023 paper overview">
+      <div class="publication-content">
+        <span class="publication-title">Quantum Multi-Agent Actor-Critic Networks for Cooperative Mobile Access in Multi-UAV Systems</span><br/>
+        <b>Chanyoung Park</b>, W. J. Yun, J. P. Kim, T. K. Rodrigues, S. Park, S. Jung, J. Kim<br/>
+        <span class="venue journal">IEEE Internet of Things Journal</span> <span class="metric">(IF:10.6)</span>
+        <div class="publication-actions">
+          <a class="publication-button" href="https://ieeexplore.ieee.org/abstract/document/10143981">Paper</a>
+        </div>
+      </div>
+    </div>
+    <div class="publication-item">
+      <img class="publication-thumb" src="{{ '/assets/img/paper/tiv-23.png' | absolute_url }}" alt="IEEE Transactions on Intelligent Vehicles 2023 paper overview">
+      <div class="publication-content">
         <span class="publication-title">Multi-Agent Reinforcement Learning for Cooperative Air Transportation Services in City-Wide Autonomous Urban Air Mobility</span><br/>
         <b>Chanyoung Park</b>, G. S. Kim, S. Park, S. Jung, J. Kim<br/>
-        <span class="venue journal">IEEE Transactions on Intelligent Vehicles</span>
+        <span class="venue journal">IEEE Transactions on Intelligent Vehicles</span> <span class="metric">(IF:8.2)</span>
         <div class="publication-actions">
           <a class="publication-button" href="https://ieeexplore.ieee.org/abstract/document/10144378">Paper</a>
         </div>
