@@ -21,6 +21,11 @@
     align-items: center;
     justify-content: space-between;
     max-width: 1080px;
+
+    &:after {
+      content: none;
+      display: none;
+    }
   }
 }
 
