@@ -9,7 +9,7 @@ This page contains a selected list of <b>journal articles</b> and <b>internation
 
 Below is a summary of the papers I have published: <br/>
 • <span class="metric">456</span> Citations (h-index: <span class="metric">10</span>, i10-index <span class="metric">10</span>) from <a href="https://scholar.google.com/citations?hl=ko&user=fGD7V2IAAAAJ">Google Scholar Profile</a> (as of May. 2026) <br/>
-• <span class="metric">12</span> SCI journals (<span class="metric">10</span> in IEEE Magazines and ComSoc/VTS Journals) and <span class="metric">2</span> top-tier conferences <br/>
+• <span class="metric">12</span> SCI journals (<span class="metric">10</span> in IEEE Magazines and ComSoc/VTS Journals) and <span class="metric">3</span> top-tier conferences <br/>
 <br/>
 
 <p><b>• Conference</b></p>
@@ -18,7 +18,16 @@ Below is a summary of the papers I have published: <br/>
   <div class="publication-item">
     <div class="publication-placeholder" aria-hidden="true"></div>
     <div class="publication-content">
-      1. EQuaTE: Efficient Quantum Train Engine Design and Demonstration for Dynamic Software Analysis<br/>
+      1. Distilling Collaborative Dynamics into Latent Space for Implicit Coordination in Decentralized Multi-Agent Manipulation<br/>
+      <b>C. Park</b>, M. Yoon, A. Jeong, S.-e. Yoon <br/>
+      <span class="venue conference">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</span> <span class="metric">(Acceptance rate: 36%)</span>, 2026. <a href="{{ '/assets/pdf/iros-2026.pdf' | absolute_url }}">[Link]</a>
+    </div>
+  </div>
+
+  <div class="publication-item">
+    <div class="publication-placeholder" aria-hidden="true"></div>
+    <div class="publication-content">
+      2. EQuaTE: Efficient Quantum Train Engine Design and Demonstration for Dynamic Software Analysis<br/>
       S. Park, H. Feng, W. J. Yun, ⁴<b>C. Park</b>, Y. K. Lee, S. Jung and J. Kim <br/>
       <span class="venue conference">IEEE International Conference on Distributed Computing Systems (ICDCS)</span> <span class="metric">(Acceptance rate: 18.9%)</span>, Jul. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10272530">[Link]</a>
     </div>
@@ -27,7 +36,7 @@ Below is a summary of the papers I have published: <br/>
   <div class="publication-item">
     <div class="publication-placeholder" aria-hidden="true"></div>
     <div class="publication-content">
-      2. Coordinated Multi-Agent Reinforcement Learning for Unmanned Aerial Vehicle Swarms in Autonomous Mobile Access Applications<br/>
+      3. Coordinated Multi-Agent Reinforcement Learning for Unmanned Aerial Vehicle Swarms in Autonomous Mobile Access Applications<br/>
       ¹<b>C. Park</b>, H. Lee, W. J. Yun, S. Park, S. Jung and J. Kim <br/>
       <span class="venue conference">IEEE International Conference on Distributed Computing Systems (ICDCS)</span> <span class="metric">(Acceptance rate: 18.9%)</span>, Jul. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10272444">[Link]</a>
     </div>
@@ -36,7 +45,7 @@ Below is a summary of the papers I have published: <br/>
   <div class="publication-item">
     <div class="publication-placeholder" aria-hidden="true"></div>
     <div class="publication-content">
-      3. Multi-Agent Deep Reinforcement Learning for Efficient Passenger Delivery in Urban Air Mobility<br/>
+      4. Multi-Agent Deep Reinforcement Learning for Efficient Passenger Delivery in Urban Air Mobility<br/>
       ¹<b>C. Park</b>, S. Park, G. S. Kim, S. Jung, J.-H. Kim, J. Kim <br/>
       <span class="venue conference">IEEE International Conference on Communications (ICC)</span> <span class="metric">(Acceptance rate: 38.5%)</span>, May-Jun. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10279436">[Link]</a>
     </div>
@@ -45,7 +54,7 @@ Below is a summary of the papers I have published: <br/>
   <div class="publication-item">
     <div class="publication-placeholder" aria-hidden="true"></div>
     <div class="publication-content">
-      4. Hybrid MAC for Military UAV Networks<br/>
+      5. Hybrid MAC for Military UAV Networks<br/>
       G. S Kim, H. Lee, ³<b>C. Park</b>, S. Jung, J.-H Kim, J. Kim <br/>
       <span class="venue conference">IEEE International Conference on Information Networking (ICOIN)</span>, Jan. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10048910">[Link]</a>
     </div>
