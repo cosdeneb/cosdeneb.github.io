@@ -15,3 +15,10 @@ profile_picture:
 <p class="home-highlight">
   📝 Here is my <a href="{{ '/Chanyoung_Park_CV.pdf' | absolute_url }}">Curriculum Vitae</a>, summarizing my academic background, research experiences, and relevant skills.
 </p>
+
+<div class="home-news">
+  <h2>News</h2>
+  <ul>
+    <li><span class="news-date">Jun. 2026</span> Paper accepted in IROS 2026.</li>
+  </ul>
+</div>
