@@ -58,5 +58,49 @@ profile_picture:
         </div>
       </div>
     </div>
+    <div class="publication-item">
+      <div class="publication-placeholder" aria-hidden="true"></div>
+      <div class="publication-content">
+        <span class="publication-title">Coordinated Multi-Agent Reinforcement Learning for Unmanned Aerial Vehicle Swarms in Autonomous Mobile Access Applications</span><br/>
+        <b>Chanyoung Park</b>, H. Lee, W. J. Yun, S. Park, S. Jung and J. Kim<br/>
+        <span class="venue conference">ICDCS 2023</span>
+        <div class="publication-actions">
+          <a class="publication-button" href="https://ieeexplore.ieee.org/abstract/document/10272444">Paper</a>
+        </div>
+      </div>
+    </div>
+    <div class="publication-item">
+      <div class="publication-placeholder" aria-hidden="true"></div>
+      <div class="publication-content">
+        <span class="publication-title">Multi-Agent Deep Reinforcement Learning for Efficient Passenger Delivery in Urban Air Mobility</span><br/>
+        <b>Chanyoung Park</b>, S. Park, G. S. Kim, S. Jung, J.-H. Kim, J. Kim<br/>
+        <span class="venue conference">ICC 2023</span>
+        <div class="publication-actions">
+          <a class="publication-button" href="https://ieeexplore.ieee.org/abstract/document/10279436">Paper</a>
+        </div>
+      </div>
+    </div>
+    <div class="publication-item">
+      <div class="publication-placeholder" aria-hidden="true"></div>
+      <div class="publication-content">
+        <span class="publication-title">Quantum Multi-Agent Actor-Critic Networks for Cooperative Mobile Access in Multi-UAV Systems</span><br/>
+        <b>Chanyoung Park</b>, W. J. Yun, J. P. Kim, T. K. Rodrigues, S. Park, S. Jung, J. Kim<br/>
+        <span class="venue journal">IEEE Internet of Things Journal</span>
+        <div class="publication-actions">
+          <a class="publication-button" href="https://ieeexplore.ieee.org/abstract/document/10143981">Paper</a>
+        </div>
+      </div>
+    </div>
+    <div class="publication-item">
+      <div class="publication-placeholder" aria-hidden="true"></div>
+      <div class="publication-content">
+        <span class="publication-title">Multi-Agent Reinforcement Learning for Cooperative Air Transportation Services in City-Wide Autonomous Urban Air Mobility</span><br/>
+        <b>Chanyoung Park</b>, G. S. Kim, S. Park, S. Jung, J. Kim<br/>
+        <span class="venue journal">IEEE Transactions on Intelligent Vehicles</span>
+        <div class="publication-actions">
+          <a class="publication-button" href="https://ieeexplore.ieee.org/abstract/document/10144378">Paper</a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
