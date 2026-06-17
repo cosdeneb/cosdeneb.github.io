@@ -30,8 +30,12 @@ profile_picture:
       <img class="publication-thumb" src="{{ '/assets/img/paper/iros-2026.png' | absolute_url }}" alt="IROS 2026 paper overview">
       <div class="publication-content">
         Distilling Collaborative Dynamics into Latent Space for Implicit Coordination in Decentralized Multi-Agent Manipulation<br/>
-        <b>C. Park</b>, et al.<br/>
-        <span class="venue conference">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</span>, 2026.
+        <b>Chanyoung Park</b>, Minsung Yoon, Andrew Jeong, Sung-eui Yoon<br/>
+        <span class="venue conference">IROS 2026</span>
+        <div class="publication-actions">
+          <span class="publication-button muted">Project</span>
+          <a class="publication-button" href="{{ '/assets/pdf/iros-2026.pdf' | absolute_url }}">Paper</a>
+        </div>
       </div>
     </div>
   </div>
