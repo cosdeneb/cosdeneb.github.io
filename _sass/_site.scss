@@ -35,47 +35,26 @@
   color: $grey-color-dark;
 }
 
-.home-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 7px;
-  margin-top: 12px;
-}
-
-.home-button,
 .publication-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 24px;
-  border: 1px solid #cfd8e3;
+  min-height: 26px;
+  border: 1px solid #168f42;
   border-radius: 4px;
-  padding: 2px 10px;
-  color: $brand-color;
+  padding: 2px 11px;
+  color: #168f42;
   font-size: $small-font-size;
   font-weight: bold;
   line-height: 1.5;
-  background-color: #fff;
+  background-color: #f6fbf7;
 }
 
-.home-button:hover,
 .publication-button:hover {
-  color: $text-color;
-  text-decoration: none;
-  border-color: $grey-color;
-  background-color: #f7f9fb;
-}
-
-.home-button.primary {
   color: #fff;
+  text-decoration: none;
   border-color: #168f42;
   background-color: #168f42;
-}
-
-.home-button.primary:hover {
-  color: #fff;
-  border-color: #116f34;
-  background-color: #116f34;
 }
 
 .keyword {
@@ -160,10 +139,11 @@
   }
 
   .publication-thumb {
-    flex-basis: 150px;
-    width: 150px;
-    max-width: 150px;
-    height: 112px;
+    flex-basis: 180px;
+    width: 180px;
+    max-width: 180px;
+    height: 118px;
+    border-radius: 4px;
   }
 
   .publication-list {
@@ -174,9 +154,9 @@
     align-items: center;
     border: 1px solid $grey-color-light;
     border-radius: 6px;
-    padding: 12px;
-    background-color: #fbfcfd;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+    padding: 14px;
+    background-color: #fff;
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.06);
   }
 
   .publication-list .publication-item:last-child {
@@ -252,6 +232,8 @@
 }
 
 .publication-title {
+  display: inline-block;
+  margin-bottom: 2px;
   font-weight: bold;
   color: $grey-color-dark;
 }
@@ -259,19 +241,19 @@
 .publication-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
-  margin-top: 7px;
+  gap: 8px;
+  margin-top: 9px;
 }
 
 .publication-button.muted {
-  color: $grey-color;
+  color: #168f42;
   cursor: default;
 }
 
 .publication-button.muted:hover {
-  color: $grey-color;
-  border-color: #cfd8e3;
-  background-color: #fff;
+  color: #168f42;
+  border-color: #168f42;
+  background-color: #f6fbf7;
 }
 
 @include media-query($on-mobile) {
