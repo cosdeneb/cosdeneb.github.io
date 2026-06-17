@@ -580,8 +580,5 @@
 }
 
 .home .home-section-title::after {
-  content: "";
-  flex: 1;
-  height: 2px;
-  background-color: #d8dde3;
+  content: none;
 }
