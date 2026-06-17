@@ -13,9 +13,11 @@ profile_picture:
     I develop learning-based algorithms that enable robots to perform motion planning and optimize manipulation skills, aiming toward the realization of physical AI.
   </p>
 
-  <p>
-    Here is my <a href="{{ '/Chanyoung_Park_CV.pdf' | absolute_url }}">Curriculum Vitae</a>, summarizing my academic background, research experiences, and relevant skills.
-  </p>
+  <div class="home-meta">
+    <span>chanyoung [at] kaist.ac.kr</span>
+    <span>Daejeon, Korea</span>
+    <span>Robotics • AI</span>
+  </div>
 
   <div class="home-actions">
     <a class="home-button primary" href="{{ '/Chanyoung_Park_CV.pdf' | absolute_url }}">CV</a>
@@ -39,7 +41,7 @@ profile_picture:
 <div class="home-news">
   <h2>News</h2>
   <ul>
-    <li><span class="news-date">Jun. 2026</span> Paper accepted in IROS 2026.</li>
+    <li><span class="news-date">Jun. 2026</span> A paper accepted in IROS 2026.</li>
   </ul>
 </div>
 
