@@ -8,15 +8,19 @@
       <a href="#" class="menu-icon"></a>
 
       <div class="menu">
-        {% for page in site.header.pages %}
-          {% if page.slug and page.slug != "" and page.slug != nil %}
-            {% assign page_link = page.slug %}
+        {% for nav_page in site.header.pages %}
+          {% if nav_page.slug and nav_page.slug != "" and nav_page.slug != nil %}
+            {% assign page_link = nav_page.slug %}
           {% else %}
-            {% assign page_link = "/" | append: page.name | downcase %}
+            {% assign page_link = "/" | append: nav_page.name | downcase %}
+          {% endif %}
+          {% assign active_class = "" %}
+          {% if page.url == page_link or page.slug == page_link %}
+            {% assign active_class = " active" %}
           {% endif %}
           {% assign page_link = page_link | absolute_url %}
-          <a class="page-link" href="{{ page_link }}">
-            {{ page.name }}
+          <a class="page-link{{ active_class }}" href="{{ page_link }}">
+            {{ nav_page.name }}
           </a>
         {% endfor %}
       </div>

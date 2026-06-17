@@ -2,11 +2,12 @@
  * Site header
  */
 .site-header {
-  border-bottom: 1px solid $grey-color-light;
-  min-height: 56px;
-
-  padding-top: 10px;
-  padding-bottom: 10px;
+  border-bottom: 1px solid #e1e8e3;
+  min-height: 58px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: rgba(253, 253, 253, 0.96);
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.04);
 
   @include media-query($on-mobile) {
     padding-top: 0;
@@ -15,16 +16,27 @@
 
   // Positioning context for the mobile navigation icon
   position: relative;
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1080px;
+  }
 }
 
 .site-title {
   font-size: 26px;
-  line-height: 56px;
+  line-height: 1;
   letter-spacing: -1px;
-  float: left;
+  float: none;
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
 
   img {
-    height: 28px;
+    display: block;
+    height: 30px;
   }
 
   &,
@@ -38,20 +50,44 @@
  */
 .site-nav {
   z-index: 10;
-  float: right;
-  line-height: 56px;
+  float: none;
+  line-height: 1;
 
   .menu-icon {
     display: none;
   }
 
+  .menu {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
   .page-link {
-    color: $text-color;
-    line-height: $base-line-height;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: $grey-color-dark;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.45;
+    padding: 5px 10px;
 
     // Gaps between nav items, but not on the first one
     &:not(:first-child) {
-      margin-left: 20px;
+      margin-left: 0;
+    }
+
+    &:hover {
+      color: #168f42;
+      text-decoration: none;
+      background-color: #f6fbf7;
+      border-color: #dbe5dd;
+    }
+
+    &.active {
+      color: #168f42;
+      background-color: #f6fbf7;
+      border-color: #dbe5dd;
     }
   }
 
@@ -63,6 +99,7 @@
     border: 1px solid $grey-color-light;
     border-radius: 5px;
     text-align: right;
+    background-color: #fff;
 
     .menu-icon {
       display: block;
@@ -90,6 +127,17 @@
       display: block;
       padding: 6px 16px;
     }
+  }
+}
+
+@include media-query($on-mobile) {
+  .site-header .wrapper {
+    display: block;
+  }
+
+  .site-title {
+    line-height: 56px;
+    padding: 0;
   }
 }
 

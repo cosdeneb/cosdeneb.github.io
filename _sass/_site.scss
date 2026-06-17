@@ -25,10 +25,11 @@
 .home-intro {
   margin-bottom: 18px;
   padding: 16px 18px;
-  border: 1px solid $grey-color-light;
-  border-left: 4px solid #168f42;
+  border: 1px solid #dbe5dd;
+  border-top: 3px solid #168f42;
   border-radius: 6px;
-  background-color: #fbfcfd;
+  background-color: #fff;
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.05);
 
   p:last-of-type {
     margin-bottom: 0;
@@ -115,6 +116,11 @@
 .research-interests {
   clear: both;
   margin-top: 20px;
+  padding: 14px 16px;
+  border: 1px solid $grey-color-light;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
 
   h2 {
     font-size: 16px;
@@ -147,6 +153,11 @@
 .home-news {
   clear: both;
   margin-top: 24px;
+  padding: 14px 16px;
+  border: 1px solid $grey-color-light;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
 
   h2 {
     font-size: 16px;
@@ -167,10 +178,11 @@
     display: flex;
     align-items: baseline;
     gap: 10px;
-    border-left: 3px solid #168f42;
-    padding: 8px 0 8px 12px;
+    border-left: 0;
+    border-radius: 4px;
+    padding: 8px 10px;
     margin-bottom: 8px;
-    background-color: #fbfcfd;
+    background-color: #f6fbf7;
   }
 }
 
@@ -218,8 +230,12 @@
 
 .news-date {
   flex: 0 0 auto;
+  border: 1px solid #dbe5dd;
+  border-radius: 4px;
+  padding: 1px 7px;
   color: #168f42;
   font-weight: bold;
+  background-color: #fff;
 }
 
 .venue {
