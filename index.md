@@ -46,6 +46,7 @@ profile_picture:
 <div class="home-selected-publication">
   <h2>Selected Publication</h2>
   <div class="publication-list">
+    <h3 class="publication-year">2026</h3>
     <div class="publication-item">
       <img class="publication-thumb" src="{{ '/assets/img/paper/iros-2026.png' | absolute_url }}" alt="IROS 2026 paper overview">
       <div class="publication-content">
@@ -58,6 +59,45 @@ profile_picture:
         </div>
       </div>
     </div>
+
+    <h3 class="publication-year">2025</h3>
+    <div class="publication-item">
+      <img class="publication-thumb" src="{{ '/assets/img/paper/tiv-25.png' | absolute_url }}" alt="IEEE Transactions on Intelligent Vehicles 2025 paper overview">
+      <div class="publication-content">
+        <span class="publication-title">Adaptive Quantum Federated Learning for Autonomous Surveillance Multi-Drone Networks</span><br/>
+        S. Park, <b>Chanyoung Park</b>, S. Jung, J. Kim<br/>
+        <span class="venue journal">IEEE Transactions on Intelligent Vehicles</span> <span class="metric">(IF:14)</span>
+        <div class="publication-actions">
+          <a class="publication-button" href="https://ieeexplore.ieee.org/abstract/document/10764760">Paper</a>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="publication-year">2024</h3>
+    <div class="publication-item">
+      <img class="publication-thumb" src="{{ '/assets/img/paper/twc-24.png' | absolute_url }}" alt="IEEE Transactions on Wireless Communications 2024 paper overview">
+      <div class="publication-content">
+        <span class="publication-title">Handover Protocol Learning for LEO Satellite Networks: Access Delay and Collision Minimization</span><br/>
+        J.-H. Lee, <b>Chanyoung Park</b>, S. Park, and A. F. Molisch<br/>
+        <span class="venue journal">IEEE Transactions on Wireless Communications</span> <span class="metric">(IF:10.4)</span>
+        <div class="publication-actions">
+          <a class="publication-button" href="https://ieeexplore.ieee.org/abstract/document/10371217">Paper</a>
+        </div>
+      </div>
+    </div>
+    <div class="publication-item">
+      <img class="publication-thumb" src="{{ '/assets/img/paper/tmc-24.png' | absolute_url }}" alt="IEEE Transactions on Mobile Computing 2024 paper overview">
+      <div class="publication-content">
+        <span class="publication-title">Joint Quantum Reinforcement Learning and Stabilized Control for Spatio-Temporal Coordination in Metaverse</span><br/>
+        S. Park, J. Chung, <b>Chanyoung Park</b>, S. Jung, M. Choi, S. Cho, J. Kim<br/>
+        <span class="venue journal">IEEE Transactions on Mobile Computing</span> <span class="metric">(IF:7.9)</span>
+        <div class="publication-actions">
+          <a class="publication-button" href="https://ieeexplore.ieee.org/abstract/document/10543150">Paper</a>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="publication-year">2023</h3>
     <div class="publication-item">
       <img class="publication-thumb" src="{{ '/assets/img/paper/icdcs-23.png' | absolute_url }}" alt="ICDCS 2023 paper overview">
       <div class="publication-content">
@@ -77,39 +117,6 @@ profile_picture:
         <span class="venue conference">ICC 2023</span>
         <div class="publication-actions">
           <a class="publication-button" href="https://ieeexplore.ieee.org/abstract/document/10279436">Paper</a>
-        </div>
-      </div>
-    </div>
-    <div class="publication-item">
-      <div class="publication-placeholder" aria-hidden="true"></div>
-      <div class="publication-content">
-        <span class="publication-title">Handover Protocol Learning for LEO Satellite Networks: Access Delay and Collision Minimization</span><br/>
-        J.-H. Lee, <b>Chanyoung Park</b>, S. Park, and A. F. Molisch<br/>
-        <span class="venue journal">IEEE Transactions on Wireless Communications</span> <span class="metric">(IF:10.4)</span>
-        <div class="publication-actions">
-          <a class="publication-button" href="https://ieeexplore.ieee.org/abstract/document/10371217">Paper</a>
-        </div>
-      </div>
-    </div>
-    <div class="publication-item">
-      <div class="publication-placeholder" aria-hidden="true"></div>
-      <div class="publication-content">
-        <span class="publication-title">Joint Quantum Reinforcement Learning and Stabilized Control for Spatio-Temporal Coordination in Metaverse</span><br/>
-        S. Park, J. Chung, <b>Chanyoung Park</b>, S. Jung, M. Choi, S. Cho, J. Kim<br/>
-        <span class="venue journal">IEEE Transactions on Mobile Computing</span> <span class="metric">(IF:7.9)</span>
-        <div class="publication-actions">
-          <a class="publication-button" href="https://ieeexplore.ieee.org/abstract/document/10543150">Paper</a>
-        </div>
-      </div>
-    </div>
-    <div class="publication-item">
-      <div class="publication-placeholder" aria-hidden="true"></div>
-      <div class="publication-content">
-        <span class="publication-title">Adaptive Quantum Federated Learning for Autonomous Surveillance Multi-Drone Networks</span><br/>
-        S. Park, <b>Chanyoung Park</b>, S. Jung, J. Kim<br/>
-        <span class="venue journal">IEEE Transactions on Intelligent Vehicles</span> <span class="metric">(IF:14)</span>
-        <div class="publication-actions">
-          <a class="publication-button" href="https://ieeexplore.ieee.org/abstract/document/10764760">Paper</a>
         </div>
       </div>
     </div>
