@@ -16,6 +16,13 @@ profile_picture:
   <p>
     Here is my <a href="{{ '/Chanyoung_Park_CV.pdf' | absolute_url }}">Curriculum Vitae</a>, summarizing my academic background, research experiences, and relevant skills.
   </p>
+
+  <div class="home-actions">
+    <a class="home-button primary" href="{{ '/Chanyoung_Park_CV.pdf' | absolute_url }}">CV</a>
+    <a class="home-button" href="https://scholar.google.com/citations?hl=ko&user=fGD7V2IAAAAJ">Scholar</a>
+    <a class="home-button" href="https://github.com/cosdeneb">GitHub</a>
+    <a class="home-button" href="https://www.linkedin.com/in/chanyoung-park-799b672ab/">LinkedIn</a>
+  </div>
 </div>
 
 <div class="research-interests">

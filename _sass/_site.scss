@@ -35,6 +35,47 @@
   }
 }
 
+.home-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.home-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 27px;
+  border: 1px solid #cfd8e3;
+  border-radius: 4px;
+  padding: 2px 11px;
+  color: $brand-color;
+  font-size: $small-font-size;
+  font-weight: bold;
+  line-height: 1.5;
+  background-color: #fff;
+}
+
+.home-button:hover {
+  color: $text-color;
+  text-decoration: none;
+  border-color: $grey-color;
+  background-color: #f7f9fb;
+}
+
+.home-button.primary {
+  color: #fff;
+  border-color: #168f42;
+  background-color: #168f42;
+}
+
+.home-button.primary:hover {
+  color: #fff;
+  border-color: #116f34;
+  background-color: #116f34;
+}
+
 .home-highlight {
   border-left: 3px solid $grey-color-light;
   padding-left: 12px;
