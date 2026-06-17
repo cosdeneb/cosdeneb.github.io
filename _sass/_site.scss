@@ -88,8 +88,7 @@
 }
 
 .home-meta {
-  clear: both;
-  margin: 14px 0 28px;
+  margin: 8px 224px 28px 0;
   color: #4f5863;
   font-size: 13px;
   font-weight: bold;
@@ -386,6 +385,10 @@
 @include media-query($on-mobile) {
   .home-intro {
     padding: 14px;
+  }
+
+  .home-meta {
+    margin-right: 0;
   }
 
   .home-news li {
