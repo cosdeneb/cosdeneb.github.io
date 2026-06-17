@@ -22,3 +22,17 @@ profile_picture:
     <li><span class="news-date">Jun. 2026</span> Paper accepted in IROS 2026.</li>
   </ul>
 </div>
+
+<div class="home-selected-publication">
+  <h2>Selected Publication</h2>
+  <div class="publication-list">
+    <div class="publication-item">
+      <img class="publication-thumb" src="{{ '/assets/img/paper/iros-2026.png' | absolute_url }}" alt="IROS 2026 paper overview">
+      <div class="publication-content">
+        Distilling Collaborative Dynamics into Latent Space for Implicit Coordination in Decentralized Multi-Agent Manipulation<br/>
+        <b>C. Park</b>, et al.<br/>
+        <span class="venue conference">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</span>, 2026.
+      </div>
+    </div>
+  </div>
+</div>
