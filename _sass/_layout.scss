@@ -26,22 +26,23 @@
 }
 
 .site-title {
-  font-size: 26px;
+  font-size: 21px;
+  font-weight: bold;
   line-height: 1;
-  letter-spacing: -1px;
+  letter-spacing: 0;
   float: none;
   display: flex;
   align-items: center;
   padding: 8px 0;
 
-  img {
-    display: block;
-    height: 30px;
-  }
-
   &,
   &:visited {
     color: $grey-color-dark;
+  }
+
+  &:hover {
+    color: $text-color;
+    text-decoration: none;
   }
 }
 
@@ -78,16 +79,10 @@
     }
 
     &:hover {
-      color: #168f42;
+      color: $text-color;
       text-decoration: none;
-      background-color: #f6fbf7;
-      border-color: #dbe5dd;
-    }
-
-    &.active {
-      color: #168f42;
-      background-color: #f6fbf7;
-      border-color: #dbe5dd;
+      background-color: #f7f9fb;
+      border-color: $grey-color-light;
     }
   }
 
