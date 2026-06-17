@@ -60,6 +60,13 @@
     margin-bottom: 10px;
     padding-bottom: 3px;
   }
+
+  .publication-thumb {
+    flex-basis: 84px;
+    width: 84px;
+    max-width: 84px;
+    height: 56px;
+  }
 }
 
 .news-date {
