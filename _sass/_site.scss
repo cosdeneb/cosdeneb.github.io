@@ -88,31 +88,37 @@
 }
 
 .home-meta {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 8px 14px;
-  width: fit-content;
-  max-width: 100%;
-  margin: 14px auto 24px;
-  border: 1px solid #d8dde3;
-  border-radius: 999px;
-  padding: 9px 18px;
-  color: #4f5863;
-  font-size: $small-font-size;
-  font-weight: bold;
-  background-color: #fff;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06), inset 0 0 0 1px #f7f8fa;
+  clear: both;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin: 16px 0 28px;
 }
 
-.home-meta span:not(:last-child)::after {
-  content: "";
-  display: inline-block;
-  width: 1px;
-  height: 12px;
-  margin-left: 14px;
-  vertical-align: -2px;
-  background-color: #cfd8e3;
+.home-meta-item {
+  border: 1px solid #d8dde3;
+  border-radius: 14px;
+  padding: 11px 14px;
+  background-color: #fff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.055);
+}
+
+.home-meta-label {
+  display: block;
+  margin-bottom: 2px;
+  color: #7a828c;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.home-meta-value {
+  display: block;
+  color: #2f343b;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.35;
 }
 
 .publication-button {
@@ -399,6 +405,10 @@
 @include media-query($on-mobile) {
   .home-intro {
     padding: 14px;
+  }
+
+  .home-meta {
+    grid-template-columns: 1fr;
   }
 
   .home-news li {
