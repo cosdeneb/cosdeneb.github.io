@@ -89,36 +89,17 @@
 
 .home-meta {
   clear: both;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 10px;
-  margin: 16px 0 28px;
-}
-
-.home-meta-item {
-  border: 1px solid #d8dde3;
-  border-radius: 14px;
-  padding: 11px 14px;
-  background-color: #fff;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.055);
-}
-
-.home-meta-label {
-  display: block;
-  margin-bottom: 2px;
-  color: #7a828c;
-  font-size: 11px;
-  font-weight: bold;
-  line-height: 1.2;
-  text-transform: uppercase;
-}
-
-.home-meta-value {
-  display: block;
-  color: #2f343b;
+  margin: 14px 0 28px;
+  color: #4f5863;
   font-size: 13px;
   font-weight: bold;
-  line-height: 1.35;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.home-meta span {
+  color: #a0a6ad;
+  padding: 0 9px;
 }
 
 .publication-button {
@@ -405,10 +386,6 @@
 @include media-query($on-mobile) {
   .home-intro {
     padding: 14px;
-  }
-
-  .home-meta {
-    grid-template-columns: 1fr;
   }
 
   .home-news li {

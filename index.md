@@ -22,18 +22,7 @@ profile_picture:
 </div>
 
 <div class="home-meta">
-  <div class="home-meta-item">
-    <span class="home-meta-label">Email</span>
-    <span class="home-meta-value">chanyoung [at] kaist.ac.kr</span>
-  </div>
-  <div class="home-meta-item">
-    <span class="home-meta-label">Location</span>
-    <span class="home-meta-value">Daejeon, Korea</span>
-  </div>
-  <div class="home-meta-item">
-    <span class="home-meta-label">Focus</span>
-    <span class="home-meta-value">Robotics • AI</span>
-  </div>
+  chanyoung [at] kaist.ac.kr <span aria-hidden="true">|</span> Daejeon, Korea <span aria-hidden="true">|</span> Robotics • AI
 </div>
 
 <div class="research-interests">
