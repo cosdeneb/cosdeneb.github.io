@@ -10,7 +10,7 @@ profile_picture:
   </p>
 
   <p class="home-research-copy">
-    I develop learning-based algorithms that enable robots to perform motion planning and optimize manipulation skills, aiming toward the realization of physical AI.
+    I develop learning-based algorithms that enable robots to perform motion planning and optimize manipulation skills, aiming toward the realization of physical AI. I am especially interested in control for collaborative multi-robot systems.
   </p>
 
   <div class="home-actions">
