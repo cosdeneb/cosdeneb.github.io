@@ -2,11 +2,11 @@
  * Site header
  */
 .site-header {
-  border-bottom: 1px solid $grey-color-light;
+  border-bottom: 1px solid #111;
   min-height: 44px;
   padding-top: 0;
   padding-bottom: 0;
-  background-color: $background-color;
+  background-color: #050505;
 
   @include media-query($on-mobile) {
     padding-top: 0;
@@ -40,11 +40,11 @@
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: #f7f8fa;
   }
 
   &:hover {
-    color: $text-color;
+    color: #fff;
     text-decoration: none;
   }
 }
@@ -69,7 +69,7 @@
 
   .page-link {
     border: 1px solid transparent;
-    color: $grey-color-dark;
+    color: #d8dde3;
     font-size: 13px;
     font-weight: bold;
     line-height: 44px;
@@ -81,7 +81,7 @@
     }
 
     &:hover {
-      color: $text-color;
+      color: #fff;
       text-decoration: underline;
       background-color: transparent;
       border-color: transparent;
