@@ -16,16 +16,14 @@ Below is a summary of the papers I have published: <br/>
 
 <div class="publication-list">
   <div class="publication-item">
-    <div class="publication-placeholder" aria-hidden="true"></div>
     <div class="publication-content">
       1. Distilling Collaborative Dynamics into Latent Space for Implicit Coordination in Decentralized Multi-Agent Manipulation<br/>
-      <b>C. Park</b>, M. Yoon, A. Jeong, S.-e. Yoon <br/>
+      ¹<b>Chanyoung Park</b>, Minsung Yoon, Andrew Jeong, Sung-eui Yoon <br/>
       <span class="venue conference">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</span> <span class="metric">(Acceptance rate: 36%)</span>, 2026. <a href="{{ '/assets/pdf/iros-2026.pdf' | absolute_url }}">[Link]</a>
     </div>
   </div>
 
   <div class="publication-item">
-    <div class="publication-placeholder" aria-hidden="true"></div>
     <div class="publication-content">
       2. EQuaTE: Efficient Quantum Train Engine Design and Demonstration for Dynamic Software Analysis<br/>
       S. Park, H. Feng, W. J. Yun, ⁴<b>C. Park</b>, Y. K. Lee, S. Jung and J. Kim <br/>
@@ -34,7 +32,6 @@ Below is a summary of the papers I have published: <br/>
   </div>
 
   <div class="publication-item">
-    <div class="publication-placeholder" aria-hidden="true"></div>
     <div class="publication-content">
       3. Coordinated Multi-Agent Reinforcement Learning for Unmanned Aerial Vehicle Swarms in Autonomous Mobile Access Applications<br/>
       ¹<b>C. Park</b>, H. Lee, W. J. Yun, S. Park, S. Jung and J. Kim <br/>
@@ -43,7 +40,6 @@ Below is a summary of the papers I have published: <br/>
   </div>
 
   <div class="publication-item">
-    <div class="publication-placeholder" aria-hidden="true"></div>
     <div class="publication-content">
       4. Multi-Agent Deep Reinforcement Learning for Efficient Passenger Delivery in Urban Air Mobility<br/>
       ¹<b>C. Park</b>, S. Park, G. S. Kim, S. Jung, J.-H. Kim, J. Kim <br/>
@@ -52,7 +48,6 @@ Below is a summary of the papers I have published: <br/>
   </div>
 
   <div class="publication-item">
-    <div class="publication-placeholder" aria-hidden="true"></div>
     <div class="publication-content">
       5. Hybrid MAC for Military UAV Networks<br/>
       G. S Kim, H. Lee, ³<b>C. Park</b>, S. Jung, J.-H Kim, J. Kim <br/>
@@ -65,7 +60,6 @@ Below is a summary of the papers I have published: <br/>
 
 <div class="publication-list">
   <div class="publication-item">
-    <div class="publication-placeholder" aria-hidden="true"></div>
     <div class="publication-content">
       1. Adaptive Quantum Federated Learning for Autonomous Surveillance Multi-Drone Networks<br/>
       S. Park, <b><sup>2</sup>C. Park</b>, S. Jung, J. Kim <br/>
@@ -74,7 +68,6 @@ Below is a summary of the papers I have published: <br/>
   </div>
 
   <div class="publication-item">
-    <div class="publication-placeholder" aria-hidden="true"></div>
     <div class="publication-content">
       2. Joint Quantum Reinforcement Learning and Stabilized Control for Spatio-Temporal Coordination in Metaverse<br/>
       S. Park, J. Chung, ³<b>C. Park</b>, S. Jung, M. Choi, S. Cho, J. Kim <br/>
@@ -83,7 +76,6 @@ Below is a summary of the papers I have published: <br/>
   </div>
 
   <div class="publication-item">
-    <div class="publication-placeholder" aria-hidden="true"></div>
     <div class="publication-content">
       3. Age-of-Information Aware Caching and Delivery for Infrastructure-Assisted Connected Vehicles<br/>
       S. Park, ²<b>C. Park</b>, S. Jung, M. Choi, J. Kim <br/>
@@ -92,7 +84,6 @@ Below is a summary of the papers I have published: <br/>
   </div>
 
   <div class="publication-item">
-    <div class="publication-placeholder" aria-hidden="true"></div>
     <div class="publication-content">
       4. Handover Protocol Learning for LEO Satellite Networks: Access Delay and Collision Minimization<br/>
       J.-H. Lee, ²<b>C. Park</b>, S. Park, and A. F. Molisch <br/>
@@ -101,7 +92,6 @@ Below is a summary of the papers I have published: <br/>
   </div>
 
   <div class="publication-item">
-    <div class="publication-placeholder" aria-hidden="true"></div>
     <div class="publication-content">
       5. Learning-based Cooperative Mobility Control for Autonomous Drone-Delivery<br/>
       S. Park, ²<b>C. Park</b>, and J. Kim <br/>
@@ -110,7 +100,6 @@ Below is a summary of the papers I have published: <br/>
   </div>
 
   <div class="publication-item">
-    <div class="publication-placeholder" aria-hidden="true"></div>
     <div class="publication-content">
       6. Quantum Multi-Agent Reinforcement Learning for Autonomous Mobility Cooperation<br/>
       S. Park, J. P. Kim, ³<b>C. Park</b>, S. Jung, and J. Kim <br/>
@@ -119,7 +108,6 @@ Below is a summary of the papers I have published: <br/>
   </div>
 
   <div class="publication-item">
-    <div class="publication-placeholder" aria-hidden="true"></div>
     <div class="publication-content">
       7. Quantum Multi-Agent Actor-Critic Networks for Cooperative Mobile Access in Multi-UAV Systems<br/>
       ¹<b>C. Park</b>, W. J. Yun, J. P. Kim, T. K. Rodrigues, S. Park, S. Jung, J. Kim <br/>
@@ -128,7 +116,6 @@ Below is a summary of the papers I have published: <br/>
   </div>
 
   <div class="publication-item">
-    <div class="publication-placeholder" aria-hidden="true"></div>
     <div class="publication-content">
       8. Two-Stage Self-Adaptive Task Outsourcing Decision Making for Edge-Assisted Multi-UAV Networks<br/>
       S. Jung, ²<b>C. Park</b>, M. Levorato, J.-H. Kim, and J. Kim <br/>
@@ -137,7 +124,6 @@ Below is a summary of the papers I have published: <br/>
   </div>
 
   <div class="publication-item">
-    <div class="publication-placeholder" aria-hidden="true"></div>
     <div class="publication-content">
       9. Two Tales of Platoon Intelligence for Autonomous Mobility Control: Enabling Deep Learning Recipes<br/>
       S. Park, H. Lee, ³<b>C. Park</b>, S. Jung, M. Choi, and J. Kim <br/>
@@ -146,7 +132,6 @@ Below is a summary of the papers I have published: <br/>
   </div>
 
   <div class="publication-item">
-    <div class="publication-placeholder" aria-hidden="true"></div>
     <div class="publication-content">
       10. EQuaTE: Efficient Quantum Train Engine for Run-Time Dynamic Analysis and Visual Feedback in Autonomous Driving<br/>
       S. Park, H. Feng, ³<b>C. Park</b>, Y. K. Lee, S. Jung, J. Kim <br/>
@@ -155,7 +140,6 @@ Below is a summary of the papers I have published: <br/>
   </div>
 
   <div class="publication-item">
-    <div class="publication-placeholder" aria-hidden="true"></div>
     <div class="publication-content">
       11. Multi-Agent Reinforcement Learning for Cooperative Air Transportation Services in City-Wide Autonomous Urban Air Mobility<br/>
       ¹<b>C. Park</b>, G. S. Kim, S. Park, S. Jung, J. Kim <br/>
@@ -164,7 +148,6 @@ Below is a summary of the papers I have published: <br/>
   </div>
 
   <div class="publication-item">
-    <div class="publication-placeholder" aria-hidden="true"></div>
     <div class="publication-content">
       12. Workload-Aware Scheduling using Markov Decision Process for Infrastructure-Assisted Learning-Based Multi-UAV Surveillance Networks<br/>
       S. Park, ²<b>C. Park</b>, S. Jung, J.-H. Kim, J. Kim <br/>
@@ -177,7 +160,6 @@ Below is a summary of the papers I have published: <br/>
 
 <div class="publication-list">
   <div class="publication-item">
-    <div class="publication-placeholder" aria-hidden="true"></div>
     <div class="publication-content">
       1. Fundamentals of 6G Communications and Networking<br/>
       <span class="venue book">Springer</span>, 2023 <br/>
