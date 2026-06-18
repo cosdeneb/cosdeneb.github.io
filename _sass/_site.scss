@@ -264,8 +264,10 @@
     max-width: 360px;
     height: 156px;
     border-radius: 4px;
+    padding: 8px;
     object-fit: contain;
     background-color: #fff;
+    box-sizing: border-box;
   }
 
   .publication-list {
@@ -369,9 +371,11 @@
   width: 112px;
   height: 78px;
   border: 1px solid #d7d7d7;
+  padding: 4px;
   object-fit: cover;
   object-position: center;
   background-color: #fff;
+  box-sizing: border-box;
 }
 
 .publication-content {
