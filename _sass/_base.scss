@@ -111,7 +111,7 @@ h4 {
  * Links
  */
 a {
-  color: $brand-color;
+  color: #3f6388;
   text-decoration: none;
   //
   // &:visited {
@@ -119,7 +119,7 @@ a {
   // }
 
   &:hover {
-    color: $text-color;
+    color: #111;
     text-decoration: underline;
   }
 }
