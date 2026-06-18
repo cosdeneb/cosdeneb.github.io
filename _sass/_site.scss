@@ -22,6 +22,15 @@
   }
 }
 
+.publication-wrapper {
+  max-width: 1080px;
+
+  @include media-query($on-laptop) {
+    max-width: -webkit-calc(100% - (#{$spacing-unit}));
+    max-width: calc(100% - (#{$spacing-unit}));
+  }
+}
+
 .home-intro {
   margin-bottom: 18px;
   padding: 16px 18px;

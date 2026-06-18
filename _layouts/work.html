@@ -6,7 +6,7 @@
     {% include header.html %}
 
     <div class="page-content">
-      <div class="wrapper">
+      <div class="wrapper{% if page.slug == '/publication' %} publication-wrapper{% endif %}">
         <div class="work">
           <h1 class="page-heading">{{ page.title }}</h1>
           {{ content }}
