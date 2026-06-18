@@ -48,6 +48,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 6px;
   min-height: 27px;
   border: 1px solid #cfd8e3;
   border-radius: 4px;
@@ -57,6 +58,17 @@
   font-weight: bold;
   line-height: 1.5;
   background-color: #fff;
+}
+
+.home-button-icon {
+  width: 14px;
+  height: 14px;
+  border: 0;
+  object-fit: contain;
+}
+
+.home-button-symbol {
+  line-height: 1;
 }
 
 .home-button:hover {

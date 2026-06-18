@@ -14,10 +14,10 @@ profile_picture:
   </p>
 
   <div class="home-actions">
-    <a class="home-button primary" href="{{ '/Chanyoung_Park_CV.pdf' | absolute_url }}">CV</a>
-    <a class="home-button" href="https://scholar.google.com/citations?hl=ko&user=fGD7V2IAAAAJ">Scholar</a>
-    <a class="home-button" href="https://github.com/cosdeneb">GitHub</a>
-    <a class="home-button" href="https://www.linkedin.com/in/chanyoung-park-799b672ab/">LinkedIn</a>
+    <a class="home-button primary" href="{{ '/Chanyoung_Park_CV.pdf' | absolute_url }}"><span class="home-button-symbol" aria-hidden="true">📄</span>CV</a>
+    <a class="home-button" href="https://scholar.google.com/citations?hl=ko&user=fGD7V2IAAAAJ"><img class="home-button-icon" src="{{ '/assets/img/icons/google scholar.png' | absolute_url }}" alt="">Scholar</a>
+    <a class="home-button" href="https://github.com/cosdeneb"><img class="home-button-icon" src="{{ '/assets/img/icons/github.png' | absolute_url }}" alt="">GitHub</a>
+    <a class="home-button" href="https://www.linkedin.com/in/chanyoung-park-799b672ab/"><img class="home-button-icon" src="{{ '/assets/img/icons/linkedin.png' | absolute_url }}" alt="">LinkedIn</a>
   </div>
 </div>
 
