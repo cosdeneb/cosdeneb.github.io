@@ -45,9 +45,9 @@
     /* ---------- Top conference bar ---------- */
     .topbar {
       position: sticky; top: 0; z-index: 50;
-      background: #fffdf7;
-      border-bottom: 3px solid var(--accent-bright);
-      box-shadow: 0 1px 8px rgba(180, 130, 0, 0.12);
+      background: linear-gradient(90deg, #fbe08a 0%, #f5b914 45%, #f2a40a 100%);
+      border-bottom: 1px solid #e0980a;
+      box-shadow: 0 1px 8px rgba(180, 130, 0, 0.18);
     }
     .topbar-inner {
       display: flex; align-items: center; justify-content: space-between;
@@ -179,6 +179,9 @@
       text-align: left; color: #6b5200; letter-spacing: 0.02em;
       text-transform: uppercase; font-size: 0.78rem;
     }
+    /* Parameter Efficiency table: tint the method column */
+    table.param tbody td:first-child { background: #fbeec2; font-weight: 600; color: #6b5200; }
+    table.param tr.ours td:first-child { background: var(--accent-soft); color: #9a6700; }
     .best { font-weight: 700; }
 
     /* ---------- BibTeX ---------- */
@@ -427,7 +430,7 @@
           Success rate (%) per parameter count (M) &mdash; higher is better. CLS-DP dominates across all team sizes.
         </p>
         <div class="table-scroll">
-          <table class="results">
+          <table class="results param">
             <thead>
               <tr><th>Method</th><th>2 Agents</th><th>3 Agents</th><th>4 Agents</th></tr>
             </thead>
@@ -480,8 +483,9 @@
       <h2 class="section-title">Coordination Failures Resolved</h2>
       <div class="section-rule"></div>
       <p class="lead" style="text-align:center;max-width:760px;margin:0 auto 28px;">
-        Without the collaborative latent, decentralized agents exhibit distinct coordination breakdowns.
-        CLS-DP conditioned on <em>z</em><sup>i</sup> successfully resolves each.
+        Without the <strong style="color:var(--accent)">collaborative latent</strong>, decentralized agents exhibit distinct
+        coordination breakdowns. CLS-DP conditioned on the
+        <strong style="color:var(--accent)">collaborative latent</strong> successfully resolves each.
       </p>
       <figure class="bordered" style="margin-bottom:26px;">
         <img src="static/images/fail_case_1.png" alt="Failure case 1"/>
