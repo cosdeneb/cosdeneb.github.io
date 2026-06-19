@@ -45,33 +45,24 @@
     /* ---------- Top conference bar ---------- */
     .topbar {
       position: sticky; top: 0; z-index: 50;
-      background: linear-gradient(90deg, #fbe08a 0%, #f5b914 45%, #f2a40a 100%);
-      border-bottom: 1px solid #e0980a;
-      box-shadow: 0 1px 8px rgba(180, 130, 0, 0.18);
+      background: #fffdf7;
+      border-bottom: 3px solid var(--accent-bright);
+      box-shadow: 0 1px 8px rgba(180, 130, 0, 0.12);
     }
     .topbar-inner {
       display: flex; align-items: center; justify-content: space-between;
-      gap: 16px; padding-top: 10px; padding-bottom: 10px;
+      gap: 16px; padding-top: 8px; padding-bottom: 8px;
     }
-    .iros-logo {
-      display: inline-flex; align-items: baseline; gap: 7px;
-      text-decoration: none; line-height: 1;
-    }
-    .iros-mark {
-      font-family: 'Newsreader', Georgia, serif;
-      font-weight: 700; font-size: 1.6rem; letter-spacing: 0.02em;
-      color: #2a2300;
-    }
-    .iros-year {
-      font-weight: 800; font-size: 0.95rem; letter-spacing: 0.04em;
-      color: #fff; background: #2a2300;
-      padding: 3px 9px; border-radius: 6px;
-    }
+    .iros-logo { display: inline-flex; align-items: center; }
+    .iros-logo img { height: 46px; width: auto; display: block; }
     .iros-sub {
-      font-size: 0.82rem; font-weight: 600; color: #4a3c00;
+      font-size: 0.82rem; font-weight: 600; color: #6b5200;
       text-align: right; line-height: 1.3;
     }
-    @media (max-width: 600px) { .iros-sub { display: none; } }
+    @media (max-width: 600px) {
+      .iros-sub { display: none; }
+      .iros-logo img { height: 38px; }
+    }
 
     /* ---------- Hero ---------- */
     header.hero {
@@ -226,8 +217,8 @@
   <!-- ===================== TOP CONFERENCE BAR ===================== -->
   <div class="topbar">
     <div class="wrap topbar-inner">
-      <a class="iros-logo" href="https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros">
-        <span class="iros-mark">IROS</span><span class="iros-year">2026</span>
+      <a class="iros-logo" href="https://www.iros26.org/">
+        <img src="static/images/iros2026-logo.png" alt="IROS 2026 Pittsburgh"/>
       </a>
       <span class="iros-sub">IEEE/RSJ International Conference on<br/>Intelligent Robots and Systems</span>
     </div>
@@ -236,7 +227,7 @@
   <!-- ===================== HERO ===================== -->
   <header class="hero">
     <div class="wrap">
-      <span class="venue">IROS 2026</span>
+      <span class="venue">IROS 2026 &middot; Pittsburgh</span>
       <h1 class="title">
         Distilling Collaborative Dynamics into <span class="nowrap">Latent&nbsp;Space</span>
         for <span class="nowrap">Implicit&nbsp;Coordination</span> in Decentralized
