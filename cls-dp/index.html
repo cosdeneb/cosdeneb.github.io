@@ -23,10 +23,11 @@
       --bg: #ffffff;
       --fg: #1a1a1a;
       --muted: #5c6370;
-      --accent: #263692;
-      --accent-soft: #eaecf7;
-      --border: #e7e9ee;
-      --code-bg: #f6f7f9;
+      --accent: #c8860b;          /* deep gold */
+      --accent-bright: #f5b914;   /* bright yellow */
+      --accent-soft: #fcf3d8;
+      --border: #ece7da;
+      --code-bg: #faf7ef;
       --max: 1000px;
     }
     * { box-sizing: border-box; }
@@ -40,6 +41,37 @@
       -webkit-font-smoothing: antialiased;
     }
     .wrap { max-width: var(--max); margin: 0 auto; padding: 0 24px; }
+
+    /* ---------- Top conference bar ---------- */
+    .topbar {
+      position: sticky; top: 0; z-index: 50;
+      background: linear-gradient(90deg, #fbe08a 0%, #f5b914 45%, #f2a40a 100%);
+      border-bottom: 1px solid #e0980a;
+      box-shadow: 0 1px 8px rgba(180, 130, 0, 0.18);
+    }
+    .topbar-inner {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 16px; padding-top: 10px; padding-bottom: 10px;
+    }
+    .iros-logo {
+      display: inline-flex; align-items: baseline; gap: 7px;
+      text-decoration: none; line-height: 1;
+    }
+    .iros-mark {
+      font-family: 'Newsreader', Georgia, serif;
+      font-weight: 700; font-size: 1.6rem; letter-spacing: 0.02em;
+      color: #2a2300;
+    }
+    .iros-year {
+      font-weight: 800; font-size: 0.95rem; letter-spacing: 0.04em;
+      color: #fff; background: #2a2300;
+      padding: 3px 9px; border-radius: 6px;
+    }
+    .iros-sub {
+      font-size: 0.82rem; font-weight: 600; color: #4a3c00;
+      text-align: right; line-height: 1.3;
+    }
+    @media (max-width: 600px) { .iros-sub { display: none; } }
 
     /* ---------- Hero ---------- */
     header.hero {
@@ -69,6 +101,7 @@
       letter-spacing: -0.01em;
     }
     h1.title .method { color: var(--accent); }
+    .nowrap { white-space: nowrap; }
     .subtitle {
       font-size: 1.02rem;
       color: var(--muted);
@@ -148,9 +181,13 @@
     table.results th, table.results td { padding: 9px 10px; text-align: center; border-bottom: 1px solid var(--border); }
     table.results th { font-weight: 600; background: var(--code-bg); }
     table.results td:first-child, table.results th:first-child { text-align: left; }
-    table.results tr.ours { background: var(--accent-soft); font-weight: 600; }
-    table.results tr.ours td:first-child { color: var(--accent); }
-    .group-row td { background: #fafbfc; font-weight: 600; font-style: italic; text-align: left; color: var(--muted); }
+    table.results tr.ours { background: var(--accent-soft); font-weight: 700; }
+    table.results tr.ours td:first-child { color: #9a6700; }
+    .group-row td {
+      background: #fbeec2; font-weight: 700; font-style: normal;
+      text-align: left; color: #6b5200; letter-spacing: 0.02em;
+      text-transform: uppercase; font-size: 0.78rem;
+    }
     .best { font-weight: 700; }
 
     /* ---------- BibTeX ---------- */
@@ -186,13 +223,24 @@
 </head>
 <body>
 
+  <!-- ===================== TOP CONFERENCE BAR ===================== -->
+  <div class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="iros-logo" href="https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros">
+        <span class="iros-mark">IROS</span><span class="iros-year">2026</span>
+      </a>
+      <span class="iros-sub">IEEE/RSJ International Conference on<br/>Intelligent Robots and Systems</span>
+    </div>
+  </div>
+
   <!-- ===================== HERO ===================== -->
   <header class="hero">
     <div class="wrap">
       <span class="venue">IROS 2026</span>
       <h1 class="title">
-        Distilling Collaborative Dynamics into Latent Space<br/>
-        for Implicit Coordination in Decentralized<br/>Multi-Agent Manipulation
+        Distilling Collaborative Dynamics into <span class="nowrap">Latent&nbsp;Space</span>
+        for <span class="nowrap">Implicit&nbsp;Coordination</span> in Decentralized
+        <span class="nowrap">Multi-Agent&nbsp;Manipulation</span>
       </h1>
       <p class="subtitle">
         <span class="method"><strong>CLS-DP</strong></span> &mdash; a Collaborative Latent Space&ndash;conditioned Diffusion Policy that enables
