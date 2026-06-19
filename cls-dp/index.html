@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="CLS-DP: Distilling Collaborative Dynamics into Latent Space for Implicit Coordination in Decentralized Multi-Agent Manipulation. IROS 2026."/>
+  <title>CLS-DP &mdash; Collaborative Latent Space-conditioned Diffusion Policy</title>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="CLS-DP: Distilling Collaborative Dynamics into Latent Space"/>
+  <meta property="og:description" content="A decentralized multi-agent manipulation framework that enables implicit coordination under partial observability without communication. IROS 2026."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://cosdeneb.github.io/cls-dp/"/>
+  <meta property="og:image" content="https://cosdeneb.github.io/cls-dp/static/images/overview.png"/>
+  <meta property="twitter:card" content="summary_large_image"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #1a1a1a;
+      --muted: #5c6370;
+      --accent: #263692;
+      --accent-soft: #eaecf7;
+      --border: #e7e9ee;
+      --code-bg: #f6f7f9;
+      --max: 1000px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--fg);
+      background: var(--bg);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: var(--max); margin: 0 auto; padding: 0 24px; }
+
+    /* ---------- Hero ---------- */
+    header.hero {
+      padding: 64px 0 36px;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+    }
+    .venue {
+      display: inline-block;
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--accent);
+      background: var(--accent-soft);
+      padding: 5px 14px;
+      border-radius: 999px;
+      margin-bottom: 22px;
+    }
+    h1.title {
+      font-family: 'Newsreader', Georgia, serif;
+      font-weight: 600;
+      font-size: clamp(1.7rem, 3.6vw, 2.7rem);
+      line-height: 1.18;
+      margin: 0 auto 8px;
+      max-width: 860px;
+      letter-spacing: -0.01em;
+    }
+    h1.title .method { color: var(--accent); }
+    .subtitle {
+      font-size: 1.02rem;
+      color: var(--muted);
+      max-width: 720px;
+      margin: 10px auto 26px;
+    }
+    .authors {
+      font-size: 1.05rem;
+      margin: 18px 0 6px;
+    }
+    .authors a { color: var(--fg); text-decoration: none; font-weight: 500; }
+    .authors a:hover { color: var(--accent); }
+    .authors sup { color: var(--accent); font-weight: 600; }
+    .affil { color: var(--muted); font-size: 0.95rem; margin-bottom: 4px; }
+    .corres { color: var(--muted); font-size: 0.85rem; }
+
+    /* ---------- Buttons ---------- */
+    .btns { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-top: 28px; }
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 10px 20px;
+      border-radius: 999px;
+      font-size: 0.92rem; font-weight: 600;
+      text-decoration: none;
+      background: #1a1a1a; color: #fff;
+      border: 1px solid #1a1a1a;
+      transition: transform .12s ease, background .15s ease, opacity .15s ease;
+    }
+    .btn:hover { transform: translateY(-2px); }
+    .btn.secondary { background: #fff; color: #1a1a1a; }
+    .btn.secondary:hover { background: var(--code-bg); }
+    .btn.disabled { opacity: .45; pointer-events: none; }
+    .btn svg { width: 17px; height: 17px; }
+
+    /* ---------- Sections ---------- */
+    section { padding: 52px 0; border-bottom: 1px solid var(--border); }
+    h2.section-title {
+      font-family: 'Newsreader', Georgia, serif;
+      font-weight: 600;
+      font-size: 1.7rem;
+      text-align: center;
+      margin: 0 0 8px;
+    }
+    .section-rule {
+      width: 52px; height: 3px; background: var(--accent);
+      border-radius: 2px; margin: 0 auto 30px;
+    }
+    p.lead { font-size: 1.05rem; }
+    .abstract-text { max-width: 820px; margin: 0 auto; text-align: justify; }
+    .abstract-text p { margin: 0 0 16px; }
+
+    figure { margin: 0; }
+    figure img { width: 100%; height: auto; border-radius: 10px; display: block; }
+    figure.bordered img { border: 1px solid var(--border); }
+    figcaption {
+      font-size: 0.9rem; color: var(--muted);
+      margin-top: 14px; text-align: center; line-height: 1.55;
+      max-width: 880px; margin-left: auto; margin-right: auto;
+    }
+    .figcap-strong { color: var(--fg); font-weight: 600; }
+
+    /* ---------- Highlights ---------- */
+    .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 8px; }
+    .card {
+      border: 1px solid var(--border); border-radius: 12px;
+      padding: 22px 20px; background: #fff;
+    }
+    .card .num { font-size: 1.9rem; font-weight: 800; color: var(--accent); font-family: 'Newsreader', serif; }
+    .card h3 { margin: 6px 0 6px; font-size: 1.02rem; }
+    .card p { margin: 0; font-size: 0.92rem; color: var(--muted); }
+
+    /* ---------- Results table ---------- */
+    .table-scroll { overflow-x: auto; }
+    table.results {
+      border-collapse: collapse; width: 100%; font-size: 0.9rem; margin: 0 auto;
+    }
+    table.results th, table.results td { padding: 9px 10px; text-align: center; border-bottom: 1px solid var(--border); }
+    table.results th { font-weight: 600; background: var(--code-bg); }
+    table.results td:first-child, table.results th:first-child { text-align: left; }
+    table.results tr.ours { background: var(--accent-soft); font-weight: 600; }
+    table.results tr.ours td:first-child { color: var(--accent); }
+    .group-row td { background: #fafbfc; font-weight: 600; font-style: italic; text-align: left; color: var(--muted); }
+    .best { font-weight: 700; }
+
+    /* ---------- BibTeX ---------- */
+    pre.bibtex {
+      background: var(--code-bg); border: 1px solid var(--border);
+      border-radius: 10px; padding: 20px; overflow-x: auto;
+      font-size: 0.86rem; line-height: 1.55;
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      color: #2d2d2d;
+    }
+
+    /* ---------- Video placeholder ---------- */
+    .video-ph {
+      border: 2px dashed var(--border); border-radius: 12px;
+      aspect-ratio: 16 / 9; display: flex; flex-direction: column;
+      align-items: center; justify-content: center; color: var(--muted);
+      background: var(--code-bg); text-align: center; gap: 8px;
+    }
+    .video-ph svg { width: 40px; height: 40px; opacity: .5; }
+
+    footer.site {
+      padding: 36px 0 48px; text-align: center; color: var(--muted); font-size: 0.86rem;
+    }
+    footer.site a { color: var(--muted); }
+
+    .note { font-size: 0.85rem; color: var(--muted); text-align: center; margin-top: 14px; }
+
+    @media (max-width: 720px) {
+      .cards { grid-template-columns: 1fr; }
+      section { padding: 40px 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===================== HERO ===================== -->
+  <header class="hero">
+    <div class="wrap">
+      <span class="venue">IROS 2026</span>
+      <h1 class="title">
+        Distilling Collaborative Dynamics into Latent Space<br/>
+        for Implicit Coordination in Decentralized<br/>Multi-Agent Manipulation
+      </h1>
+      <p class="subtitle">
+        <span class="method"><strong>CLS-DP</strong></span> &mdash; a Collaborative Latent Space&ndash;conditioned Diffusion Policy that enables
+        implicit coordination among multiple arms under partial observability, without shared views, global state, or communication.
+      </p>
+
+      <div class="authors">
+        <a href="https://cosdeneb.github.io/">Chanyoung Park</a><sup>1</sup>,
+        <a href="#">Minsung Yoon</a><sup>1</sup>,
+        <a href="#">Andrew Jeong</a><sup>1</sup>,
+        <a href="https://sgvr.kaist.ac.kr/~sungeui/">Sung-eui Yoon</a><sup>1,&dagger;</sup>
+      </div>
+      <div class="affil"><sup>1</sup>School of Computing, KAIST</div>
+      <div class="corres"><sup>&dagger;</sup>Corresponding author</div>
+
+      <div class="btns">
+        <a class="btn" href="static/cls-dp-paper.pdf">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>
+          Paper
+        </a>
+        <a class="btn secondary disabled" href="#">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v12H4z"/><path d="M2 20h20"/></svg>
+          arXiv (soon)
+        </a>
+        <a class="btn secondary disabled" href="#">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          Code (soon)
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== TEASER ===================== -->
+  <section>
+    <div class="wrap">
+      <figure class="bordered">
+        <img src="static/images/overview.png" alt="CLS-DP overview"/>
+        <figcaption>
+          <span class="figcap-strong">Overview.</span> Under the centralized-training, decentralized-execution (CTDE) paradigm,
+          CLS-DP distills privileged multi-agent dynamics into a latent space during training. At deployment, each agent infers a
+          collaborative latent from <em>only</em> its local RGB observation and a shared task instruction, then conditions its diffusion
+          denoising process on this latent &mdash; achieving implicit coordination at a per-agent cost independent of team size.
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ===================== ABSTRACT ===================== -->
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">Abstract</h2>
+      <div class="section-rule"></div>
+      <div class="abstract-text">
+        <p>
+          Multi-arm manipulation demands precise spatiotemporal coordination, yet many centralized approaches scale poorly as team
+          size increases. To address this, we propose <strong>CLS-DP</strong>, a decentralized multi-agent framework that enables
+          implicit coordination under partial observability without shared global views, explicit state information, or inter-agent
+          communication.
+        </p>
+        <p>
+          Under the centralized training and decentralized execution (CTDE) paradigm, CLS-DP distills privileged multi-agent dynamics
+          into a latent space. At deployment, each agent infers a collaborative latent from its local RGB observation and a shared task
+          instruction; it then conditions the diffusion denoising process on this latent. This design enables implicit coordination
+          with a per-agent cost independent of team size.
+        </p>
+        <p>
+          Across six RoboFactory benchmark tasks spanning two to four agents, CLS-DP achieves a <strong>38% mean success rate</strong>,
+          outperforming the best centralized baseline (20%) and a decentralized ablation without the collaborative latent (9%). It also
+          maintains superior parameter efficiency across all agent configurations. Attribution maps show that an agent conditioned on
+          the collaborative latent places high attribution on the joints and grippers of both itself and its teammates throughout
+          execution, suggesting that the learned latent efficiently encodes collaborative dynamics from local observation.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== HIGHLIGHTS ===================== -->
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">Key Contributions</h2>
+      <div class="section-rule"></div>
+      <div class="cards">
+        <div class="card">
+          <div class="num">01</div>
+          <h3>Collaborative Latent Space</h3>
+          <p>A CVAE-based contextualizer distills privileged multi-agent joint trajectories into an observation-conditioned latent that captures prospective collaborative dynamics.</p>
+        </div>
+        <div class="card">
+          <div class="num">02</div>
+          <h3>Truly Decentralized</h3>
+          <p>At inference, each agent acts from only its local RGB view and a shared instruction &mdash; no global views, no explicit state, no communication.</p>
+        </div>
+        <div class="card">
+          <div class="num">03</div>
+          <h3>Scalable by Design</h3>
+          <p>Per-agent computational cost stays constant as team size grows, yielding the best success-rate-per-parameter across 2&ndash;4 agents.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== VIDEO ===================== -->
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">Video</h2>
+      <div class="section-rule"></div>
+      <div class="video-ph">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        <div>Video coming soon</div>
+      </div>
+      <p class="note">A narrated overview and rollout videos will be added here.</p>
+    </div>
+  </section>
+
+  <!-- ===================== METHOD ===================== -->
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">Method</h2>
+      <div class="section-rule"></div>
+      <figure class="bordered">
+        <img src="static/images/proposed_framework.png" alt="CLS-DP architecture"/>
+        <figcaption>
+          <span class="figcap-strong">CLS-DP architecture.</span> A dual-module design under CTDE. <strong>(Contextualizer)</strong>
+          A CVAE infers a coordination-aware latent <em>z</em><sup>i</sup>; its posterior encodes privileged future joint trajectories of
+          <em>all</em> agents, and a KL term distills this into an observation-conditioned prior so the prior alone suffices at deployment.
+          <strong>(Action-Expert)</strong> A diffusion policy denoises an action sequence conditioned on <em>z</em><sup>i</sup> via
+          cross-attention, with local observation/proprioception injected through FiLM layers.
+        </figcaption>
+      </figure>
+
+      <div style="max-width:820px;margin:30px auto 0;">
+        <p class="lead" style="text-align:justify">
+          Training proceeds in two stages. <strong>Stage 1</strong> trains the contextualizer with privileged multi-agent information:
+          a multi-agent kinematics encoder forms a residual posterior from future joint trajectories, and a decoder reconstructs those
+          trajectories from only the agent's own state plus the latent &mdash; verifying that <em>z</em><sup>i</sup> truly carries
+          teammates' dynamics. <strong>Stage 2</strong> freezes the contextualizer and trains a per-agent diffusion action-expert
+          conditioned on the latent sampled from the prior. At deployment, each agent samples its collaborative latent from local
+          observation and runs the reverse denoising process &mdash; instantiating a decentralized policy as the marginal over the latent.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== RESULTS ===================== -->
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">Results</h2>
+      <div class="section-rule"></div>
+      <p class="lead" style="text-align:center;max-width:760px;margin:0 auto 26px;">
+        Average success rate (%) across six RoboFactory tasks over 100 unseen episodes.
+        CLS-DP nearly doubles the best centralized baseline while remaining fully decentralized.
+      </p>
+      <div class="table-scroll">
+        <table class="results">
+          <thead>
+            <tr>
+              <th>Method</th>
+              <th>Lift<br/>Barrier</th>
+              <th>Place<br/>Food</th>
+              <th>Stack<br/>Cube (2)</th>
+              <th>Camera<br/>Align.</th>
+              <th>Stack<br/>Cube (3)</th>
+              <th>Take<br/>Photo</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="group-row"><td colspan="8">Centralized Policies</td></tr>
+            <tr><td>DP</td><td>9</td><td>12</td><td>6</td><td>3</td><td>0</td><td>0</td><td>5</td></tr>
+            <tr><td>LargeDP</td><td>60</td><td>12</td><td>4</td><td>29</td><td>0</td><td>0</td><td>18</td></tr>
+            <tr><td>2D Dense Policy</td><td>3</td><td>2</td><td>0</td><td>0</td><td>0</td><td>9</td><td>2</td></tr>
+            <tr><td>DP3 (XYZ)</td><td>30</td><td>21</td><td>1</td><td>3</td><td>0</td><td>9</td><td>11</td></tr>
+            <tr><td>DP3 (XYZ+RGB)</td><td>31</td><td>25</td><td>1</td><td>18</td><td>0</td><td class="best">11</td><td>14</td></tr>
+            <tr><td>3D Dense Policy</td><td>28</td><td>18</td><td>0</td><td>0</td><td>0</td><td>7</td><td>9</td></tr>
+            <tr><td>Global GauDP</td><td class="best">72</td><td>15</td><td>2</td><td>26</td><td>0</td><td>3</td><td>20</td></tr>
+            <tr class="group-row"><td colspan="8">Decentralized Policies</td></tr>
+            <tr><td>Local GauDP</td><td>3</td><td>12</td><td>0</td><td>15</td><td>0</td><td>2</td><td>5</td></tr>
+            <tr><td>Ours w/o CLS</td><td>14</td><td>5</td><td>14</td><td>7</td><td>8</td><td>3</td><td>9</td></tr>
+            <tr class="ours"><td>CLS-DP (Ours)</td><td>61</td><td class="best">43</td><td class="best">39</td><td class="best">55</td><td class="best">20</td><td>8</td><td class="best">38</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <figcaption style="margin-top:18px;">
+        Bold marks the best per column. CLS-DP is the only method to reach non-trivial performance on the hardest
+        <em>Three&nbsp;Robots&nbsp;Stack&nbsp;Cube</em> task (20%), and the large gap over <em>Ours&nbsp;w/o&nbsp;CLS</em> (9%) isolates
+        the contribution of the collaborative latent.
+      </figcaption>
+
+      <!-- Parameter efficiency -->
+      <div style="margin-top:44px;">
+        <h3 style="text-align:center;font-family:'Newsreader',serif;font-weight:600;font-size:1.25rem;margin-bottom:6px;">Parameter Efficiency</h3>
+        <p style="text-align:center;color:var(--muted);max-width:680px;margin:0 auto 20px;font-size:0.95rem;">
+          Success rate (%) per parameter count (M) &mdash; higher is better. CLS-DP dominates across all team sizes.
+        </p>
+        <div class="table-scroll">
+          <table class="results">
+            <thead>
+              <tr><th>Method</th><th>2 Agents</th><th>3 Agents</th><th>4 Agents</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>DP</td><td>0.0693</td><td>0.0092</td><td>0.0000</td></tr>
+              <tr><td>LargeDP</td><td>0.0351</td><td>0.0152</td><td>0.0000</td></tr>
+              <tr><td>GauDP-G</td><td>0.0395</td><td>0.0166</td><td>0.0037</td></tr>
+              <tr><td>GauDP</td><td>0.0068</td><td>0.0035</td><td>0.0009</td></tr>
+              <tr><td>CLS-DP+K (Ours)</td><td>0.2013</td><td>0.1124</td><td>0.0186</td></tr>
+              <tr class="ours"><td>CLS-DP (Ours)</td><td class="best">0.2056</td><td class="best">0.1148</td><td class="best">0.0190</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ANALYSIS ===================== -->
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">What Does the Latent Learn?</h2>
+      <div class="section-rule"></div>
+      <figure class="bordered">
+        <img src="static/images/attention_visualize.png" alt="Integrated Gradients attribution maps"/>
+        <figcaption>
+          <span class="figcap-strong">Attribution analysis via Integrated Gradients.</span> <strong>(Top)</strong> Conditioned on the
+          collaborative latent, CLS-DP shifts attribution not only to its own joints and gripper but also to those of <em>teammates</em>
+          as execution progresses, completing the task. <strong>(Bottom)</strong> Without the latent, attribution stays sparse and
+          egocentric, failing to track teammates &mdash; leading to a misaligned, dropped camera and a missed grab.
+        </figcaption>
+      </figure>
+
+      <div style="margin-top:40px;">
+        <figure class="bordered">
+          <img src="static/images/cross_attention_weight.png" alt="Cross-attention weights per task"/>
+          <figcaption>
+            <span class="figcap-strong">Cross-modal grounding.</span> Cross-attention weights between text instructions and image
+            observations in the contextualizer. Both modalities contribute across all tasks; reliance on text is consistently slightly
+            higher for role-asymmetric and sequential tasks (e.g., <em>Place Food</em>), while camera tasks approach near-parity as they
+            depend more on visual feedback.
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FAILURE CASES ===================== -->
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">Coordination Failures Resolved</h2>
+      <div class="section-rule"></div>
+      <p class="lead" style="text-align:center;max-width:760px;margin:0 auto 28px;">
+        Without the collaborative latent, decentralized agents exhibit distinct coordination breakdowns.
+        CLS-DP conditioned on <em>z</em><sup>i</sup> successfully resolves each.
+      </p>
+      <figure class="bordered" style="margin-bottom:26px;">
+        <img src="static/images/fail_case_1.png" alt="Failure case 1"/>
+        <figcaption><span class="figcap-strong">Failure ①</span> &mdash; Object drop from unsynchronized lifting.</figcaption>
+      </figure>
+      <figure class="bordered" style="margin-bottom:26px;">
+        <img src="static/images/fail_case_2.png" alt="Failure case 2"/>
+        <figcaption><span class="figcap-strong">Failure ②</span> &mdash; Inter-agent collision from violated sequential dependencies.</figcaption>
+      </figure>
+      <figure class="bordered">
+        <img src="static/images/fail_case_3.png" alt="Failure case 3"/>
+        <figcaption><span class="figcap-strong">Failure ③</span> &mdash; Backward tilt from imbalanced asymmetric lifting.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ===================== BIBTEX ===================== -->
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">BibTeX</h2>
+      <div class="section-rule"></div>
+      <pre class="bibtex">@inproceedings{park2026clsdp,
+  title     = {Distilling Collaborative Dynamics into Latent Space for Implicit
+               Coordination in Decentralized Multi-Agent Manipulation},
+  author    = {Park, Chanyoung and Yoon, Minsung and Jeong, Andrew and Yoon, Sung-eui},
+  booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year      = {2026}
+}</pre>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site">
+    <div class="wrap">
+      <p>
+        &copy; 2026 Chanyoung Park &middot; <a href="https://cosdeneb.github.io/">Homepage</a> &middot;
+        <a href="https://sgvr.kaist.ac.kr/">SGVR Lab, KAIST</a>
+      </p>
+      <p style="margin-top:6px;">Website template inspired by academic project pages.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
