@@ -54,7 +54,7 @@ profile_picture:
         <b>Chanyoung Park</b>, Minsung Yoon, Andrew Jeong, Sung-eui Yoon<br/>
         <span class="venue conference">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026</span>
         <div class="publication-actions">
-          <span class="publication-button muted">Project</span>
+          <a class="publication-button" href="{{ '/cls-dp/' | absolute_url }}">Project</a>
           <a class="publication-button" href="{{ '/assets/pdf/iros-2026.pdf' | absolute_url }}">Paper</a>
         </div>
       </div>
