@@ -55,7 +55,7 @@ profile_picture:
         <span class="venue conference">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026</span>
         <div class="publication-actions">
           <a class="publication-button" href="{{ '/cls-dp/' | absolute_url }}">Project</a>
-          <a class="publication-button" href="{{ '/assets/pdf/iros-2026.pdf' | absolute_url }}">Paper</a>
+          <a class="publication-button" href="https://arxiv.org/abs/2606.22982">Paper</a>
         </div>
       </div>
     </div>
