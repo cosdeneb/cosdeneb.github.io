@@ -22,7 +22,7 @@ profile_picture:
 </div>
 
 <div class="home-meta">
-  chanyoung [at] kaist.ac.kr <span aria-hidden="true">|</span> Daejeon, Korea <span aria-hidden="true">|</span> Robotics • AI
+  chanyoung [at] kaist.ac.kr <span aria-hidden="true">|</span> Daejeon, Korea <span aria-hidden="true">|</span> Robotics • AI <span aria-hidden="true">|</span> <a href="https://scholar.google.com/citations?hl=ko&user=fGD7V2IAAAAJ">501 Citations · h-index 10</a> (Jun. 2026)
 </div>
 
 <div class="research-interests">
