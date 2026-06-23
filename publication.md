@@ -19,7 +19,7 @@ Below is a summary of the papers I have published: <br/>
     <div class="publication-content">
       1. Distilling Collaborative Dynamics into Latent Space for Implicit Coordination in Decentralized Multi-Agent Manipulation<br/>
       ¹<b>Chanyoung Park</b>, Minsung Yoon, Andrew Jeong, Sung-eui Yoon <br/>
-      <span class="venue conference">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</span> <span class="metric">(Acceptance rate: 36%)</span>, 2026. <a href="{{ '/assets/pdf/iros-2026.pdf' | absolute_url }}">[Link]</a> <a href="{{ '/cls-dp/' | absolute_url }}">[Project]</a>
+      <span class="venue conference">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</span> <span class="metric">(Acceptance rate: 36%)</span>, 2026. <a href="https://arxiv.org/abs/2606.22982">[Link]</a> <a href="{{ '/cls-dp/' | absolute_url }}">[Project]</a>
     </div>
   </div>
 
