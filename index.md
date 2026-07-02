@@ -4,6 +4,21 @@ profile_picture:
   src: /assets/img/cy.jpg
   alt: website picture
 ---
+<div class="hero">
+  <img class="hero-photo" src="{{ page.profile_picture.src | absolute_url }}" alt="Chanyoung Park"/>
+  <h1 class="hero-name">Chanyoung Park</h1>
+  <p class="hero-role">M.S. Student, School of Computing · KAIST</p>
+
+  <div class="hero-links">
+    <a class="home-button primary" href="{{ '/Chanyoung_Park_CV.pdf' | absolute_url }}"><span class="home-button-symbol" aria-hidden="true">📄</span>CV</a>
+    <a class="home-button" href="https://scholar.google.com/citations?hl=ko&user=fGD7V2IAAAAJ"><img class="home-button-icon" src="{{ '/assets/img/icons/google scholar.png' | absolute_url }}" alt="">Scholar</a>
+    <a class="home-button" href="https://github.com/cosdeneb"><img class="home-button-icon" src="{{ '/assets/img/icons/github.png' | absolute_url }}" alt="">GitHub</a>
+    <a class="home-button" href="https://www.linkedin.com/in/chanyoung-park-799b672ab/"><img class="home-button-icon" src="{{ '/assets/img/icons/linkedin.png' | absolute_url }}" alt="">LinkedIn</a>
+  </div>
+
+  <a class="hero-email" href="mailto:chanyoung@kaist.ac.kr"><img class="hero-email-icon" src="{{ '/assets/img/icons/gmail.svg' | absolute_url }}" alt="Email"/>chanyoung [at] kaist.ac.kr</a>
+</div>
+
 <div class="home-intro">
   <p>
     Hi! I am an M.S student in the School of Computing at KAIST, advised by Prof. <a href="https://sgvr.kaist.ac.kr/~sungeui/">Sung-eui Yoon</a> in the <a href="https://sgvr.kaist.ac.kr/">Scalable Graphics, Vision, and Robotics (SGVR) Lab</a>.
@@ -12,17 +27,10 @@ profile_picture:
   <p class="home-research-copy">
     I develop learning-based algorithms that enable robots to perform motion planning and optimize manipulation skills, aiming toward the realization of physical AI. I am especially interested in control for collaborative multi-robot systems.
   </p>
-
-  <div class="home-actions">
-    <a class="home-button primary" href="{{ '/Chanyoung_Park_CV.pdf' | absolute_url }}"><span class="home-button-symbol" aria-hidden="true">📄</span>CV</a>
-    <a class="home-button" href="https://scholar.google.com/citations?hl=ko&user=fGD7V2IAAAAJ"><img class="home-button-icon" src="{{ '/assets/img/icons/google scholar.png' | absolute_url }}" alt="">Scholar</a>
-    <a class="home-button" href="https://github.com/cosdeneb"><img class="home-button-icon" src="{{ '/assets/img/icons/github.png' | absolute_url }}" alt="">GitHub</a>
-    <a class="home-button" href="https://www.linkedin.com/in/chanyoung-park-799b672ab/"><img class="home-button-icon" src="{{ '/assets/img/icons/linkedin.png' | absolute_url }}" alt="">LinkedIn</a>
-  </div>
 </div>
 
 <div class="home-meta">
-  chanyoung [at] kaist.ac.kr <span aria-hidden="true">|</span> Daejeon, Korea <span aria-hidden="true">|</span> Robotics • AI <span aria-hidden="true">|</span> <a href="https://scholar.google.com/citations?hl=ko&user=fGD7V2IAAAAJ" style="color:#d6342c;font-weight:600;">501 Citations · h-index 10</a> (Jun. 2026)
+  Daejeon, Korea <span aria-hidden="true">|</span> Robotics • AI <span aria-hidden="true">|</span> <a href="https://scholar.google.com/citations?hl=ko&user=fGD7V2IAAAAJ" style="color:#d6342c;font-weight:600;">501 Citations · h-index 10</a> (Jun. 2026)
 </div>
 
 <div class="research-interests">

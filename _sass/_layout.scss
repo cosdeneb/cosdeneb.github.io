@@ -150,13 +150,20 @@
  */
 .site-footer {
   border-top: 1px solid $line;
-  padding: $spacing-unit 0;
-  margin-top: 40px;
-  color: $muted;
+  padding: 22px 0;
+  margin-top: 48px;
+  color: $faint;
 
   @include media-query($on-mobile) {
     padding-top: 20px;
   }
+}
+
+.footer-copy {
+  margin: 0;
+  text-align: center;
+  font-size: 13px;
+  color: $faint;
 }
 
 .footer-heading {

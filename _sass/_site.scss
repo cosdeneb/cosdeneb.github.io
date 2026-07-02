@@ -2,24 +2,69 @@
  * Home / shared content styles — minimal & clean
  */
 
-.profile-pic {
-  float: right;
-  width: 190px;
-  border-radius: 14px;
-  border: 1px solid $line;
-  margin-left: 28px;
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.07);
+/* Centered hero header */
+.hero {
+  text-align: center;
+  padding: 8px 0 26px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid $line;
+}
 
-  @include media-query($on-mobile) {
-    float: none;
-    display: block;
-    width: 150px;
-    margin: 0 auto 22px;
-  }
+.hero-photo {
+  width: 148px;
+  height: 148px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid $line;
+  box-shadow: 0 8px 26px rgba(0, 0, 0, 0.09);
+  margin-bottom: 20px;
+}
+
+.hero-name {
+  margin: 0 0 6px;
+  font-size: 33px;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+}
+
+.hero-role {
+  margin: 0 0 18px;
+  color: $muted;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.hero-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.hero-email {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: $muted;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.hero-email:hover {
+  color: $text-color;
+  text-decoration: none;
+}
+
+.hero-email-icon {
+  width: 17px;
+  height: 17px;
+  object-fit: contain;
 }
 
 .home-wrapper {
-  max-width: 1080px;
+  max-width: 820px;
 
   @include media-query($on-laptop) {
     max-width: -webkit-calc(100% - (#{$spacing-unit}));
@@ -125,9 +170,7 @@
 /* Meta line */
 .home-meta {
   clear: both;
-  margin: 26px 0 8px;
-  padding-top: 18px;
-  border-top: 1px solid $line;
+  margin: 18px 0 4px;
   color: $muted;
   font-size: 13px;
   font-weight: 500;
