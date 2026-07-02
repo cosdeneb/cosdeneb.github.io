@@ -7,20 +7,27 @@
 // Our variables
 $base-url: "{{ site.baseurl }}";
 
-$base-font-family: Charter, Georgia, Helvetica, Arial, sans-serif;
-$base-font-size: 14px;
-$small-font-size: $base-font-size * 0.875;
-$base-line-height: 1.7;
+$base-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+$base-font-size: 15px;
+$small-font-size: 13px;
+$base-line-height: 1.65;
 
 $spacing-unit: 30px;
 
-$text-color: #111;
-$background-color: #fdfdfd;
-$brand-color: #2a7ae2;
+// Minimal palette
+$text-color: #1a1d21;
+$background-color: #ffffff;
+$accent: #2563eb;
+$accent-dark: #1d4ed8;
+$muted: #6b7280;
+$faint: #9aa1ab;
+$line: #e6e8eb;
+$surface: #f7f8fa;
+$brand-color: $accent;
 
-$grey-color: #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark: darken($grey-color, 25%);
+$grey-color: #6b7280;
+$grey-color-light: #e6e8eb;
+$grey-color-dark: #33383f;
 
 $on-mobile: 500px;
 $on-laptop: 800px;

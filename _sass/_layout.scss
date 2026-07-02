@@ -2,11 +2,13 @@
  * Site header
  */
 .site-header {
-  border-bottom: 1px solid #111;
-  min-height: 44px;
+  border-bottom: 1px solid $line;
+  min-height: 56px;
   padding-top: 0;
   padding-bottom: 0;
-  background-color: #050505;
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: saturate(180%) blur(12px);
+  -webkit-backdrop-filter: saturate(180%) blur(12px);
 
   @include media-query($on-mobile) {
     padding-top: 0;
@@ -14,13 +16,16 @@
   }
 
   // Positioning context for the mobile navigation icon
-  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 20;
 
   .wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 1080px;
+    min-height: 56px;
 
     &:after {
       content: none;
@@ -31,20 +36,20 @@
 
 .site-title {
   font-size: 16px;
-  font-weight: bold;
-  line-height: 44px;
-  letter-spacing: 0;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -0.02em;
   float: none;
   display: block;
   padding: 0;
 
   &,
   &:visited {
-    color: #f7f8fa;
+    color: $text-color;
   }
 
   &:hover {
-    color: #fff;
+    color: $accent;
     text-decoration: none;
   }
 }
@@ -64,15 +69,16 @@
   .menu {
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 22px;
   }
 
   .page-link {
-    border: 1px solid transparent;
-    color: #d8dde3;
-    font-size: 13px;
-    font-weight: bold;
-    line-height: 44px;
+    border: 0;
+    color: $muted;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 56px;
+    letter-spacing: -0.01em;
     padding: 0;
 
     // Gaps between nav items, but not on the first one
@@ -81,8 +87,8 @@
     }
 
     &:hover {
-      color: #fff;
-      text-decoration: underline;
+      color: $text-color;
+      text-decoration: none;
       background-color: transparent;
       border-color: transparent;
     }
@@ -93,10 +99,11 @@
     top: 12px;
     right: 24px;
 
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
+    border: 1px solid $line;
+    border-radius: 10px;
     text-align: right;
     background-color: #fff;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
 
     .menu-icon {
       display: block;
@@ -142,11 +149,13 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
+  border-top: 1px solid $line;
   padding: $spacing-unit 0;
+  margin-top: 40px;
+  color: $muted;
 
   @include media-query($on-mobile) {
-    padding-top: 10px;
+    padding-top: 20px;
   }
 }
 
