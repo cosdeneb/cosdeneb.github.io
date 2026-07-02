@@ -164,10 +164,6 @@
 .research-interests {
   clear: both;
   margin-top: 20px;
-
-  h2 {
-    @extend .home-section-title;
-  }
 }
 
 .research-tags {
@@ -197,10 +193,6 @@
 .home-news {
   clear: both;
   margin-top: 20px;
-
-  h2 {
-    @extend .home-section-title;
-  }
 
   ul {
     margin-left: 0;
@@ -234,10 +226,6 @@
 .home-selected-publication {
   clear: both;
   margin-top: 20px;
-
-  h2 {
-    @extend .home-section-title;
-  }
 
   .publication-thumb {
     flex-basis: 300px;
