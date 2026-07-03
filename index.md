@@ -26,11 +26,11 @@ profile_picture:
     <p class="home-research-copy">
       I develop learning-based algorithms that enable robots to perform motion planning and optimize manipulation skills, aiming toward the realization of physical AI. I am especially interested in control for collaborative multi-robot systems.
     </p>
-  </div>
-</div>
 
-<div class="home-meta">
-  <a class="home-meta-email" href="mailto:chanyoung@kaist.ac.kr"><img src="{{ '/assets/img/icons/gmail.svg' | absolute_url }}" alt="Email"/>chanyoung [at] kaist.ac.kr</a> <span aria-hidden="true">|</span> Daejeon, Korea <span aria-hidden="true">|</span> Robotics • AI <span aria-hidden="true">|</span> <a href="https://scholar.google.com/citations?hl=ko&user=fGD7V2IAAAAJ" style="color:#d6342c;font-weight:600;">501 Citations · h-index 10</a> (Jun. 2026)
+    <div class="home-meta">
+      <a class="home-meta-email" href="mailto:chanyoung@kaist.ac.kr"><img src="{{ '/assets/img/icons/gmail.svg' | absolute_url }}" alt="Email"/>chanyoung [at] kaist.ac.kr</a> <span aria-hidden="true">|</span> Daejeon, Korea <span aria-hidden="true">|</span> Robotics • AI <span aria-hidden="true">|</span> <a href="https://scholar.google.com/citations?hl=ko&user=fGD7V2IAAAAJ" style="color:#d6342c;font-weight:600;">501 Citations · h-index 10</a> (Jun. 2026)
+    </div>
+  </div>
 </div>
 
 <div class="research-interests">
@@ -47,7 +47,7 @@ profile_picture:
 <div class="home-news">
   <h2 class="home-section-title">News</h2>
   <ul>
-    <li><span class="news-date">Jun. 2026</span> A paper accepted in IROS 2026.</li>
+    <li><span class="news-date">Jun. 2026</span> A paper accepted to IROS 2026.</li>
   </ul>
 </div>
 
