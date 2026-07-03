@@ -28,7 +28,7 @@ profile_picture:
     </div>
 
     <div class="home-meta">
-      <a class="home-meta-email" href="mailto:chanyoung@kaist.ac.kr"><img src="{{ '/assets/img/icons/gmail.svg' | absolute_url }}" alt="Email"/>chanyoung [at] kaist.ac.kr</a> <span aria-hidden="true">|</span> Daejeon, Korea <span aria-hidden="true">|</span> Robotics • AI <span aria-hidden="true">|</span> <a class="nowrap" href="https://scholar.google.com/citations?hl=ko&user=fGD7V2IAAAAJ" style="color:#d6342c;font-weight:600;">501 Citations · h-index 10</a> (Jun. 2026)
+      <a class="home-meta-email" href="mailto:chanyoung@kaist.ac.kr"><img src="{{ '/assets/img/icons/gmail.svg' | absolute_url }}" alt="Email"/>chanyoung [at] kaist.ac.kr</a> <span aria-hidden="true">|</span> Daejeon, Korea <span aria-hidden="true">|</span> Robotics • AI <span aria-hidden="true">|</span> <a class="nowrap" href="https://scholar.google.com/citations?hl=ko&user=fGD7V2IAAAAJ" style="color:#d6342c;font-weight:600;">508 Citations · h-index 10</a> (Jul. 2026)
     </div>
   </div>
 </div>

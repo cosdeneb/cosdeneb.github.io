@@ -39,7 +39,7 @@
 .hero-photo {
   width: 168px;
   height: 168px;
-  border-radius: 50%;
+  border-radius: 18px;
   object-fit: cover;
   border: 1px solid $line;
   box-shadow: 0 8px 26px rgba(0, 0, 0, 0.09);
@@ -192,7 +192,7 @@
 /* Meta line */
 .home-meta {
   clear: both;
-  margin: 14px 0 0;
+  margin: 26px 0 0;
   color: $muted;
   font-size: 13px;
   font-weight: 500;
