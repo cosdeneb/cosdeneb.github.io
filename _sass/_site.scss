@@ -7,7 +7,7 @@
   display: flex;
   align-items: flex-start;
   gap: 34px;
-  padding-bottom: 26px;
+  padding-bottom: 12px;
   margin-bottom: 22px;
   border-bottom: 1px solid $line;
 }
@@ -192,9 +192,7 @@
 /* Meta line */
 .home-meta {
   clear: both;
-  margin: 18px 0 0;
-  padding-top: 14px;
-  border-top: 1px solid $line;
+  margin: 14px 0 0;
   color: $muted;
   font-size: 13px;
   font-weight: 500;
