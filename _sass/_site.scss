@@ -2,65 +2,82 @@
  * Home / shared content styles — minimal & clean
  */
 
-/* Centered hero header */
-.hero {
-  text-align: center;
-  padding: 8px 0 26px;
-  margin-bottom: 30px;
+/* Profile header: photo + info on the left, intro text on the right */
+.profile-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 34px;
+  padding-bottom: 26px;
+  margin-bottom: 22px;
   border-bottom: 1px solid $line;
 }
 
+.profile-side {
+  flex: 0 0 208px;
+  width: 208px;
+  text-align: center;
+}
+
+.profile-intro {
+  flex: 1;
+  min-width: 0;
+
+  p {
+    margin-bottom: 14px;
+  }
+
+  p:first-child {
+    font-size: 17px;
+    line-height: 1.6;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
 .hero-photo {
-  width: 148px;
-  height: 148px;
+  width: 168px;
+  height: 168px;
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid $line;
   box-shadow: 0 8px 26px rgba(0, 0, 0, 0.09);
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .hero-name {
-  margin: 0 0 6px;
-  font-size: 33px;
+  margin: 0 0 4px;
+  font-size: 22px;
   font-weight: 800;
-  letter-spacing: -0.03em;
-  line-height: 1.15;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
 }
 
 .hero-role {
-  margin: 0 0 18px;
+  margin: 0 0 14px;
   color: $muted;
-  font-size: 15px;
+  font-size: 13.5px;
   font-weight: 500;
+  line-height: 1.45;
 }
 
 .hero-links {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 16px;
+  gap: 7px;
 }
 
-.hero-email {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  color: $muted;
-  font-size: 14px;
-  font-weight: 500;
-}
+@include media-query($on-mobile) {
+  .profile-header {
+    display: block;
+  }
 
-.hero-email:hover {
-  color: $text-color;
-  text-decoration: none;
-}
-
-.hero-email-icon {
-  width: 17px;
-  height: 17px;
-  object-fit: contain;
+  .profile-side {
+    width: 100%;
+    margin-bottom: 22px;
+  }
 }
 
 .home-wrapper {
@@ -181,6 +198,24 @@
 .home-meta span {
   color: $faint;
   padding: 0 8px;
+}
+
+.home-meta-email {
+  color: $muted;
+  font-weight: 500;
+  white-space: nowrap;
+
+  img {
+    width: 15px;
+    height: 15px;
+    vertical-align: -3px;
+    margin-right: 5px;
+  }
+
+  &:hover {
+    color: $text-color;
+    text-decoration: none;
+  }
 }
 
 /* Section titles — quiet uppercase eyebrow */
@@ -322,11 +357,11 @@
 }
 
 .venue.journal {
-  color: #7c3aed;
+  color: $accent;
 }
 
 .venue.conference {
-  color: #0f9d58;
+  color: $accent;
 }
 
 .venue.book {
