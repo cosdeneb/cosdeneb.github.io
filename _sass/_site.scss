@@ -86,7 +86,7 @@
 }
 
 .home-wrapper {
-  max-width: 820px;
+  max-width: 960px;
 
   @include media-query($on-laptop) {
     max-width: -webkit-calc(100% - (#{$spacing-unit}));
