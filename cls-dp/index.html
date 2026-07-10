@@ -183,6 +183,12 @@
     table.param tr.ours td:first-child { background: var(--accent-soft); color: #9a6700; }
     .best { font-weight: 700; }
 
+    /* ---------- Video ---------- */
+    .video-player {
+      width: 100%; height: auto; border-radius: 10px;
+      border: 1px solid var(--border); display: block; background: #000;
+    }
+
     /* ---------- BibTeX ---------- */
     pre.bibtex {
       background: var(--code-bg); border: 1px solid var(--border);
@@ -313,6 +319,15 @@
           <p>Per-agent computational cost stays constant as team size grows, yielding the best success-rate-per-parameter across 2&ndash;4 agents.</p>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- ===================== VIDEO ===================== -->
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">Video</h2>
+      <div class="section-rule"></div>
+      <video class="video-player" src="static/videos/cls-dp-overview.mp4" controls preload="metadata"></video>
     </div>
   </section>
 
