@@ -351,7 +351,7 @@
         <p class="lead" style="text-align:justify">
           Training proceeds in two stages. <strong>Stage 1</strong> trains the contextualizer with privileged multi-agent information:
           a multi-agent kinematics encoder forms a residual posterior from future joint trajectories, and a decoder reconstructs those
-          trajectories from only the agent's own state plus the latent &mdash; verifying that <em>z</em><sup>i</sup> truly carries
+          trajectories from only the agent's own state plus the latent &mdash; verifying that the latent truly carries
           teammates' dynamics. <strong>Stage 2</strong> freezes the contextualizer and trains a per-agent diffusion action-expert
           conditioned on the latent sampled from the prior. At deployment, each agent samples its collaborative latent from local
           observation and runs the reverse denoising process &mdash; instantiating a decentralized policy as the marginal over the latent.
@@ -366,7 +366,7 @@
       <h2 class="section-title">Results</h2>
       <div class="section-rule"></div>
       <p class="lead" style="text-align:center;max-width:760px;margin:0 auto 26px;">
-        Average success rate (%) across six RoboFactory tasks over 100 unseen episodes.
+        Average success rate (%) across six RoboFactory tasks over 100 unseen episodes.<br/>
         CLS-DP nearly doubles the best centralized baseline while remaining fully decentralized.
       </p>
       <div class="table-scroll">
@@ -409,7 +409,8 @@
       <div style="margin-top:44px;">
         <h3 style="text-align:center;font-family:'Newsreader',serif;font-weight:600;font-size:1.25rem;margin-bottom:6px;">Parameter Efficiency</h3>
         <p style="text-align:center;color:var(--muted);max-width:680px;margin:0 auto 20px;font-size:0.95rem;">
-          Success rate (%) per parameter count (M) &mdash; higher is better. CLS-DP dominates across all team sizes.
+          Success rate (%) per parameter count (M) &mdash; higher is better.<br/>
+          CLS-DP dominates across all team sizes.
         </p>
         <div class="table-scroll">
           <table class="results param">
