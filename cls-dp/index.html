@@ -149,8 +149,7 @@
     figure.bordered img { border: 1px solid var(--border); }
     figcaption {
       font-size: 0.9rem; color: var(--muted);
-      margin-top: 14px; text-align: center; line-height: 1.55;
-      max-width: 880px; margin-left: auto; margin-right: auto;
+      margin-top: 14px; text-align: left; line-height: 1.55;
     }
     .figcap-strong { color: var(--fg); font-weight: 600; }
 
@@ -251,17 +250,9 @@
       <div class="corres"><sup>&dagger;</sup>Corresponding author</div>
 
       <div class="btns">
-        <a class="btn" href="static/cls-dp-paper.pdf">
+        <a class="btn" href="https://arxiv.org/abs/2606.22982">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>
           Paper
-        </a>
-        <a class="btn secondary" href="https://arxiv.org/abs/2606.22982">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v12H4z"/><path d="M2 20h20"/></svg>
-          arXiv
-        </a>
-        <a class="btn secondary disabled" href="#">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-          Code (soon)
         </a>
       </div>
     </div>
@@ -358,9 +349,9 @@
         <img src="static/images/proposed_framework.png" alt="CLS-DP architecture"/>
         <figcaption>
           <span class="figcap-strong">CLS-DP architecture.</span> A dual-module design under CTDE. <strong>(Contextualizer)</strong>
-          A CVAE infers a coordination-aware latent <em>z</em><sup>i</sup>; its posterior encodes privileged future joint trajectories of
+          A CVAE infers a coordination-aware latent; its posterior encodes privileged future joint trajectories of
           <em>all</em> agents, and a KL term distills this into an observation-conditioned prior so the prior alone suffices at deployment.
-          <strong>(Action-Expert)</strong> A diffusion policy denoises an action sequence conditioned on <em>z</em><sup>i</sup> via
+          <strong>(Action-Expert)</strong> A diffusion policy denoises an action sequence conditioned on this latent via
           cross-attention, with local observation/proprioception injected through FiLM layers.
         </figcaption>
       </figure>
