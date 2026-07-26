@@ -153,14 +153,14 @@
   font-size: 13px;
   font-weight: 500;
   line-height: 1.4;
-  background-color: #fff;
+  background-color: $card-bg;
   transition: border-color 0.15s ease, background-color 0.15s ease, color 0.15s ease, transform 0.1s ease;
 }
 
 .home-button:hover {
   color: $text-color;
   text-decoration: none;
-  border-color: #cfd4da;
+  border-color: $hover-line;
   background-color: $surface;
   transform: translateY(-1px);
 }
@@ -267,8 +267,8 @@
   }
 
   span:hover {
-    border-color: #d4d8de;
-    background-color: #eef0f3;
+    border-color: $hover-line;
+    background-color: $hover-surface;
   }
 }
 
@@ -319,7 +319,7 @@
     border-radius: 10px;
     padding: 8px;
     object-fit: contain;
-    background-color: #fff;
+    background-color: $card-bg;
     box-sizing: border-box;
   }
 
@@ -406,7 +406,7 @@
   height: 78px;
   border: 1px solid $line;
   border-radius: 8px;
-  background-color: #fff;
+  background-color: $card-bg;
 }
 
 .publication-thumb {
@@ -418,7 +418,7 @@
   padding: 4px;
   object-fit: cover;
   object-position: center;
-  background-color: #fff;
+  background-color: $card-bg;
   box-sizing: border-box;
 }
 
@@ -454,7 +454,7 @@
   font-size: 13px;
   font-weight: 500;
   line-height: 1.4;
-  background-color: #fff;
+  background-color: $card-bg;
   transition: border-color 0.15s ease, background-color 0.15s ease, color 0.15s ease;
 }
 
@@ -473,7 +473,7 @@
 .publication-button.muted:hover {
   color: $muted;
   border-color: $line;
-  background-color: #fff;
+  background-color: $card-bg;
 }
 
 @include media-query($on-mobile) {
@@ -644,7 +644,7 @@
 #wechat-widget {
   display: none;
   position: absolute;
-  background: #fff;
+  background: $card-bg;
   border: $line 1px solid;
   border-radius: 10px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
