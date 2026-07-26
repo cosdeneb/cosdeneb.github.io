@@ -1,3 +1,11 @@
 _site
 .sass-cache
 .jekyll-cache
+
+# LaTeX build artifacts (CV)
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz

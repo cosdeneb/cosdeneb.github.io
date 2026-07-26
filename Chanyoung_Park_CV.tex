@@ -1,0 +1,158 @@
+\documentclass[10.5pt,a4paper]{article}
+
+\usepackage[a4paper,margin=0.85in]{geometry}
+\usepackage{mathptmx}
+\usepackage{fontawesome5}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{tabularx}
+
+\definecolor{linkcolor}{HTML}{1a4480}
+\hypersetup{colorlinks=true, urlcolor=linkcolor, linkcolor=linkcolor}
+
+\setlength{\parindent}{0pt}
+\pagestyle{empty}
+
+% Section headings: bold, small caps feel, full-width rule beneath
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\vspace{2pt}\titlerule\vspace{2pt}]
+\titlespacing*{\section}{0pt}{14pt}{4pt}
+
+\newcommand{\heading}[2]{%
+  \noindent\textbf{#1}\hfill{\itshape #2}\par
+}
+\newcommand{\subheading}[2]{%
+  \noindent{#1}\hfill{\itshape #2}\par
+}
+
+\setlist[itemize]{leftmargin=1.1em, itemsep=1pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ---------------------------------------------------------------- Header
+\begin{center}
+  {\Huge \bfseries Chanyoung Park}\\[6pt]
+  {\small
+    \faMapMarker\ Daejeon, Korea \quad
+    \faEnvelope\ \href{mailto:chanyoung@kaist.ac.kr}{chanyoung@kaist.ac.kr} \quad
+    \faGlobe\ \href{https://cosdeneb.github.io}{cosdeneb.github.io} \quad
+    \faLinkedin\ \href{https://www.linkedin.com/in/chanyoung-park-799b672ab/}{LinkedIn} \quad
+    \faGithub\ \href{https://github.com/cosdeneb}{GitHub} \quad
+    \faGraduationCap\ \href{https://scholar.google.com/citations?hl=ko&user=fGD7V2IAAAAJ}{Google Scholar}
+  }
+\end{center}
+
+% ---------------------------------------------------------------- Education
+\section*{Education}
+\heading{Korea Advanced Institute of Science and Technology (KAIST)}{Daejeon, Republic of Korea}
+M.S. in Computer Science \hfill \textit{Sep. 2025 -- Present}
+\begin{itemize}
+  \item Advisor: Prof. Sung-eui Yoon, Scalable Graphics, Vision, and Robotics (SGVR) Lab
+  \item Research Area: Robot Learning, Multi-Agent Systems, Robotic Manipulation
+\end{itemize}
+
+\heading{Ajou University}{Suwon, Republic of Korea}
+B.S. in Electrical and Computer Engineering \hfill \textit{Mar. 2019 -- Aug. 2022, Early Graduation}
+
+% ---------------------------------------------------------------- Research Interests
+\section*{Research Interests}
+Intelligent Robotic Manipulation, Reinforcement Learning, Multi-Agent Systems, and Visuomotor Policy Learning
+
+% ---------------------------------------------------------------- Research Experience
+\section*{Research Experience}
+\heading{Scalable Graphics, Vision, and Robotics (SGVR) Lab, KAIST}{Daejeon, Korea}
+\textit{Graduate Researcher, Advisor: Prof. Sung-eui Yoon} \hfill \textit{Sep. 2025 -- Present}
+
+\textbf{Collaborative Latent Space for Decentralized Multi-Agent Manipulation}
+\begin{itemize}
+  \item Proposed CLS-DP, a decentralized multi-agent manipulation framework that enables implicit coordination under partial observability, without shared views, global state, or inter-agent communication.
+  \item Distilled privileged multi-agent dynamics into a collaborative latent via a CVAE-based contextualizer under the centralized-training, decentralized-execution (CTDE) paradigm, and conditioned a per-agent diffusion policy on the latent via cross-attention.
+  \item Achieved a 38\% average success rate across six RoboFactory benchmark tasks spanning two to four agents, nearly doubling the best centralized baseline (20\%), while remaining fully decentralized and the most parameter-efficient method across all team sizes (\textbf{IEEE/RSJ IROS, 2026}).
+\end{itemize}
+
+% ---------------------------------------------------------------- Publications
+\section*{Publications}
+
+\textbf{Conferences}
+\begin{enumerate}[leftmargin=1.4em, itemsep=3pt, topsep=2pt]
+  \item C. Park, M. Yoon, A. Jeong, S. Yoon, ``Distilling Collaborative Dynamics into Latent Space for Implicit Coordination in Decentralized Multi-Agent Manipulation,'' \textbf{IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 2026.
+  \item S. Park, H. Feng, W. J. Yun, \textbf{C. Park}, Y. K. Lee, S. Jung, J. Kim, ``EQuaTE: Efficient Quantum Train Engine Design and Demonstration for Dynamic Software Analysis,'' \textbf{IEEE International Conference on Distributed Computing Systems (ICDCS)}, Jul. 2023.
+  \item \textbf{C. Park}, H. Lee, W. J. Yun, S. Park, S. Jung, J. Kim, ``Coordinated Multi-Agent Reinforcement Learning for Unmanned Aerial Vehicle Swarms in Autonomous Mobile Access Applications,'' \textbf{IEEE International Conference on Distributed Computing Systems (ICDCS)}, Jul. 2023.
+  \item \textbf{C. Park}, S. Park, G. S. Kim, S. Jung, J.-H. Kim, J. Kim, ``Multi-Agent Deep Reinforcement Learning for Efficient Passenger Delivery in Urban Air Mobility,'' \textbf{IEEE International Conference on Communications (ICC)}, May-Jun. 2023.
+  \item G. S. Kim, H. Lee, \textbf{C. Park}, S. Jung, J.-H. Kim, J. Kim, ``Hybrid MAC for Military UAV Networks,'' \textbf{IEEE International Conference on Information Networking (ICOIN)}, Jan. 2023.
+\end{enumerate}
+
+\textbf{SCI Journals}
+\begin{enumerate}[leftmargin=1.4em, itemsep=3pt, topsep=2pt]
+  \item S. Park, \textbf{C. Park}, S. Jung, J. Kim, ``Adaptive Quantum Federated Learning for Autonomous Surveillance Multi-Drone Networks,'' \textbf{IEEE Transactions on Intelligent Vehicles}, 10(11): 5055-5059, Nov. 2025.
+  \item S. Park, J. Chung, \textbf{C. Park}, S. Jung, M. Choi, S. Cho, J. Kim, ``Joint Quantum Reinforcement Learning and Stabilized Control for Spatio-Temporal Coordination in Metaverse,'' \textbf{IEEE Transactions on Mobile Computing}, 23(11): 12410-12427, Nov. 2024.
+  \item S. Park, \textbf{C. Park}, S. Jung, M. Choi, J. Kim, ``Age-of-Information Aware Caching and Delivery for Infrastructure-Assisted Connected Vehicles,'' \textbf{IEEE Transactions on Vehicular Technology}, 73(7): 10681-10696, Jul. 2024.
+  \item J.-H. Lee, \textbf{C. Park}, S. Park, A. F. Molisch, ``Handover Protocol Learning for LEO Satellite Networks: Access Delay and Collision Minimization,'' \textbf{IEEE Transactions on Wireless Communications}, 23(7): 7624-7637, Jul. 2024.
+  \item S. Park, \textbf{C. Park}, J. Kim, ``Learning-based Cooperative Mobility Control for Autonomous Drone-Delivery,'' \textbf{IEEE Transactions on Vehicular Technology}, 73(4): 4870-7885, Apr. 2024.
+  \item S. Park, J. P. Kim, \textbf{C. Park}, S. Jung, J. Kim, ``Quantum Multi-Agent Reinforcement Learning for Autonomous Mobility Cooperation,'' \textbf{IEEE Communications Magazine}, 62(6), Jun. 2024.
+  \item \textbf{C. Park}, W. J. Yun, J. P. Kim, T. K. Rodrigues, S. Park, S. Jung, J. Kim, ``Quantum Multi-Agent Actor-Critic Networks for Cooperative Mobile Access in Multi-UAV Systems,'' \textbf{IEEE Internet of Things Journal}, 10(22): 20033-20048, Nov. 2023.
+  \item S. Jung, \textbf{C. Park}, M. Levorato, J.-H. Kim, J. Kim, ``Two-Stage Self-Adaptive Task Outsourcing Decision Making for Edge-Assisted Multi-UAV Networks,'' \textbf{IEEE Transactions on Vehicular Technology}, 72(11): 14889-14905, Nov. 2023.
+  \item S. Park, H. Lee, \textbf{C. Park}, S. Jung, M. Choi, J. Kim, ``Two Tales of Platoon Intelligence for Autonomous Mobility Control: Enabling Deep Learning Recipes,'' \textbf{ETRI Journal (Wiley)}, 45(5): 735-745, Oct. 2023.
+  \item S. Park, H. Feng, \textbf{C. Park}, Y. K. Lee, S. Jung, J. Kim, ``EQuaTE: Efficient Quantum Train Engine for Run-Time Dynamic Analysis and Visual Feedback in Autonomous Driving,'' \textbf{IEEE Internet Computing}, 27(5): 24-31, Sep.-Oct. 2023.
+  \item \textbf{C. Park}, G. S. Kim, S. Park, S. Jung, J. Kim, ``Multi-Agent Reinforcement Learning for Cooperative Air Transportation Services in City-Wide Autonomous Urban Air Mobility,'' \textbf{IEEE Transactions on Intelligent Vehicles}, 8(8): 4016-4030, Aug. 2023.
+  \item S. Park, \textbf{C. Park}, S. Jung, J.-H. Kim, J. Kim, ``Workload-Aware Scheduling using Markov Decision Process for Infrastructure-Assisted Learning-Based Multi-UAV Surveillance Networks,'' \textbf{IEEE Access (IEEE Vehicular Technology Society Section)}, 11: 16533-16548, Feb. 2023.
+\end{enumerate}
+
+\textbf{Book Chapter}
+\begin{enumerate}[leftmargin=1.4em, itemsep=3pt, topsep=2pt]
+  \item \textit{Fundamentals of 6G Communications and Networking}, \textbf{Springer}, 2023.
+  \begin{itemize}
+    \item Ch. 20. Network Disaggregation (S. Park, \textbf{C. Park}, J. P. Kim, M. Choi, J. Kim)
+    \item Ch. 22. AI-Native Network Algorithms and Architectures (H. Lee, S. Park, H. Baek, \textbf{C. Park}, S. Son, J. Park, J. Kim)
+    \item Ch. 28. Convergence of 6G and Wi-Fi Networks (H. Lee, S. Park, M. Yoo, \textbf{C. Park}, H. Baek, J. Kim)
+  \end{itemize}
+\end{enumerate}
+
+\textbf{Certification and License}
+\begin{enumerate}[leftmargin=1.4em, itemsep=3pt, topsep=2pt]
+  \item Big Data Analysis Engineer, Korea Data Agency (K-DATA), BAE-009005696, Dec. 2024.
+  \item Engineer Information Processing, Ministry of Science and ICT (MSIT), 25201260212P, Jun. 2025.
+\end{enumerate}
+
+% ---------------------------------------------------------------- Academic Activities
+\section*{Academic Activities}
+\textbf{Paper Review} \\
+AI/Communications/Networks: IEEE TVT ('22-'23), IEEE TMLCN ('22-'23)
+
+\textbf{Invited Talk}
+\begin{itemize}
+  \item ``1st Workshop on Recent Trends in Reinforcement Learning Technology,'' Open Standards \& ICT Association (OSIA), Seoul, Korea (Mar. 3, 2023, 3.5-hour talk)
+  \item ``Unity-based Reinforcement Learning Algorithm Development and Simulation,'' Korean Institute of Communications and Information Sciences (KICS), Korea (Feb. 14, 2023, 2.5-hour talk)
+\end{itemize}
+
+% ---------------------------------------------------------------- Technical Skills
+\section*{Technical Skills}
+\textbf{Advanced:} Python (PyTorch, TensorFlow, NumPy, Pandas, Matplotlib, TorchQuantum), MATLAB \\
+\textbf{Moderate:} C, LaTeX \\
+\textbf{Novice:} C\#, Java, Unity, SQL, Docker
+
+% ---------------------------------------------------------------- Teaching
+\section*{Teaching}
+\subheading{\textbf{Future Mobility Technology}, Electrical Engineering, Korea University}{Mar. 2023 -- Jun. 2023}
+\textit{Teaching Assistant} \hfill \textit{Seoul, Korea}
+
+Guided students on future mobility technologies and provided feedback and improvements on their report writing.
+
+\subheading{\textbf{Computer Languages Lab}, Electrical Engineering, Korea University}{Sep. 2022 -- Dec. 2022}
+\textit{Teaching Assistant} \hfill \textit{Seoul, Korea}
+
+Provided guidance and instruction during coding practical sessions focused on C and Python programming languages.
+
+\subheading{\textbf{Electromagnetism}, Electrical and Computer Engineering, Ajou University}{Mar. 2022 -- Jun. 2022}
+\textit{Teaching Assistant} \hfill \textit{Suwon, Korea}
+
+Managed academic performance through lecture assistance, assignment oversight, and exam grading.
+
+% ---------------------------------------------------------------- Military Service
+\section*{Military Service}
+\heading{Soldier, Artillery}{Oct. 2023 -- Apr. 2025}
+Completed a 6-week basic military training and served as an artillery for 17 months.
+
+\end{document}
