@@ -27,7 +27,7 @@ Below is a summary of the papers I have published: <br/>
     <div class="publication-content">
       2. EQuaTE: Efficient Quantum Train Engine Design and Demonstration for Dynamic Software Analysis<br/>
       S. Park, H. Feng, W. J. Yun, ⁴<b>C. Park</b>, Y. K. Lee, S. Jung and J. Kim <br/>
-      <span class="venue conference">IEEE International Conference on Distributed Computing Systems (ICDCS)</span> <span class="metric">(Acceptance rate: 18.9%)</span>, Jul. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10272530">[Link]</a>
+      <span class="venue conference">IEEE International Conference on Distributed Computing Systems (ICDCS)</span> <span class="metric">(Demo)</span>, Jul. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10272530">[Link]</a>
     </div>
   </div>
 
@@ -35,7 +35,7 @@ Below is a summary of the papers I have published: <br/>
     <div class="publication-content">
       3. Coordinated Multi-Agent Reinforcement Learning for Unmanned Aerial Vehicle Swarms in Autonomous Mobile Access Applications<br/>
       ¹<b>C. Park</b>, H. Lee, W. J. Yun, S. Park, S. Jung and J. Kim <br/>
-      <span class="venue conference">IEEE International Conference on Distributed Computing Systems (ICDCS)</span> <span class="metric">(Acceptance rate: 18.9%)</span>, Jul. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10272444">[Link]</a>
+      <span class="venue conference">IEEE International Conference on Distributed Computing Systems (ICDCS)</span> <span class="metric">(Poster)</span>, Jul. 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10272444">[Link]</a>
     </div>
   </div>
 
