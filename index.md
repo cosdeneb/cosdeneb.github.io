@@ -166,9 +166,9 @@ profile_picture:
 <div class="home-activities">
   <h2 class="home-section-title">Academic Activities</h2>
   <p class="timeline-meta">Reviewer</p>
-  <p>
-    <span class="venue journal">IEEE Transactions on Industrial Informatics</span> (2026),
-    <span class="venue journal">IEEE Transactions on Vehicular Technology</span> (2022&ndash;2023),
-    <span class="venue journal">IEEE Transactions on Machine Learning in Communications and Networking</span> (2022&ndash;2023)
-  </p>
+  <ul class="clean-list compact">
+    <li><span class="venue journal">IEEE Transactions on Industrial Informatics</span> (2026)</li>
+    <li><span class="venue journal">IEEE Transactions on Vehicular Technology</span> (2022&ndash;2023)</li>
+    <li><span class="venue journal">IEEE Transactions on Machine Learning in Communications and Networking</span> (2022&ndash;2023)</li>
+  </ul>
 </div>
