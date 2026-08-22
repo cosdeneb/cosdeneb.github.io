@@ -162,3 +162,12 @@ profile_picture:
     </div>
   </div>
 </div>
+
+<div class="home-activities">
+  <h2 class="home-section-title">Activities</h2>
+  <ul class="clean-list compact">
+    <li>Reviewer, IEEE Transactions on Industrial Informatics (2026)</li>
+    <li>Reviewer, IEEE Transactions on Vehicular Technology (2022&ndash;2023)</li>
+    <li>Reviewer, IEEE Transactions on Machine Learning in Communications and Networking (2022&ndash;2023)</li>
+  </ul>
+</div>
