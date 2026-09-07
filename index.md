@@ -50,6 +50,13 @@ profile_picture:
   </ul>
 </div>
 
+<div class="home-awards">
+  <h2 class="home-section-title">Awards &amp; Honors</h2>
+  <ul class="clean-list compact">
+    <li>Research Encouragement Grant for Master's Students, National Research Foundation of Korea (NRF), 2026</li>
+  </ul>
+</div>
+
 <div class="home-selected-publication">
   <h2 class="home-section-title">Selected Publication</h2>
   <div class="publication-list">
@@ -161,13 +168,6 @@ profile_picture:
       </div>
     </div>
   </div>
-</div>
-
-<div class="home-awards">
-  <h2 class="home-section-title">Awards &amp; Honors</h2>
-  <ul class="clean-list compact">
-    <li>Research Encouragement Grant for Master's Students, National Research Foundation of Korea (NRF), 2026</li>
-  </ul>
 </div>
 
 <div class="home-activities">
