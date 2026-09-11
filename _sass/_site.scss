@@ -290,8 +290,6 @@
   }
 
   li {
-    display: flex;
-    align-items: baseline;
     padding: 11px 0;
     margin-bottom: 0;
     border-bottom: 1px solid $line;
@@ -303,7 +301,6 @@
 }
 
 .news-date {
-  flex: 0 0 auto;
   margin-right: 14px;
   color: $accent;
   font-size: 12px;
