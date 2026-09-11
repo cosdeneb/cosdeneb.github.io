@@ -292,7 +292,6 @@
   li {
     display: flex;
     align-items: baseline;
-    gap: 14px;
     padding: 11px 0;
     margin-bottom: 0;
     border-bottom: 1px solid $line;
@@ -305,6 +304,7 @@
 
 .news-date {
   flex: 0 0 auto;
+  margin-right: 14px;
   color: $accent;
   font-size: 12px;
   font-weight: 600;
