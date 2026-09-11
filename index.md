@@ -46,14 +46,8 @@ profile_picture:
 <div class="home-news">
   <h2 class="home-section-title">News</h2>
   <ul>
+    <li><span class="news-date">Sep. 2026</span> Received a M.S. Fellowship from the NRF (National Research Foundation) of Korea.</li>
     <li><span class="news-date">Jun. 2026</span> A paper accepted to IROS 2026.</li>
-  </ul>
-</div>
-
-<div class="home-awards">
-  <h2 class="home-section-title">Awards &amp; Honors</h2>
-  <ul class="clean-list compact">
-    <li>Research Encouragement Grant for Master's Students, National Research Foundation of Korea (NRF), 2026</li>
   </ul>
 </div>
 
@@ -168,6 +162,13 @@ profile_picture:
       </div>
     </div>
   </div>
+</div>
+
+<div class="home-awards">
+  <h2 class="home-section-title">Awards &amp; Honors</h2>
+  <ul class="clean-list compact">
+    <li>🏅 Research Encouragement Grant for Master's Students, National Research Foundation of Korea (NRF), 2026</li>
+  </ul>
 </div>
 
 <div class="home-activities">
