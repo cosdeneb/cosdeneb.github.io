@@ -167,7 +167,7 @@ profile_picture:
 <div class="home-awards">
   <h2 class="home-section-title">Awards &amp; Honors</h2>
   <ul class="clean-list compact">
-    <li>🏅 Research Encouragement Grant for Master's Students, National Research Foundation of Korea (NRF), 2026</li>
+    <li>🏅 <b>M.S. Fellowship</b>, National Research Foundation of Korea (NRF), Sep. 2026</li>
   </ul>
 </div>
 
